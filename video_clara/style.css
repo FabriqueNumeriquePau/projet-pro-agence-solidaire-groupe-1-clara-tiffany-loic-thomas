@@ -103,7 +103,7 @@ video {
 /* Flèche en bas */
 .arrow button i {
   position: absolute;
-  top: 50%;
+  top: 45%;
   right: 50%;
   left: 50%;
   color: rgba(255, 239, 239, 0.37);
