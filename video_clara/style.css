@@ -1,89 +1,116 @@
+/* La vidéo est en couverture */
 video {
-    object-fit: cover;
-    width: 100vw;
-    height: 60vh;
-    position: fixed;
-    top: 0;
-    left: 0;
+  object-fit: cover;
+  width: 100vw;
+  height: 60vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* La div qui englobe toute la barre de recherche */
+.topnav {
+  position: absolute;
+  display: flex;
+  width: 40%;
+  right: 20%;
+  left: 30%;
+  top: 20%;
+  border-radius: 12px;
+  justify-content: space-around;
+  overflow: hidden;
+  background-color: #acbddd3b;
+}
+
+/* Tout les liens de la div qui contient toute la barre de recherche */
+.topnav a {
+  float: left;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 5px;
+  background-color: #3f1e5aad;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 12px;
+  padding: 6px 6px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Le survol de chaque lien */
+.topnav a:hover {
+  background-color: rgba(221, 221, 221, 0.589);
+  color: black;
+}
+
+/* Pas trop sure de sa fonction en dehors du background derrière l'icone et l'input*/
+.topnav form {
+  background: rgba(119, 102, 214, 0.37);
+  border-radius: 12px;
+}
+
+/* Div qui englobe l'input de recherche et le bouton de recherche */
+.topnav .search-container {
+  float: right;
+  margin-top: 6px;
+}
+
+/* La petite phrase "trouve ta campagne" */
+.topnav ::placeholder {
+  color: white;
+  opacity: 80%;
+}
+
+/* Texte saisi par l'utilisateur dans l'input */
+.topnav input[type="text"] {
+  padding: 6px 6px;
+  font-size: 17px;
+  border: none;
+  background: none;
+  color: white;
+}
+
+/* Le bouton de recherche */
+.topnav .search-container button {
+  float: left;
+  padding: 6px 10px;
+  background: none;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+/* Survol du button de recherche */
+.topnav .search-container button:hover {
+  color: black;
+}
+
+/* Pas trop compris mais indispensable sinon la mise en page est chaotique */
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
   }
 
-  .topnav {
-    position: absolute;
-    display: flex;
-    width: 40%;
-    right: 20%;
-    left: 30%;
-    top: 20%;
-    border-radius: 12px;
-    justify-content: space-around;
-    overflow: hidden;
-    background-color: #acbddd3b; 
+  /* Bordure au click dans la barre de recherche */
+  .topnav input[type="text"] {
+    border: 1px solid #ccc;
   }
-  
-  .topnav a {
-    float: left;
-    display: block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    margin-right: 5px;
-    background-color: #3f1e5aad;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    border-radius: 12px;
-    padding: 6px 6px;
-    text-decoration: none;
-    font-size: 18px;
-  }
-  
-  .topnav a:hover {
-    background-color: rgba(221, 221, 221, 0.589);
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color: #2196F3;
-    color: white;
-  }
-  
-  .topnav .search-container {   
-    float: right;
-    margin-top: 6px; 
-  }
-  
-  .topnav input[type=text] {
-    padding: 6px 6px;
-    font-size: 17px;
-    border: none;
-  }
-  
-  .topnav .search-container button {
-    float: left;
-    padding: 6px 10px;
-    background: #ddd;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .topnav .search-container button:hover {
-    background: #ccc;
-  }
-  
-  @media screen and (max-width: 600px) {
-    .topnav .search-container {
-      float: none;
-    }
-    .topnav a, .topnav input[type=text], .topnav .search-container button {
-      float: none;
-      display: block;
-      text-align: left;
-      width: 100%;
-      margin: 0;
-      padding: 14px;
-    }
-    .topnav input[type=text] {
-      border: 1px solid #ccc;  
-    }
-  }
+}
 
+.arrow{
+  display: flex;
+  margin-top: 10%;
+  height: 20px;
+  z-index: 6;
+}
+
+.arrow button i{
+  position: absolute;
+  right: 50%;
+  left: 50%;
+  color: rgba(255, 239, 239, 0.37);
+  font-size: 3em;
+}
