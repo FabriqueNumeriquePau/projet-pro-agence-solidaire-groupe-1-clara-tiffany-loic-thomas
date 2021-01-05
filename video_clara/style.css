@@ -90,7 +90,7 @@ video {
 
 /* Pas trop compris mais indispensable sinon la mise en page est chaotique */
 @media screen and (max-width: 600px) {
-  .topnav .search-container {
+  .topnav .search-container .arrow button i {
     float: none;
   }
 
@@ -100,15 +100,10 @@ video {
   }
 }
 
-.arrow{
-  display: flex;
-  margin-top: 10%;
-  height: 20px;
-  z-index: 6;
-}
-
-.arrow button i{
+/* Flèche en bas */
+.arrow button i {
   position: absolute;
+  top: 50%;
   right: 50%;
   left: 50%;
   color: rgba(255, 239, 239, 0.37);
