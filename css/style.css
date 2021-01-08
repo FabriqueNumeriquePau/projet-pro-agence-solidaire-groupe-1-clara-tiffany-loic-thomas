@@ -1,0 +1,575 @@
+/* CSS COMMUN  */
+/*--Font--*/
+@font-face {
+    font-family: "robotob";
+    src: url("../datas/font/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: "robotoi";
+    src: url("../datas/font/Roboto-Italic.ttf");
+} 
+@font-face {
+  font-family: "engine";
+  src: url("../datas/font/Engine-Regular.otf");
+}
+@font-face {
+  font-family: "enginei";
+  src: url("../datas/font/Engine-Italic.otf");
+} 
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #2C3164;
+}
+
+/* CSS DU HEADER */
+/*--Logo--*/
+.monlogo{
+  width: 100%;
+  position: relative;
+}
+
+.logo {
+  width: 25%;
+}
+
+
+/*--Menu entier--*/
+.mon_menu{
+  display: flex;
+  justify-content: space-around;
+  /* margin-left: 5%;
+  margin-right: 5%; */
+}
+
+/*--Sous-menu---*/       
+.sous-menu{
+  z-index: 3;
+  position: absolute;
+  float: left;
+}
+
+/*--Liens--*/
+a {
+  color:white; 
+  text-decoration: none;
+  font-size:21px;
+  margin-left: 4%;
+  white-space: nowrap;
+}
+/*3 bloc et dans chaque bloc sous menu + titre menu- répartir les menus
+sous menu en position absolute pour aller par dessus l'image. marge en % a oublier. Varie en fonction des écrans
+bouton & ul soit dans le même bloc. */
+/*--Je m'informe--Découvrir les acteurs--Je m'engage--*/
+button {
+ background-color: #555C8F;
+ border: 1px solid transparent;
+ width: 500px;
+ height: 40px;
+ color: white;
+ font-size: 110%;
+ /* position: relative; */
+ /* margin-left: 8%;
+ margin-top: 10%; */
+ font-family: "robotob";
+ letter-spacing: 5px;
+}
+
+/*--Bordure click none--*/
+button:focus { 
+  outline: 0;
+  border: none;
+}
+
+/*--Sous-parties--*/
+ul {
+  margin:0;
+} 
+
+ul li {
+  width: 460px;
+  height: 40px;
+  position: relative;
+  list-style: none; 
+  color:white;
+  font-family: "robotoi";
+}
+
+/*--Sous-parties je m'engage--*/
+#list{
+  background-color: #47316F;
+}
+
+/*--Sous-parties je m'informe--*/
+#list3{
+  background-color: #1E72B9;
+}
+
+/*--Je m'informe--*/
+#btn{
+  background-color: #47316F;
+}
+/*--Je m'engage--*/
+#btn3{
+  background-color: #1E72B9;
+}
+
+/*--Fin Header--*/
+  
+
+/* CSS SECTION */
+
+/* La vidéo est en couverture */
+
+ video {
+    object-fit: cover;
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    left: 0;
+  }
+  
+  /* La div qui englobe toute la barre de recherche */
+  .topnav {
+    position: absolute;
+    display: flex;
+    width: 40%;
+    height: 45px;
+    right: 20%;
+    left: 30%;
+    top: 55%;
+    border-radius: 12px;
+    justify-content: space-around;
+    overflow: hidden;
+    background-color: #acbddd3b;
+  }
+  
+  /* Tout les liens de la div qui contient toute la barre de recherche */
+  .topnav a {
+    float: left;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+    background-color: #3f1e5aad;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 12px;
+    padding: 6px 6px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Le survol de chaque lien */
+  .topnav a:hover {
+    background-color: rgba(221, 221, 221, 0.589);
+    color: black;
+  }
+  
+  /* Pas trop sure de sa fonction en dehors du background derrière l'icone et l'input*/
+  .topnav form {
+    background: rgba(119, 102, 214, 0.37);
+    border-radius: 12px;
+  }
+  
+  /* Div qui englobe l'input de recherche et le bouton de recherche */
+  .topnav .search-container {
+    float: right;
+    margin-top: 6px;
+  }
+  
+  /* La petite phrase "trouve ta campagne" */
+  .topnav ::placeholder {
+    color: white;
+    opacity: 80%;
+  }
+  
+  /* Texte saisi par l'utilisateur dans l'input */
+  .topnav input[type="text"] {
+    padding: 6px 6px;
+    font-size: 17px;
+    border: none;
+    background: none;
+    color: white;
+  }
+  
+  /* Le bouton de recherche */
+  .topnav .search-container button {
+    float: left;
+    padding: 6px 10px;
+    background: none;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    color: white;
+  }
+  
+  /* Survol du button de recherche */
+  .topnav .search-container button:hover {
+    color: black;
+  }
+  
+  /* Pas trop compris mais indispensable sinon la mise en page est chaotique */
+  @media screen and (max-width: 600px) {
+    .topnav .search-container .arrow button i {
+      float: none;
+    }
+  
+    /* Bordure au click dans la barre de recherche */
+    .topnav input[type="text"] {
+      border: 1px solid #ccc;
+    }
+  }
+  
+  /* Flèche en bas */
+  .arrow button i {
+    position: absolute;
+    top: 60%;
+    right: 50%;
+    left: 50%;
+    color: rgba(255, 239, 239, 0.37);
+    font-size: 3em;
+  }
+
+  /* CSS ARTICLES */
+
+  .grid-container{
+    margin-right: 280px;
+    margin-left: 280px;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "un un deux"
+    "un un trois"
+    "quatre six six"
+    "cinq six six"
+    "sept sept huit"
+    "sept sept neuf";
+    height: 170vh;
+  }
+
+  .articles{
+    margin-top: 30%;
+  }
+
+
+.premierarticle{
+    grid-area: un;
+    background-image: url("../datas/animal-1869442_960_720.jpg");
+    background-size: cover;
+    background-color: blue;
+    margin: 3px;
+}
+
+.deuxiemearticle{
+    grid-area: deux;
+    background-image: url("../datas/beach-4984023_960_720.jpg");
+    background-size: cover;
+    background-color: yellow;
+    margin: 3px;
+}
+.troisiemearticle{
+    grid-area: trois;
+    background-image: url("../datas/husky-3380548_960_720.jpg");
+    background-size: cover;
+    background-color: orange;
+    margin: 3px;
+}
+.quatriemearticle{
+    grid-area: quatre;
+    background-image: url("../datas/seven-lakes-3796471_960_720.jpg");
+    background-size: cover;
+    background-color: purple;
+    margin: 3px;
+}
+.cinquiemearticle{
+    grid-area: cinq;
+    background-image: url("../datas/trabzon-819335_960_720.jpg");
+    background-size: cover;
+    background-color: pink;
+    margin: 3px;
+}
+.sixiemearticle{
+    grid-area: six;
+    background-image: url("../datas/trees-5691803_960_720.jpg");
+    background-size: cover;
+    background-color: red;
+    margin: 3px;
+}
+.septiemearticle{
+    grid-area: sept;
+    background-image: url("../datas/trabzon-819335_960_720.jpg");
+    background-size: cover;
+    background-color: grey;
+    margin: 3px;
+}
+.huitiemearticle{
+    grid-area: huit;
+    background-image: url("../datas/beach-4984023_960_720.jpg");
+    background-size: cover;
+    background-color: black;
+    margin: 3px;
+}
+
+.neuviemearticle{
+    grid-area: neuf;
+    background-image: url("../datas/friends-1149841_960_720.jpg");
+    background-size: cover;
+    background-color: green;
+    margin: 3px;
+}
+
+.titre{
+    background-color: white;
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 1em;
+    font-family: "engine";
+    padding: 20px;
+    font-weight: 20;
+    color: #1E72B9;
+}
+h2{
+    position: relative;
+    float: bottom left;
+    background-color: rgba(231, 228, 228, 0.733);
+    color: #1E72B9;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 20;
+    padding: 5px;
+    margin: 20px;
+  }
+  
+.un{
+    font-family: "Roboto";
+    src:url(./Roboto-Light.ttf) format('truetype');
+    text-align: center;
+    color:rgb(10, 10, 191) ;
+    letter-spacing: 1em;
+   
+  }
+  /* body{
+    background-image:url(./img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding:0;
+  } */
+  
+  .section{
+  margin-top: 30px;
+  }
+  
+  .hexa{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 280px;
+  margin-right: 280px;
+  }
+  
+  .hexagon1 {
+  position: relative;
+  background-image: url(/datas/soin_-_1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px; 
+  height: 173.21px;
+  background-color: #EFCBB5;
+  margin: 86.60px 0;
+  margin-Bottom: 60px;
+  }
+  
+  .hexagon1:before,
+  .hexagon1:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  }
+  
+  .hexagon1:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid #EFCBB5;
+  }
+  
+  .hexagon1:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid #EFCBB5;
+  }
+  
+  
+  .hexagon2 {
+  position: relative;
+  background-image: url(/datas/humain.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px; 
+  height: 173.21px;
+  background-color: #1E72B9;;
+  margin: 86.60px 0;
+  margin-bottom: 60px;
+  }
+  
+  .hexagon2:before,
+  .hexagon2:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  }
+  
+  .hexagon2:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid #1E72B9;
+  }
+  
+  .hexagon2:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid #1E72B9;
+  }
+  
+  .hexagon3 {
+  position: relative;
+  background-image: url(/datas/environnement2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px; 
+  height: 173.21px;
+  background-color: #B3D78D;
+  margin: 86.60px 0;
+  margin-bottom: 60px;
+  }
+  
+  .hexagon3:before,
+  .hexagon3:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  }
+  
+  .hexagon3:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid #B3D78D;
+  }
+  
+  .hexagon3:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid #B3D78D;
+  }
+  
+  .image{
+    width: 80%;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background-image: url("../datas/2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+/* CSS LOÏC */
+
+/* CSS DU FOOTER */
+ footer {
+    position: absolute;
+    right: 0px;
+    height: 400px;
+    left: 0px;
+    background: #2C3164;
+}
+
+.logo-footer {
+    position: absolute;
+    width: 449px;
+    height: 219px;
+    left: 52px;
+    top: 56px;  
+    background-image: url(./Capture\ d’écran\ de\ 2020-11-30\ 15-20-59.png);  
+}
+
+.services {
+    position: absolute;
+    width: 500px;
+    height: 175px;
+    left: 40%;
+    top: 78px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    color: #FFFFFF;    
+}
+
+
+.fabfa-facebook {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 86%;
+    top: 50%;   
+    background-color: #ffffff; 
+    border-radius: 50%;
+}
+
+.fabfa-linkedin {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 92%;
+    top: 50%;   
+    background-color: #FFFFFF; 
+    border-radius: 50%;    
+}
+
+.copyright {
+    position: absolute;
+    width: 100%;
+    height: 29px;
+    left: 0px;
+    bottom: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 29px;
+    background-color: white;
+    color: #2C3164; 
+    text-align: center; 
+}
+
+
+input {
+    position: absolute;
+    left: 46%;
+    bottom: 22%;
+    border-radius: 10%;
+}
+
+#abonnement {
+    position: absolute;
+    left: 60%;
+    bottom: 22%;
+    border-radius: 10%;
+}  
+
+.abo-newsletter button{
+  position: absolute;
+  width: 5%;
+  height: 5%;
+  font-size: 10px;
+}
+
+
