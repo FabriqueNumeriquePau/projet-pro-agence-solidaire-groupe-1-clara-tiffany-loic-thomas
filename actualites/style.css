@@ -1,0 +1,994 @@
+@font-face {
+    font-family: "robotob";
+    src: url("../datas/font/Roboto-Bold.ttf");
+  }
+
+  @font-face {
+    font-family: "robotoi";
+    src: url("../datas/font/Roboto-Italic.ttf");
+  }
+
+  @font-face {
+    font-family: "robotot";
+    src: url("../datas/font/Roboto-Italic.ttf");
+  }
+
+  @font-face {
+    font-family: "engine";
+    src: url("../datas/font/Engine-Regular.otf");
+  }
+
+  @font-face {
+    font-family: "enginei";
+    src: url("../datas/font/Engine-Italic.otf");
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #2C3164;
+    font-family: "robotob";
+  }
+
+ /* CSS DU HEADER */
+/*TOUS LES HEXA*/
+.container {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 6%;
+}
+
+
+/*PREMIER HEXAGONE*/
+.hexagone {
+  width: 4.25rem;
+  height: 2.5rem;
+  background-color: #fff;
+  position: absolute;
+  right: -1%;
+  top: -20%;
+  transform: translate(-50%, -50%);
+}
+
+.hexagone:before,
+.hexagone:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+}
+
+.hexagone:before {
+  transform: rotate(60deg);
+}
+
+.hexagone:after {
+  transform: rotate(-60deg);
+}
+
+.hexagone,
+.hexagone:before,
+.hexagone:after {
+  background: transparent;
+  /*border:0.0625rem solid #fff;
+    background: rgba(48,141,255,0.5); */
+  border-left: 0.0625rem solid #B3D78D;
+  border-right: 0.0625rem solid #B3D78D;
+}
+
+/*FIN PREMIER HEXAGONE*/
+
+/*DEUXIEME HEXAGONE*/
+.hexagone2 {
+  width: 4.25rem;
+  height: 2.5rem;
+  position: absolute;
+  right: 3%;
+  top: -20%;
+  transform: translate(-50%, -50%);
+}
+
+.hexagone2 img {
+  width: 3.5rem;
+  height: 3.5rem;
+  position: absolute;
+  margin-left: 48%;
+  margin-top: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.hexagone2:before,
+.hexagone2:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.hexagone2:before {
+  transform: rotate(60deg);
+}
+
+.hexagone2:after {
+  transform: rotate(-60deg);
+}
+
+.hexagone2,
+.hexagone2:before,
+.hexagone2:after {
+  /* background: transparent; */
+  /*border:0.0625rem solid #fff;
+    background: rgba(48,141,255,0.5); */
+  border-left: 0.0625rem solid #B3D78D;
+  border-right: 0.0625rem solid #B3D78D;
+}
+
+/*TROISIEME HEXAGONE*/
+.hexagone3 {
+  width: 4.25rem;
+  height: 2.5rem;
+  position: absolute;
+  right: 7%;
+  top: -20%;
+  transform: translate(-50%, -50%);
+}
+
+.hexagone3:before,
+.hexagone3:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.hexagone3:before {
+  transform: rotate(60deg);
+}
+
+.hexagone3:after {
+  transform: rotate(-60deg);
+}
+
+.hexagone3,
+.hexagone3:before,
+.hexagone3:after {
+  /* background: transparent; */
+  /*border:0.0625rem solid #fff;
+    background: rgba(48,141,255,0.5); */
+  border-left: 0.0625rem solid #B3D78D;
+  border-right: 0.0625rem solid #B3D78D;
+}
+
+/*FIN TROISIEME HEXAGONE*/
+
+/*QUATRIEME HEXAGONE*/
+.hexagone4 {
+  width: 4.25rem;
+  height: 2.5rem;
+  position: absolute;
+  right: 11%;
+  top: -20%;
+  transform: translate(-50%, -50%);
+}
+
+.hexagone4:before,
+.hexagone4:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  position: absolute;
+}
+
+.hexagone4:before {
+  transform: rotate(60deg);
+}
+
+.hexagone4:after {
+  transform: rotate(-60deg);
+}
+
+.hexagone4,
+.hexagone4:before,
+.hexagone4:after {
+  /* background: transparent; */
+  /*border:0.0625rem solid #fff;
+    background: rgba(48,141,255,0.5); */
+  border-left: 0.0625rem solid #B3D78D;
+  border-right: 0.0625rem solid #B3D78D;
+}
+
+
+/* HEXAGONE BAS*/
+/*5EME HEXAGONE*/
+.hexagone_1bas {
+  width: 4.25rem;
+  height: 2.5rem;
+  background-color: #fff;
+  position: absolute;
+  right: 1%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.hexagone_1bas:before,
+.hexagone_1bas:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+}
+
+.hexagone_1bas:before {
+  transform: rotate(60deg);
+}
+
+.hexagone_1bas:after {
+  transform: rotate(-60deg);
+}
+
+.hexagone_1bas,
+.hexagone_1bas:before,
+.hexagone_1bas:after {
+  background: transparent;
+  /*border:0.0625rem solid #fff;
+    background: rgba(48,141,255,0.5); */
+  border-left: 0.0625rem solid #B3D78D;
+  border-right: 0.0625rem solid #B3D78D;
+}
+
+/*6EME HEXAGONE*/
+.hexagone_2bas {
+  width: 4.25rem;
+  height: 2.5rem;
+  background-color: #fff;
+  position: absolute;
+  right: 5%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.hexagone_2bas:before,
+.hexagone_2bas:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+}
+
+.hexagone_2bas:before {
+  transform: rotate(60deg);
+}
+
+.hexagone_2bas:after {
+  transform: rotate(-60deg);
+}
+
+.hexagone_2bas,
+.hexagone_2bas:before,
+.hexagone_2bas:after {
+  background: transparent;
+  /*border:0.0625rem solid #fff;
+    background: rgba(48,141,255,0.5); */
+  border-left: 0.0625rem solid #B3D78D;
+  border-right: 0.0625rem solid #B3D78D;
+}
+
+/*6EME HEXAGONE*/
+.hexagone_3bas {
+  width: 4.25rem;
+  height: 2.5rem;
+  background-color: #fff;
+  position: absolute;
+  right: 9%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.hexagone_3bas:before,
+.hexagone_3bas:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+}
+
+.hexagone_3bas:before {
+  transform: rotate(60deg);
+}
+
+.hexagone_3bas:after {
+  transform: rotate(-60deg);
+}
+
+.hexagone_3bas,
+.hexagone_3bas:before,
+.hexagone_3bas:after {
+  background: transparent;
+  /*border:0.0625rem solid #fff;
+    background: rgba(48,141,255,0.5); */
+  border-left: 0.0625rem solid #B3D78D;
+  border-right: 0.0625rem solid #B3D78D;
+}
+
+/*--Logo--*/
+.monlogo {
+  width: 100%;
+  position: relative;
+}
+
+.logo {
+  width: 25%;
+}
+
+
+/*--Menu entier--*/
+.mon_menu {
+  display: flex;
+  justify-content: space-around;
+  /* margin-left: 5%;
+  margin-right: 5%; */
+}
+
+/*--Sous-menu---*/
+.sous-menu {
+  z-index: 3;
+  position: absolute;
+  float: left;
+}
+
+/*--Liens--*/
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3125rem;
+  margin-left: 4%;
+  white-space: nowrap;
+}
+
+/*--Je m'informe--Découvrir les acteurs--Je m'engage--*/
+button {
+  background-color: #555c8f7c;
+  border: 0.0625rem solid transparent;
+  width: 31.25rem;
+  height: 2.5rem;
+  color: white;
+  font-size: 110%;
+  /* position: relative; */
+  /* margin-left: 8%;
+ margin-top: 10%; */
+  font-family: "robotob";
+  letter-spacing: 0.3125rem;
+}
+
+/*--Bordure click none--*/
+button:focus {
+  outline: 0;
+  border: none;
+}
+
+/*--Sous-parties--*/
+ul {
+  margin: 0;
+}
+
+ul li {
+  width: 28.75rem;
+  height: 2.5rem;
+  position: relative;
+  list-style: none;
+  color: white;
+  font-family: "robotoi";
+}
+
+/*--Sous-parties je m'engage--*/
+#list {
+  background-color: #47316F;
+}
+
+/*--Sous-parties je m'informe--*/
+#list3 {
+  background-color: #1E72B9;
+}
+
+/*--Je m'informe--*/
+#btn {
+  background-color: #47316F;
+}
+
+/*--Je m'engage--*/
+#btn3 {
+  background-color: #1E72B9;
+}
+
+/*--Fin Header--*/
+
+  .titre{
+    background-color: white;
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 1em;
+    font-family: "engine";
+    padding: 20px;
+    font-weight: 20;
+    color: #1E72B9;
+}
+
+.grid-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 17.5rem;
+    margin-left: 17.5rem;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "un un deux"
+      "un un trois"
+      "quatre six six"
+      "cinq six six"
+      "sept sept huit"
+      "sept sept neuf";
+      height: 170vh;
+    }
+
+    .articles{
+      margin-top: 30%;
+    }
+  .articles {
+    margin-top: 30%;
+  }
+
+
+  .premierarticle{
+      grid-area: un;
+      background-image: url("../datas/animal-1869442_960_720.jpg");
+      background-size: cover;
+      background-color: blue;
+      margin: 3px;
+  }
+  .premierarticle {
+    grid-area: un;
+    background-image: url("./datas/Accompagnement-scolaire.jpg");
+    background-size: cover;
+    background-color: blue;
+    margin: 0.1875rem;
+  }
+
+  .premierarticle h2{
+   position: relative;
+   bottom: -480px;
+  }
+
+  .deuxiemearticle{
+      grid-area: deux;
+      background-image: url("./datas/chien-laboratoire-779x470.jpg");
+      background-size: cover;
+      background-color: yellow;
+      margin: 3px;
+  }
+
+  .deuxiemearticle h2{
+    position: relative;
+    bottom: -200px;
+   }
+
+  .deuxiemearticle {
+    grid-area: deux;
+    background-image: url("./datas/energy-2181904_960_720.jpg");
+    background-size: cover;
+    background-color: yellow;
+    margin: ;
+  }
+  .troisiemearticle{
+      grid-area: trois;
+      background-image: url("./datas/medecins_sans_f.jpg");
+      background-size: cover;
+      background-color: orange;
+      margin: 3px;
+  }
+
+  .troisiemearticle h2{
+    position: relative;
+    bottom: -200px;
+   }
+
+
+  .quatriemearticle{
+      grid-area: quatre;
+      background-image: url("./datas/kids-674513_960_720.jpg");
+      background-size: cover;
+      background-color: purple;
+      margin: 3px;
+  }
+
+  .quatriemearticle h2{
+    position: relative;
+    bottom: -200px;
+   }
+
+  .cinquiemearticle{
+      grid-area: cinq;
+      background-image: url("./datas/rodion-kutsaev-18020_602x401.jpg");
+      background-size: cover;
+      background-color: pink;
+      margin: 3px;
+  }
+  .cinquiemearticle h2{
+    position: relative;
+    bottom: -200px;
+   }
+
+  .sixiemearticle{
+      grid-area: six;
+      background-image: url("./datas/medecins_sans_f.jpg");
+      background-size: cover;
+      background-color: red;
+      margin: 3px;
+  }
+
+  .sixiemearticle h2{
+    position: relative;
+    bottom: -480px;
+   }
+
+  .septiemearticle{
+      grid-area: sept;
+      background-image: url("./datas/chien-laboratoire-779x470.jpg");
+      background-size: cover;
+      background-color: grey;
+      margin: 3px;
+  }
+  .septiemearticle h2{
+    position: relative;
+    bottom: -480px;
+   }
+
+  .huitiemearticle{
+      grid-area: huit;
+      background-image: url("./datas/Accompagnement-scolaire.jpg");
+      background-size: cover;
+      background-color: black;
+      margin: 3px;
+  }
+
+  .huitiemearticle h2{
+    position: relative;
+    bottom: -200px;
+   }
+
+  .neuviemearticle{
+      grid-area: neuf;
+      background-image: url("./datas/photo-aide-et-action.a366b14e2e9f.jpg");
+      background-size: cover;
+      background-color: green;
+      margin: 3px;
+  }
+  .neuviemearticle h2{
+    position: relative;
+    bottom: -200px;
+   }
+
+  .titre{
+      background-color: white;
+      font-size: 2em;
+      text-align: center;
+      letter-spacing: 1em;
+      font-family: "engine";
+      padding: 20px;
+      font-weight: 20;
+      color: #1E72B9;
+  }
+
+  h2{
+      bottom: 10%;
+      background-color:rgba(255, 255, 255, 0.678);
+      border-radius: 3px;
+      font-size: 1em;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 20;
+      padding: 5px;
+      margin: 20px;
+    }
+
+    p{
+      background-color:rgba(255, 255, 255, 0.678);
+      border-radius: 3px;
+      font-family: "robotot";
+    }
+
+  .un{
+      font-family: "Roboto";
+      src:url(./Roboto-Light.ttf) format('truetype');
+      text-align: center;
+      color:rgb(10, 10, 191) ;
+      letter-spacing: 1em;
+
+    }
+
+    .theme{
+      background-color: #EAEAEF;
+      font-size: 2em;
+      color: white;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      width: 100%;
+  }
+
+  .theme h3{
+    color: #2C3164;
+    text-align: center;
+  }
+
+    .par_thematiques{
+        background-color: #EAEAEF;
+        display: flex;
+        justify-content: space-around;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 2em;
+        color: white;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .titre{
+      margin: 0;
+    }
+
+    .par_thematiques td{
+      color: #81b0d8;
+      font-size: 20px;
+      text-align: center;
+      vertical-align: center;
+      
+    }
+
+    table{
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x:auto;
+    }
+
+    .theme input{
+      background-color: #81b0d8;
+      border-radius: 10px;
+      /* right: 20%;
+      margin-top: 5%;*/
+      height: 35px;
+      color: white;
+      font-size: 15px;
+      border-style: none;
+    }
+
+    .buttontype{
+      width: 200px;
+      margin: 5%;
+    }
+
+    .buttontheme{
+      width: 200px;
+      margin: 5%;
+    }
+
+    .buttondate{
+      width: 200px;
+      margin: 5%;
+    }
+
+    .buttonvalide{
+      width: 150px;
+      background-color: #81b0d8;
+      border-radius: 10px;
+      height: 35px;
+      color: white;
+      margin-top: 30%;
+      margin-left: 300%;
+      font-weight: bold;
+    }
+
+    .grid-container2 {
+        margin-right: 17.5rem;
+        margin-left: 17.5rem;
+        display: grid;
+        grid-template-columns: 2fr 1fr 3fr;
+        grid-template-areas:
+          "one nb1 two"
+          "three nb2 four"
+          "five nb3 sixx"
+          "seven nb4 eight";
+        height: 10vh;
+        }
+
+  #img1{
+    grid-area: one;
+    width: 70%;
+    background: url("./datas/Accompagnement-scolaire.jpg");
+    background-size: 300px 200px;
+    background-repeat: no-repeat;
+    margin: 3%;
+  }
+  #img2{
+    grid-area: three;
+    width: 70%;
+    background: url("./datas/Cover-wanimobuzz28.jpg");
+    background-size: 300px 200px;
+    background-repeat: no-repeat;
+    margin: 3%;
+  }
+  #img3{
+    grid-area: five;
+    width: 70%;
+    background: url("./datas/kids-674513_960_720.jpg");
+    background-size: 300px 200px;
+    background-repeat: no-repeat;
+    margin: 3%;
+  }
+  #img4{
+    grid-area: seven;
+    width: 70%;
+    background: url("./datas/photo-aide-et-action.a366b14e2e9f.jpg");
+    background-size: 300px 200px;
+    background-repeat: no-repeat;
+    margin: 3%;
+  }
+
+  #consulte1{
+    grid-area: two;
+    margin: 0;
+    height: 100px;
+    border-top: solid 2px rgb(255, 255, 255);
+  }
+
+  #consulte2{
+    margin: O;
+    grid-area: four;
+    height: 100px;
+    border-top: solid 2px rgb(255, 255, 255);
+  }
+  
+  #consulte3{
+    margin: 0;
+    grid-area: sixx;   
+    height: 100px; 
+    border-top: solid 2px rgb(255, 255, 255);
+  }
+  
+  #consulte4{
+    margin: 0;
+    grid-area: eight;  
+    height: 100px;
+    border-top: solid 2px rgb(255, 255, 255);
+  }
+
+  #nb1{
+    grid-area: nb1;
+  }
+  #nb2{
+    grid-area: nb2;
+  }
+  #nb3{
+    grid-area: nb3;
+  }
+  #nb4{
+    grid-area: nb4;
+  }  
+
+  #plusconsultes h1{
+    text-shadow:  2px 2px 6px black;
+    color: white;
+    opacity: 60%;
+    font-style: italic;
+    font-size: 5em;
+    text-align: left;
+    margin: 25%;
+    padding: 0;
+  }
+
+  #plusconsultes input{
+    width: 15%;
+  }
+
+  #plusconsultes{
+    margin: 8%;
+  }
+
+  /* #plusconsultes hr{
+    position: relative;
+    margin-bottom: 0;
+    width: 100%;
+  } */
+
+  #plusconsultes h2{
+    bottom: -80px;
+  }
+
+  /* CSS DE LA COUVERTURE */
+
+  .couverture{
+    height: 400px;
+    background: url("./datas/plages-nettoyage_shutterstock_1521472085.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* CSS ARTICLE INDIVIDUEL */
+
+  .articleindividuel p{
+    margin-top: 5%;
+    margin-bottom: 20px;
+    margin-right: 17.5rem;
+    margin-left: 17.5rem;
+    column-width: 500px;
+    column-gap: 4em;
+    background: none;
+    font-size: 17px;
+    color: white;
+    text-align: justify;
+    line-height: 21px;
+  }
+
+  .buttonarticles{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 17.5rem;
+    margin-left: 17.5rem;
+    
+  }
+
+  .buttonarticles button{
+    border-radius: 5px;
+    width: 30%;
+    background-color: white;
+    color: #2C3164;
+  }
+
+.commentaires{
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-right: 17.5rem;
+    margin-left: 17.5rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 500px);
+    grid-template-rows: repeat(3, 70px);
+    
+}
+
+  .commentaires input{
+  background-color: #555c8f7c;
+  border: 0.0625rem solid transparent;
+  width: 25rem;
+  height: 2.5rem;
+  color: white;
+  font-size: 110%;
+  font-family: "robotob";
+  letter-spacing: 0.3125rem;
+  border-radius: 5px;
+  }
+
+  #envoyer{
+    grid-column: span 2/ -1;
+    border-radius: 5px;
+  }
+
+  .diagonalehexa{
+    background-color: white;
+    height: 500px;
+    margin-bottom: -28%;
+  }
+
+  /* CSS DU FOOTER */
+footer {
+  position: absolute;
+  margin-top: 28%;
+  right: 0px;
+  height: 400px;
+  left: 0px;
+  background: #2C3164;
+}
+
+.logo-footer {
+  position: absolute;
+  width: 449px;
+  height: 219px;
+  left: 52px;
+  top: 56px;
+  background-image: url(./Capture\ d’écran\ de\ 2020-11-30\ 15-20-59.png);
+}
+
+.services {
+  position: absolute;
+  width: 500px;
+  height: 175px;
+  left: 40%;
+  top: 78px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+.faceb {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 86%;
+  top: 50%;
+  background-color: #2C3164;
+  border-radius: 50%;
+}
+
+.linkedin {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 91%;
+  top: 50%;
+  background-color: #2C3164;
+  border-radius: 50%;
+}
+
+.copyright {
+  position: absolute;
+  width: 100%;
+  height: 29px;
+  left: 0px;
+  bottom: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 29px;
+  background-color: white;
+  color: #2C3164;
+  text-align: center;
+}
+
+
+.abo-newsletter input {
+  position: absolute;
+  left: 43%;
+  bottom: 22%;
+  border-radius: 10%;
+}
+
+#abonnement {
+  position: absolute;
+  left: 53%;
+  bottom: 22%;
+  border-radius: 10%;
+}
+
+.abo-newsletter button {
+  position: absolute;
+  width: 6%;
+  height: 5%;
+  font-size: 10px;
+}
+
+#cgu {
+  position: absolute;
+  left: 43%;
+  bottom: 15%;
+}
+
+label {
+  position: absolute;
+  left: 44%;
+  bottom: 16%;
+  color: white;
+  font-size: 70%;
+}

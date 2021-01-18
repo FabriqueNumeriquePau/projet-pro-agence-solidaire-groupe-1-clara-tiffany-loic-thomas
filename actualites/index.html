@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Actualités</title>
+</head>
+<body>
+        <header>
+            <div class="container">
+                <div class="duo">
+                    <div class="hexagone"></div>
+                    <a href="#">
+                        <div class="hexagone2"><img src="./datas/user.png" alt=""></div>
+                    </a>
+                    <div class="hexagone3"></div>
+                    <div class="hexagone4"></div>
+    
+                </div>
+                
+                <div class="hexagone_1bas"></div>
+                <div class="hexagone_2bas"></div>
+                <div class="hexagone_3bas"></div>
+    
+            </div>
+    
+            <div class="monlogo"> <img class="logo" src="./datas/logo.png" alt="logo"></div>
+            <div class="mon_menu">
+                <div>
+                    <button id="btn">JE M'INFORME</button>
+                    <ul id="list" class="sous-menu">
+                        <li><a href="#">A la une</a></li>
+                        <li><a href="#">Les plus consultés</a></li>
+                        <li><a href="#">Par thématiques (solidarité, environnement...)</a></li>
+                    </ul>
+                </div>
+               
+                <div>
+                    <button id="btn2">DÉCOUVRIR LES ACTEURS</button>
+                </div>
+                <div>
+                        <button id="btn3">JE M'ENGAGE</button>
+                        <ul id="list3" class="sous-menu">
+                            <li><a href="#">Bénévolement</a></li>
+                            <li><a href="#">Don financier</a></li>
+                            <li><a href="#">Don matériel</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section>
+            <h1 class="titre"> À LA UNE</h1>
+                <div class="grid-container">
+                    <article class="premierarticle">
+                        <h2>L’ Agence Solidaire arrive dans la région Lyonnaise !</h2>
+                    </article>
+                    <article class="deuxiemearticle">
+                        <h2>Guillaume Trichet rejoint L’ Agence Solidaire</h2>
+                    </article>
+                    <article class="troisiemearticle">
+                        <h2>À la rencontre du développement durable au salon produrable</h2>
+                    </article>
+                    <article class="quatriemearticle">
+                        <h2>L’ Agence Solidaire reprend ses missions de collectes de fonds en face-à-face à partir du mardi 16 juin</h2>
+                    </article>
+                    <article class="cinquiemearticle">
+                        <h2>L’ Agence Solidaire arrive dans la région Lyonnaise !</h2>
+                    </article>
+                    <article class="sixiemearticle">
+                        <h2>Guillaume Trichet rejoint L’ Agence Solidaire</h2>
+                    </article>
+                    <article class="septiemearticle">
+                        <h2>À la rencontre du développement durable au salon produrable</h2>
+                    </article>
+                    <article class="huitiemearticle">
+                        <h2>L’ Agence Solidaire reprend ses missions de collectes de fonds en face-à-face à partir du mardi 16 juin</h2>
+                    </article>
+                    <article class="neuviemearticle">
+                        <h2>L’ Agence Solidaire arrive dans la région Lyonnaise !</h2>
+                    </article>
+            </div>
+            </section>
+        
+        <h1 class="titre"> PAR THÉMATIQUES</h1>
+        <section class="theme">
+
+            <h3>Que recherchez-vous ?</h3>
+
+        <table class="par_thematiques">
+
+            <tr id="type">
+                <td>Type</td>
+                    <td><input type="button" class="buttontype" value="Communiqué de presse"></td>
+                    <td><input type="button" class="buttontype" value="Témoignage"></td>
+            </tr>
+            
+            <tr id="theme">
+               <td>Thématiques</td> 
+            <td><input type="button" class="buttontheme" value="Santé"></td>
+            <td><input type="button" class="buttontheme" value="ESS"></td>
+            <td><input type="button" class="buttontheme" value="Solidarité"></td>
+            <td><input type="button" class="buttontheme" value="Environnement"></td>
+            </tr>
+            
+            <tr>
+               <td>Date</td> 
+                <td><input type="button" class="buttondate" value="Plus récent"></td>
+                <td><input type="button" class="buttondate" value="Plus ancien"></td>
+                <td><input type="button" class="buttondate" value="Par date"></td>
+            </tr>
+            
+       <tr><td><input type="button" class="buttonvalide" value="RECHERCHER" onClick="lafuturefonction"/></td></tr> 
+
+    </table>
+</section>
+        <h1 class="titre"> LES PLUS CONSULTÉS</h1>
+<section id="plusconsultes">
+        <div class="grid-container2">
+
+            <!-- <img src="./datas/animal-1869442_960_720.jpg" alt="" id="img1"> -->
+            <div id="img1"><h2>À la rencontre du développement durable au salon produrable</h2></div>
+            <h1 id="nb1">1</h1>
+            <div id="consulte1">
+                <p>À la rencontre du développement durable au salon produrable</p>
+                <input type="text" value="thematique">
+                <input type="text" value="date">
+                <input type="text" value="type">
+                <!-- <hr> -->
+           </div>
+
+            <div id="img2"><h2>Guillaume Trichet rejoint L’ Agence Solidaire</h2></div>
+            <h1 id="nb2">2</h1>
+            <div id="consulte2">
+                <p>L’ Agence Solidaire poursuit son développement et se renforce avec l’arrivée de Guillaume Trichet, nouvel associé et co-gérant. Après plusieurs années d'expériences dans le secteur de la collecte de fonds, Guillaume Trichet va contribuer à apporter de nouvelles compétences à L' Agence Solidaire.</p>
+                <input type="text" value="thematique">
+                <input type="text" value="date">
+                <input type="text" value="type">
+                <!-- <hr> -->
+            </div>
+
+            <div id="img3"><h2>L’ Agence Solidaire arrive dans la région Lyonnaise !</h2></div>
+            <h1 id="nb3">3</h1>
+            <div id="consulte3">
+                <p>Vous pourrez rencontrer notre équipe Lyonnaise dans la région Rhône-Alpes à partir du mardi 30 juin dans les rues de la région lyonnaise, en sites privés ou en porte-à-porte.</p>
+                <input type="text" value="thematique">
+                <input type="text" value="date">
+                <input type="text" value="type">
+                <!-- <hr> -->
+            </div>
+
+            <div id="img4"><h2>L’ Agence Solidaire reprend ses missions de collectes de fonds en face-à-face à partir du mardi 16 juin</h2></div>
+            <h1 id="nb4">4</h1>
+            <div id="consulte4">
+                <p>Nos activités de collectes de fonds en face-à-face vont reprendre le mardi 16 juin, après 3 mois d’arrêt suite à la crise sanitaire du coronavirus.</p>
+                <input type="text" value="thematique">
+                <input type="text" value="date">
+                <input type="text" value="type">
+                <!-- <hr> -->
+            </div>
+            
+        </div>
+
+        </div>
+    </section>   
+    <div class="blanc"></div>
+    <footer>
+
+        <div class="logo-footer"><img src="./datas/logo.png" alt=""></div>
+
+        <div class="services">
+            <ul class="liste-service">
+                <li><a href="#">> Recruteur de donateurs</a></li>
+                <li><a href="#">> Nous rejoindre</a></li>
+                <li><a href="#">> Mentions légales</a></li>
+                <li><a href="#">> Contact</a></li>
+                <li><a href="#">> Newsletter</a></li>
+            </ul>
+        </div>
+
+        <div class="faceb">
+            <a href=""><img src="./datas/lgfb.png" alt="Facebook" width="70px" height="70px"></a>
+        </div>
+        <div class="linkedin">
+            <a href=""><img src="./datas/lglkin.png" alt="Linkedin" width="70px" height="70px"></a>
+        </div>
+
+        <div class="abo-newsletter">
+            <form action="">
+                <input type="text" placeholder="Adresse mail" name="mail" />
+                <button id="abonnement" type="submit">S'abonner</button>
+            </form>
+        </div>
+
+        <div>
+            <input type="checkbox" id="cgu" name="cgu">
+            <label for="cgu">J'accepte la politique de confidentialité</label>
+        </div>
+
+        <div class="copyright">
+            L'AGENCE SOLIDAIRE © 2020
+        </div>
+
+    </footer>
+        <script src="script.js"></script>
+</body>
+</html>
