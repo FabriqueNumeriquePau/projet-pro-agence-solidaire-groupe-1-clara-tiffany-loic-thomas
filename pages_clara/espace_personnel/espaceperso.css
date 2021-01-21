@@ -1,0 +1,144 @@
+.entete{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 17.5rem;
+  margin-left: 17.5rem;
+  height: 20px;
+}
+
+#chemin{
+  color: #B3D78D;
+}
+
+#bonjour{
+  font-family: "robotoi";
+  float: right;
+  font-size: 20px;
+}
+
+section{
+  background-color: #2C3164;
+}
+
+.grilleespaceperso{
+  margin-top: 3rem;
+  margin-right: 17.5rem;
+  margin-left: 17.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  width: 70%;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.contenuperso h1{
+  background-color: #ffffff;
+  color: #2273B8;
+  text-align: center;
+  font-family: "robotob";
+  font-size: 30px;
+  height: 40px;
+  letter-spacing: 10px;
+  margin:0;
+}
+
+#infoperso h1{
+  margin:0;
+  padding-top: 7px;
+  background-color: #ffffff;
+  color: #2273B8;
+  text-align: center;
+  font-family: "robotob";
+  font-size: 20px;
+  height: 34px;
+  letter-spacing: 5px;
+}
+
+#info{
+  margin-top: 20px;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  display: grid;
+  justify-content: space-between;
+}
+
+#articlesfav{
+  /* width: 70%; */
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+  overflow: scroll;
+  height: 500px;
+}
+
+/* .titre h1{
+  overflow: none;
+  position: fixed;
+} */
+
+
+#evenementavenir{
+  /* width: 70%; */
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+  overflow: scroll;
+  height: 500px;
+}
+
+#infoperso{
+  
+  background-color: #c4c4c48a;
+  /* width: 30%; */
+  grid-column: 1;
+  grid-row: 1 / 3;
+}
+
+#articlesavenir{
+  margin-top: 20px;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+#articlesfavoris{
+  margin-top: 20px;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.contenuperso{
+  background-color: #c4c4c48a;
+}
+
+.contenuperso img{
+  width: 50%;
+  height: auto;
+}
+
+.textarticlesfav{
+  margin-right: 30%;
+  float: right;
+}
+
+.textarticlesavenir{
+  margin-right: 21rem;
+  float: right;
+}
+
+.datearticles{
+  color: #2273B8;
+  font-size: 100%;
+}
+
+.descriptionarticle{
+  background: none;
+  color: white;
+  
+}
+
+h5{
+  font-size: 100%;
+}
+
+
+
+
+

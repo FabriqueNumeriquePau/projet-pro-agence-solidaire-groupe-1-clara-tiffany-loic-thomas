@@ -34,7 +34,7 @@
 /*TOUS LES HEXA*/
 .container {
   width: 100%;
-  height: 5rem;
+  height: 80px;
   display: flex;
   justify-content: space-around;
   position: absolute;
@@ -44,8 +44,8 @@
 
 /*PREMIER HEXAGONE*/
 .hexagone {
-  width: 4.25rem;
-  height: 2.5rem;
+  width: 68px;
+  height: 40px;
   background-color: #fff;
   position: absolute;
   right: -1%;
@@ -74,18 +74,18 @@
 .hexagone:before,
 .hexagone:after {
   background: transparent;
-  /*border:0.0625rem solid #fff;
+  /*border:1px solid #fff;
     background: rgba(48,141,255,0.5); */
-  border-left: 0.0625rem solid #B3D78D;
-  border-right: 0.0625rem solid #B3D78D;
+  border-left: 1px solid #B3D78D;
+  border-right: 1px solid #B3D78D;
 }
 
 /*FIN PREMIER HEXAGONE*/
 
 /*DEUXIEME HEXAGONE*/
 .hexagone2 {
-  width: 4.25rem;
-  height: 2.5rem;
+  width: 68px;
+  height: 40px;
   position: absolute;
   right: 3%;
   top: -20%;
@@ -93,8 +93,8 @@
 }
 
 .hexagone2 img {
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 56px;
+  height: 56px;
   position: absolute;
   margin-left: 48%;
   margin-top: 25%;
@@ -121,16 +121,16 @@
 .hexagone2:before,
 .hexagone2:after {
   /* background: transparent; */
-  /*border:0.0625rem solid #fff;
+  /*border:1px solid #fff;
     background: rgba(48,141,255,0.5); */
-  border-left: 0.0625rem solid #B3D78D;
-  border-right: 0.0625rem solid #B3D78D;
+  border-left: 1px solid #B3D78D;
+  border-right: 1px solid #B3D78D;
 }
 
 /*TROISIEME HEXAGONE*/
 .hexagone3 {
-  width: 4.25rem;
-  height: 2.5rem;
+  width: 68px;
+  height: 40px;
   position: absolute;
   right: 7%;
   top: -20%;
@@ -157,18 +157,18 @@
 .hexagone3:before,
 .hexagone3:after {
   /* background: transparent; */
-  /*border:0.0625rem solid #fff;
+  /*border:1px solid #fff;
     background: rgba(48,141,255,0.5); */
-  border-left: 0.0625rem solid #B3D78D;
-  border-right: 0.0625rem solid #B3D78D;
+  border-left: 1px solid #B3D78D;
+  border-right: 1px solid #B3D78D;
 }
 
 /*FIN TROISIEME HEXAGONE*/
 
 /*QUATRIEME HEXAGONE*/
 .hexagone4 {
-  width: 4.25rem;
-  height: 2.5rem;
+  width: 68px;
+  height: 40px;
   position: absolute;
   right: 11%;
   top: -20%;
@@ -196,18 +196,18 @@
 .hexagone4:before,
 .hexagone4:after {
   /* background: transparent; */
-  /*border:0.0625rem solid #fff;
+  /*border:1px solid #fff;
     background: rgba(48,141,255,0.5); */
-  border-left: 0.0625rem solid #B3D78D;
-  border-right: 0.0625rem solid #B3D78D;
+  border-left: 1px solid #B3D78D;
+  border-right: 1px solid #B3D78D;
 }
 
 
 /* HEXAGONE BAS*/
 /*5EME HEXAGONE*/
 .hexagone_1bas {
-  width: 4.25rem;
-  height: 2.5rem;
+  width: 68px;
+  height: 40px;
   background-color: #fff;
   position: absolute;
   right: 1%;
@@ -236,16 +236,16 @@
 .hexagone_1bas:before,
 .hexagone_1bas:after {
   background: transparent;
-  /*border:0.0625rem solid #fff;
+  /*border:1px solid #fff;
     background: rgba(48,141,255,0.5); */
-  border-left: 0.0625rem solid #B3D78D;
-  border-right: 0.0625rem solid #B3D78D;
+  border-left: 1px solid #B3D78D;
+  border-right: 1px solid #B3D78D;
 }
 
 /*6EME HEXAGONE*/
 .hexagone_2bas {
-  width: 4.25rem;
-  height: 2.5rem;
+  width: 68px;
+  height: 40px;
   background-color: #fff;
   position: absolute;
   right: 5%;
@@ -274,16 +274,16 @@
 .hexagone_2bas:before,
 .hexagone_2bas:after {
   background: transparent;
-  /*border:0.0625rem solid #fff;
+  /*border:1px solid #fff;
     background: rgba(48,141,255,0.5); */
-  border-left: 0.0625rem solid #B3D78D;
-  border-right: 0.0625rem solid #B3D78D;
+  border-left: 1px solid #B3D78D;
+  border-right: 1px solid #B3D78D;
 }
 
 /*6EME HEXAGONE*/
 .hexagone_3bas {
-  width: 4.25rem;
-  height: 2.5rem;
+  width: 68px;
+  height: 40px;
   background-color: #fff;
   position: absolute;
   right: 9%;
@@ -312,10 +312,10 @@
 .hexagone_3bas:before,
 .hexagone_3bas:after {
   background: transparent;
-  /*border:0.0625rem solid #fff;
+  /*border:1px solid #fff;
     background: rgba(48,141,255,0.5); */
-  border-left: 0.0625rem solid #B3D78D;
-  border-right: 0.0625rem solid #B3D78D;
+  border-left: 1px solid #B3D78D;
+  border-right: 1px solid #B3D78D;
 }
 
 /*--Logo--*/
@@ -348,7 +348,7 @@
 a {
   color: white;
   text-decoration: none;
-  font-size: 1.3125rem;
+  font-size: 21px;
   margin-left: 4%;
   white-space: nowrap;
 }
@@ -356,16 +356,16 @@ a {
 /*--Je m'informe--Découvrir les acteurs--Je m'engage--*/
 button {
   background-color: #555c8f7c;
-  border: 0.0625rem solid transparent;
-  width: 31.25rem;
-  height: 2.5rem;
+  border: 1px solid transparent;
+  width: 500px;
+  height: 40px;
   color: white;
   font-size: 110%;
   /* position: relative; */
   /* margin-left: 8%;
  margin-top: 10%; */
   font-family: "robotob";
-  letter-spacing: 0.3125rem;
+  letter-spacing: 5px;
 }
 
 /*--Bordure click none--*/
@@ -380,8 +380,8 @@ ul {
 }
 
 ul li {
-  width: 28.75rem;
-  height: 2.5rem;
+  width: 460px;
+  height: 40px;
   position: relative;
   list-style: none;
   color: white;
@@ -416,16 +416,16 @@ ul li {
     text-align: center;
     letter-spacing: 1em;
     font-family: "engine";
-    padding: 20px;
+    padding: 1.25rem;
     font-weight: 20;
     color: #1E72B9;
 }
 
 .grid-container {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 17.5rem;
-    margin-left: 17.5rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    margin-right: 280px;
+    margin-left: 280px;
     display: grid;
     grid-template-columns: 1fr, 1fr, 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -452,19 +452,19 @@ ul li {
       background-image: url("../datas/animal-1869442_960_720.jpg");
       background-size: cover;
       background-color: blue;
-      margin: 3px;
+      margin: 0.1875rem;
   }
   .premierarticle {
     grid-area: un;
     background-image: url("./datas/Accompagnement-scolaire.jpg");
     background-size: cover;
     background-color: blue;
-    margin: 0.1875rem;
+    margin: 3px;
   }
 
   .premierarticle h2{
    position: relative;
-   bottom: -480px;
+   bottom: -30rem;
   }
 
   .deuxiemearticle{
@@ -472,12 +472,12 @@ ul li {
       background-image: url("./datas/chien-laboratoire-779x470.jpg");
       background-size: cover;
       background-color: yellow;
-      margin: 3px;
+      margin: 0.1875rem;
   }
 
   .deuxiemearticle h2{
     position: relative;
-    bottom: -200px;
+    bottom: -12.5rem;
    }
 
   .deuxiemearticle {
@@ -492,12 +492,12 @@ ul li {
       background-image: url("./datas/medecins_sans_f.jpg");
       background-size: cover;
       background-color: orange;
-      margin: 3px;
+      margin: 0.1875rem;
   }
 
   .troisiemearticle h2{
     position: relative;
-    bottom: -200px;
+    bottom: -12.5rem;
    }
 
 
@@ -506,12 +506,12 @@ ul li {
       background-image: url("./datas/kids-674513_960_720.jpg");
       background-size: cover;
       background-color: purple;
-      margin: 3px;
+      margin: 0.1875rem;
   }
 
   .quatriemearticle h2{
     position: relative;
-    bottom: -200px;
+    bottom: -12.5rem;
    }
 
   .cinquiemearticle{
@@ -519,11 +519,11 @@ ul li {
       background-image: url("./datas/rodion-kutsaev-18020_602x401.jpg");
       background-size: cover;
       background-color: pink;
-      margin: 3px;
+      margin: 0.1875rem;
   }
   .cinquiemearticle h2{
     position: relative;
-    bottom: -200px;
+    bottom: -12.5rem;
    }
 
   .sixiemearticle{
@@ -531,12 +531,12 @@ ul li {
       background-image: url("./datas/medecins_sans_f.jpg");
       background-size: cover;
       background-color: red;
-      margin: 3px;
+      margin: 0.1875rem;
   }
 
   .sixiemearticle h2{
     position: relative;
-    bottom: -480px;
+    bottom: -30rem;
    }
 
   .septiemearticle{
@@ -544,11 +544,11 @@ ul li {
       background-image: url("./datas/chien-laboratoire-779x470.jpg");
       background-size: cover;
       background-color: grey;
-      margin: 3px;
+      margin: 0.1875rem;
   }
   .septiemearticle h2{
     position: relative;
-    bottom: -480px;
+    bottom: -30rem;
    }
 
   .huitiemearticle{
@@ -556,12 +556,12 @@ ul li {
       background-image: url("./datas/Accompagnement-scolaire.jpg");
       background-size: cover;
       background-color: black;
-      margin: 3px;
+      margin: 0.1875rem;
   }
 
   .huitiemearticle h2{
     position: relative;
-    bottom: -200px;
+    bottom: -12.5rem;
    }
 
   .neuviemearticle{
@@ -569,11 +569,11 @@ ul li {
       background-image: url("./datas/photo-aide-et-action.a366b14e2e9f.jpg");
       background-size: cover;
       background-color: green;
-      margin: 3px;
+      margin: 0.1875rem;
   }
   .neuviemearticle h2{
     position: relative;
-    bottom: -200px;
+    bottom: -12.5rem;
    }
 
   .titre{
@@ -582,7 +582,7 @@ ul li {
       text-align: center;
       letter-spacing: 1em;
       font-family: "engine";
-      padding: 20px;
+      padding: 1.25rem;
       font-weight: 20;
       color: #1E72B9;
   }
@@ -590,17 +590,17 @@ ul li {
   h2{
       bottom: 10%;
       background-color:rgba(255, 255, 255, 0.678);
-      border-radius: 3px;
+      border-radius: 0.1875rem;
       font-size: 1em;
       font-family: Arial, Helvetica, sans-serif;
       font-weight: 20;
-      padding: 5px;
-      margin: 20px;
+      padding: 0.3125rem;
+      margin: 1.25rem;
     }
 
     p{
       background-color:rgba(255, 255, 255, 0.678);
-      border-radius: 3px;
+      border-radius: 0.1875rem;
       font-family: "robotot";
     }
 
@@ -617,8 +617,8 @@ ul li {
       background-color: #EAEAEF;
       font-size: 2em;
       color: white;
-      padding-top: 50px;
-      padding-bottom: 50px;
+      padding-top: 3.125rem;
+      padding-bottom: 3.125rem;
       width: 100%;
   }
 
@@ -635,8 +635,8 @@ ul li {
         margin-left: auto;
         font-size: 2em;
         color: white;
-        padding-top: 100px;
-        padding-bottom: 50px;
+        padding-top: 6.25rem;
+        padding-bottom: 3.125rem;
     }
 
     .titre{
@@ -645,7 +645,7 @@ ul li {
 
     .par_thematiques td{
       color: #81b0d8;
-      font-size: 20px;
+      font-size: 1.25rem;
       text-align: center;
       vertical-align: center;
       
@@ -659,35 +659,35 @@ ul li {
 
     .theme input{
       background-color: #81b0d8;
-      border-radius: 10px;
+      border-radius: 0.625rem;
       /* right: 20%;
       margin-top: 5%;*/
-      height: 35px;
+      height: 2.1875rem;
       color: white;
-      font-size: 15px;
+      font-size: 0.9375rem;
       border-style: none;
     }
 
     .buttontype{
-      width: 200px;
+      width: 12.5rem;
       margin: 5%;
     }
 
     .buttontheme{
-      width: 200px;
+      width: 12.5rem;
       margin: 5%;
     }
 
     .buttondate{
-      width: 200px;
+      width: 12.5rem;
       margin: 5%;
     }
 
     .buttonvalide{
-      width: 150px;
+      width: 9.375rem;
       background-color: #81b0d8;
-      border-radius: 10px;
-      height: 35px;
+      border-radius: 0.625rem;
+      height: 2.1875rem;
       color: white;
       margin-top: 30%;
       margin-left: 300%;
@@ -695,8 +695,8 @@ ul li {
     }
 
     .grid-container2 {
-        margin-right: 17.5rem;
-        margin-left: 17.5rem;
+        margin-right: 280px;
+        margin-left: 280px;
         display: grid;
         grid-template-columns: 2fr 1fr 3fr;
         grid-template-areas:
@@ -711,7 +711,7 @@ ul li {
     grid-area: one;
     width: 70%;
     background: url("./datas/Accompagnement-scolaire.jpg");
-    background-size: 300px 200px;
+    background-size: 18.75rem 12.5rem;
     background-repeat: no-repeat;
     margin: 3%;
   }
@@ -719,7 +719,7 @@ ul li {
     grid-area: three;
     width: 70%;
     background: url("./datas/Cover-wanimobuzz28.jpg");
-    background-size: 300px 200px;
+    background-size: 18.75rem 12.5rem;
     background-repeat: no-repeat;
     margin: 3%;
   }
@@ -727,7 +727,7 @@ ul li {
     grid-area: five;
     width: 70%;
     background: url("./datas/kids-674513_960_720.jpg");
-    background-size: 300px 200px;
+    background-size: 18.75rem 12.5rem;
     background-repeat: no-repeat;
     margin: 3%;
   }
@@ -735,7 +735,7 @@ ul li {
     grid-area: seven;
     width: 70%;
     background: url("./datas/photo-aide-et-action.a366b14e2e9f.jpg");
-    background-size: 300px 200px;
+    background-size: 18.75rem 12.5rem;
     background-repeat: no-repeat;
     margin: 3%;
   }
@@ -743,29 +743,29 @@ ul li {
   #consulte1{
     grid-area: two;
     margin: 0;
-    height: 100px;
-    border-top: solid 2px rgb(255, 255, 255);
+    height: 6.25rem;
+    border-top: solid 0.125rem rgb(255, 255, 255);
   }
 
   #consulte2{
     margin: O;
     grid-area: four;
-    height: 100px;
-    border-top: solid 2px rgb(255, 255, 255);
+    height: 6.25rem;
+    border-top: solid 0.125rem rgb(255, 255, 255);
   }
   
   #consulte3{
     margin: 0;
     grid-area: sixx;   
-    height: 100px; 
-    border-top: solid 2px rgb(255, 255, 255);
+    height: 6.25rem; 
+    border-top: solid 0.125rem rgb(255, 255, 255);
   }
   
   #consulte4{
     margin: 0;
     grid-area: eight;  
-    height: 100px;
-    border-top: solid 2px rgb(255, 255, 255);
+    height: 6.25rem;
+    border-top: solid 0.125rem rgb(255, 255, 255);
   }
 
   #nb1{
@@ -782,7 +782,7 @@ ul li {
   }  
 
   #plusconsultes h1{
-    text-shadow:  2px 2px 6px black;
+    text-shadow:  0.125rem 0.125rem 0.375rem black;
     color: white;
     opacity: 60%;
     font-style: italic;
@@ -807,33 +807,43 @@ ul li {
   } */
 
   #plusconsultes h2{
-    bottom: -80px;
+    bottom: -5rem;
   }
 
   /* CSS DE LA COUVERTURE */
 
   .couverture{
-    height: 400px;
+    height: 25rem;
     background: url("./datas/plages-nettoyage_shutterstock_1521472085.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
 
+  .couverture h2{
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "robotoi";
+  }
+
   /* CSS ARTICLE INDIVIDUEL */
 
   .articleindividuel p{
     margin-top: 5%;
-    margin-bottom: 20px;
-    margin-right: 17.5rem;
-    margin-left: 17.5rem;
-    column-width: 500px;
+    margin-bottom: 1.25rem;
+    margin-right: 280px;
+    margin-left: 280px;
+    column-width: 31.25rem;
     column-gap: 4em;
     background: none;
-    font-size: 17px;
+    font-size: 1.0625rem;
     color: white;
     text-align: justify;
-    line-height: 21px;
+    line-height: 1.3125rem;
   }
 
   .buttonarticles{
@@ -841,13 +851,12 @@ ul li {
     margin-bottom: 5%;
     display: flex;
     justify-content: space-around;
-    margin-right: 17.5rem;
-    margin-left: 17.5rem;
-    
+    margin-right: 280px;
+    margin-left: 280px;
   }
 
   .buttonarticles button{
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     width: 30%;
     background-color: white;
     color: #2C3164;
@@ -856,75 +865,526 @@ ul li {
 .commentaires{
     margin-top: 3%;
     margin-bottom: 5%;
-    margin-right: 17.5rem;
-    margin-left: 17.5rem;
+    margin-right: 280px;
+    margin-left: 280px;
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(2, 500px);
-    grid-template-rows: repeat(3, 70px);
+    grid-template-columns: repeat(2, 31.25rem);
+    grid-template-rows: repeat(3, 3.75rem);
+    /* height: 640px; */
     
 }
 
   .commentaires input{
   background-color: #555c8f7c;
-  border: 0.0625rem solid transparent;
-  width: 25rem;
-  height: 2.5rem;
+  border: 1px solid transparent;
+  width: 480px;
+  height: 40px;
   color: white;
   font-size: 110%;
   font-family: "robotob";
-  letter-spacing: 0.3125rem;
-  border-radius: 5px;
+  letter-spacing: 5px;
+  border-radius: 0.3125rem;
+  }
+
+  #commentaire{
+    grid-column: span 2/ -1;
+    width: 976px;
+    height: 160px;
+    margin-top: 12%;
   }
 
   #envoyer{
+    margin-top: 13%;
     grid-column: span 2/ -1;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
+    width: 984px;
   }
 
+  #envoyer:hover{
+    background-color: #7279a5;
+  }
+
+  #phrasecommentaire{
+    margin-top: 3%;
+    margin-right: 280px;
+    margin-left: 280px;
+    text-align: center;
+    background: none;
+    color:rgba(255, 255, 255, 0.678);
+  }
   .diagonalehexa{
     background-color: white;
-    height: 500px;
+    height: 31.25rem;
     margin-bottom: -28%;
   }
+  /*ALVÉOLES DÉCOUVRIR LES ACTEURS */
+/*PREMIERE ALVEOLE*/
+.alveole1 {
+  width: 68px;
+  height: 40px;
+  background-color: #fff;
+  position: absolute;
+  left: 2%;
+  transform: translate(-50%, -50%);
+}
 
+.alveole1:before,
+.alveole1:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+}
+
+.alveole1:before {
+  transform: rotate(60deg);
+}
+
+.alveole1:after {
+  transform: rotate(-60deg);
+}
+
+.alveole1,
+.alveole1:before,
+.alveole1:after {
+  background: transparent;
+  border-left: 1px solid #B3D78D;
+  border-right: 1px solid #B3D78D;
+}
+/*FIN PREMIERE ALVEOLE*/
+
+/*DEUXIEME ALVEOLE*/
+.alveole2 {
+  width: 68px;
+  height: 40px;
+  background-color: #fff;
+  position: absolute;
+  left: 4.2%;
+  margin-top : 3.3%;
+  transform: translate(-50%, -50%);
+}
+
+.alveole2:before,
+.alveole2:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+}
+
+.alveole2:before {
+  transform: rotate(60deg);
+}
+
+.alveole2:after {
+  transform: rotate(-60deg);
+}
+
+.alveole2,
+.alveole2:before,
+.alveole2:after {
+  background: transparent;
+  border-left: 1px solid #B3D78D;
+  border-right: 1px solid #B3D78D;
+}
+/*FIN DEUXIEME ALVEOLE*/
+
+/*TROISIEME ALVEOLE*/
+.alveole3 {
+  width: 68px;
+  height: 40px;
+  background-color: #fff;
+  position: absolute;
+  left: 2%;
+  margin-top : 8%;
+  transform: translate(-50%, -50%);
+}
+
+.alveole3:before,
+.alveole3:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+}
+
+.alveole3:before {
+  transform: rotate(60deg);
+}
+
+.alveole3:after {
+  transform: rotate(-60deg);
+}
+
+.alveole3,
+.alveole3:before,
+.alveole3:after {
+  background: transparent;
+  border-left: 1px solid #B3D78D;
+  border-right: 1px solid #B3D78D;
+}
+/*FIN TROISIEME ALVEOLE*/
+
+/*QUATRIEME ALVEOLE*/
+.alveole4 {
+  width: 68px;
+  height: 40px;
+  background-color: #fff;
+  position: absolute;
+  margin-top : 11.5%;
+  transform: translate(-50%, -50%);
+}
+
+.alveole4:before,
+.alveole4:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+}
+
+.alveole4:before {
+  transform: rotate(60deg);
+}
+
+.alveole4:after {
+  transform: rotate(-60deg);
+}
+
+.alveole4,
+.alveole4:before,
+.alveole4:after {
+  background: transparent;
+  border-left: 1px solid #B3D78D;
+  border-right: 1px solid #B3D78D;
+}
+/*FIN QUATRIEME ALVEOLE*/
+
+/*CINQUIEME ALVEOLE*/
+.alveole5 {
+  width: 68px;
+  height: 40px;
+  background-color: #fff;
+  position: absolute;
+  margin-top : 11.5%;
+  margin-left: 4%;
+  transform: translate(-50%, -50%);
+}
+
+.alveole5:before,
+.alveole5:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+}
+
+.alveole5:before {
+  transform: rotate(60deg);
+}
+
+.alveole5:after {
+  transform: rotate(-60deg);
+}
+
+.alveole5,
+.alveole5:before,
+.alveole5:after {
+  background: transparent;
+  border-left: 1px solid #B3D78D;
+  border-right: 1px solid #B3D78D;
+}
+/*FIN CINQUIEME ALVEOLE*/
+
+/*SIXIEME ALVEOLE*/
+.alveole6 {
+  width: 68px;
+  height: 40px;
+  background-color: #fff;
+  position: absolute;
+  margin-top : 15%;
+  margin-left: 2%;
+  transform: translate(-50%, -50%);
+}
+
+.alveole6:before,
+.alveole6:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+}
+
+.alveole6:before {
+  transform: rotate(60deg);
+}
+
+.alveole6:after {
+  transform: rotate(-60deg);
+}
+
+.alveole6,
+.alveole6:before,
+.alveole6:after {
+  background: transparent;
+  border-left: 1px solid #B3D78D;
+  border-right: 1px solid #B3D78D;
+}
+
+/*FIN SIXIEME ALVEOLE*/
+/*SEPTIEME ALVEOLE*/
+.alveole7 {
+  width: 68px;
+  height: 40px;
+  background-color: #fff;
+  position: absolute;
+  margin-top : 15%;
+  margin-left: 6%;
+  transform: translate(-50%, -50%);
+}
+
+.alveole7:before,
+.alveole7:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+}
+
+.alveole7:before {
+  transform: rotate(60deg);
+}
+
+.alveole7:after {
+  transform: rotate(-60deg);
+}
+
+.alveole7,
+.alveole7:before,
+.alveole7:after {
+  background: transparent;
+  border-left: 1px solid #B3D78D;
+  border-right: 1px solid #B3D78D;
+}
+/*FIN SEPTIEME ALVEOLE*/
+
+/*HUITIEME ALVEOLE*/
+.alveole8 {
+  width: 68px;
+  height: 40px;
+  background-color: white;
+  position: absolute;
+  margin-top : 18%;
+  transform: translate(-50%, -50%);
+}
+
+.alveole8:before,
+.alveole8:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.alveole8:before {
+  transform: rotate(60deg);
+}
+
+.alveole8:after {
+  transform: rotate(-60deg);
+}
+
+.alveole8,
+.alveole8:before,
+.alveole8:after {
+  background: transparent;
+  border-left: 1px solid #B3D78D;
+  border-right: 1px solid #B3D78D;
+}
+
+/*DECOUVRIR LES ACTEURS*/
+/*SANTÉ*/
+
+.hexa {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 280px;
+  margin-right: 280px;
+  background: white;
+}
+
+.hexa h3 {
+  top: 17%;
+  font-size: 28px;
+}
+
+.blanc {
+  background: white;
+  margin-top: -22px;
+  height: 676px;
+}
+.hexagon1 {
+  position: relative;
+  background-image: url(/datas/soin_-_1.svg);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center;
+  width: 300px;
+  height: 173.2096px;
+  background-color: #EFCBB5;
+  margin: 86.6px 0;
+  margin-Bottom: 60px;
+}
+
+.hexagon1:before,
+.hexagon1:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+
+.hexagon1:before {
+  bottom: 100%;
+  border-bottom: 86.6px solid #EFCBB5;
+}
+
+.hexagon1:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.6px solid #EFCBB5;
+}
+/*FIN SANTÉ*/
+
+/*SOCIAL*/
+.hexagon2 {
+  position: relative;
+  background-image: url(/datas/humain.svg);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center;
+  width: 300px;
+  height: 173.2096px;
+  background-color: #1E72B9;
+  ;
+  margin: 86.6px 0;
+  margin-bottom: 60px;
+  margin-top: 160px;
+}
+
+.hexagon2:before,
+.hexagon2:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+
+.hexagon2:before {
+  bottom: 100%;
+  border-bottom: 86.6px solid #1E72B9;
+}
+
+.hexagon2:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.6px solid #1E72B9;
+}
+/*FIN SOCIAL*/
+
+/*ENVIRONNEMENT*/
+.hexagon3 {
+  position: relative;
+  background-image: url(/datas/environnement2.svg);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center;
+  width: 300px;
+  height: 173.2096px;
+  background-color: #B3D78D;
+  margin: 86.6px 0;
+  margin-bottom: 60px;
+  margin-top: 240px;
+}
+
+.hexagon3:before,
+.hexagon3:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+
+.hexagon3:before {
+  bottom: 100%;
+  border-bottom: 86.6px solid #B3D78D;
+}
+
+.hexagon3:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.6px solid #B3D78D;
+}
+/*FIN ENVIRONNEMENT*/
+h3 {
+  color: #2C3164;
+  text-align: center;
+  font-family: "engine";
+  font-size: 50px;
+  letter-spacing: 4px;
+  position: relative;
+  top: -35%;
+}
+/*FIN DECOUVRIR LES ACTEURS*/
   /* CSS DU FOOTER */
 footer {
   position: absolute;
-  margin-top: 28%;
-  right: 0px;
-  height: 400px;
-  left: 0px;
+  margin-top: 5%;
+  right: 0rem;
+  height: 25rem;
+  left: 0rem;
   background: #2C3164;
 }
 
 .logo-footer {
   position: absolute;
-  width: 449px;
-  height: 219px;
-  left: 52px;
-  top: 56px;
+  width: 28.0625rem;
+  height: 13.6875rem;
+  left: 3.25rem;
+  top: 3.5rem;
   background-image: url(./Capture\ d’écran\ de\ 2020-11-30\ 15-20-59.png);
 }
 
 .services {
   position: absolute;
-  width: 500px;
-  height: 175px;
+  width: 31.25rem;
+  height: 10.9375rem;
   left: 40%;
-  top: 78px;
+  top: 4.875rem;
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #FFFFFF;
 }
 
 .faceb {
   position: absolute;
-  width: 70px;
-  height: 70px;
+  width: 4.375rem;
+  height: 4.375rem;
   left: 86%;
   top: 50%;
   background-color: #2C3164;
@@ -933,8 +1393,8 @@ footer {
 
 .linkedin {
   position: absolute;
-  width: 70px;
-  height: 70px;
+  width: 4.375rem;
+  height: 4.375rem;
   left: 91%;
   top: 50%;
   background-color: #2C3164;
@@ -944,14 +1404,14 @@ footer {
 .copyright {
   position: absolute;
   width: 100%;
-  height: 29px;
-  left: 0px;
-  bottom: 0px;
+  height: 1.8125rem;
+  left: 0rem;
+  bottom: 0rem;
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
-  font-size: 25px;
-  line-height: 29px;
+  font-size: 1.5625rem;
+  line-height: 1.8125rem;
   background-color: white;
   color: #2C3164;
   text-align: center;
@@ -976,7 +1436,7 @@ footer {
   position: absolute;
   width: 6%;
   height: 5%;
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 
 #cgu {
