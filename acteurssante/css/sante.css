@@ -1,0 +1,1182 @@
+/* CSS COMMUN  */
+/*--Font--*/
+@font-face {
+    font-family: "robotob";
+    src: url("../datas/font/Roboto-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: "robotoi";
+    src: url("../datas/font/Roboto-Italic.ttf");
+  }
+  
+  @font-face {
+    font-family: "robotot";
+    src: url("../datas/font/Roboto-Thin.ttf");
+  }
+  
+  @font-face {
+    font-family: "engine";
+    src: url("../datas/font/Engine-Regular.otf");
+  }
+  
+  @font-face {
+    font-family: "enginei";
+    src: url("../datas/font/Engine-Italic.otf");
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #2C3164;
+    overflow-x: hidden;
+  }
+  
+  
+  /* CSS DU HEADER */
+  /*TOUS LES HEXA*/
+  .container {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 6%;
+  }
+  
+  
+  /*PREMIER HEXAGONE*/
+  .hexagone {
+    width: 4.25rem;
+    height: 2.5rem;
+    background-color: #fff;
+    position: absolute;
+    right: -1%;
+    top: -20%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hexagone:before,
+  .hexagone:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+  }
+  
+  .hexagone:before {
+    transform: rotate(60deg);
+  }
+  
+  .hexagone:after {
+    transform: rotate(-60deg);
+  }
+  
+  .hexagone,
+  .hexagone:before,
+  .hexagone:after {
+    background: transparent;
+    /*border:0.0625rem solid #fff;
+        background: rgba(48,141,255,0.5); */
+    border-left: 0.0625rem solid #B3D78D;
+    border-right: 0.0625rem solid #B3D78D;
+  }
+  
+  /*FIN PREMIER HEXAGONE*/
+  
+  /*DEUXIEME HEXAGONE*/
+  .hexagone2 {
+    width: 4.25rem;
+    height: 2.5rem;
+    position: absolute;
+    right: 3%;
+    top: -20%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hexagone2 img {
+    width: 3.5rem;
+    height: 3.5rem;
+    position: absolute;
+    margin-left: 48%;
+    margin-top: 25%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hexagone2:before,
+  .hexagone2:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  
+  .hexagone2:before {
+    transform: rotate(60deg);
+  }
+  
+  .hexagone2:after {
+    transform: rotate(-60deg);
+  }
+  
+  .hexagone2,
+  .hexagone2:before,
+  .hexagone2:after {
+    /* background: transparent; */
+    /*border:0.0625rem solid #fff;
+        background: rgba(48,141,255,0.5); */
+    border-left: 0.0625rem solid #B3D78D;
+    border-right: 0.0625rem solid #B3D78D;
+  }
+  
+  /*TROISIEME HEXAGONE*/
+  .hexagone3 {
+    width: 4.25rem;
+    height: 2.5rem;
+    position: absolute;
+    right: 7%;
+    top: -20%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hexagone3:before,
+  .hexagone3:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  
+  .hexagone3:before {
+    transform: rotate(60deg);
+  }
+  
+  .hexagone3:after {
+    transform: rotate(-60deg);
+  }
+  
+  .hexagone3,
+  .hexagone3:before,
+  .hexagone3:after {
+    /* background: transparent; */
+    /*border:0.0625rem solid #fff;
+        background: rgba(48,141,255,0.5); */
+    border-left: 0.0625rem solid #B3D78D;
+    border-right: 0.0625rem solid #B3D78D;
+  }
+  
+  /*FIN TROISIEME HEXAGONE*/
+  
+  /*QUATRIEME HEXAGONE*/
+  .hexagone4 {
+    width: 4.25rem;
+    height: 2.5rem;
+    position: absolute;
+    right: 11%;
+    top: -20%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hexagone4:before,
+  .hexagone4:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+  }
+  
+  .hexagone4:before {
+    transform: rotate(60deg);
+  }
+  
+  .hexagone4:after {
+    transform: rotate(-60deg);
+  }
+  
+  .hexagone4,
+  .hexagone4:before,
+  .hexagone4:after {
+    /* background: transparent; */
+    /*border:0.0625rem solid #fff;
+        background: rgba(48,141,255,0.5); */
+    border-left: 0.0625rem solid #B3D78D;
+    border-right: 0.0625rem solid #B3D78D;
+  }
+  
+  
+  /* HEXAGONE BAS*/
+  /*5EME HEXAGONE*/
+  .hexagone_1bas {
+    width: 4.25rem;
+    height: 2.5rem;
+    background-color: #fff;
+    position: absolute;
+    right: 1%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hexagone_1bas:before,
+  .hexagone_1bas:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+  }
+  
+  .hexagone_1bas:before {
+    transform: rotate(60deg);
+  }
+  
+  .hexagone_1bas:after {
+    transform: rotate(-60deg);
+  }
+  
+  .hexagone_1bas,
+  .hexagone_1bas:before,
+  .hexagone_1bas:after {
+    background: transparent;
+    /*border:0.0625rem solid #fff;
+        background: rgba(48,141,255,0.5); */
+    border-left: 0.0625rem solid #B3D78D;
+    border-right: 0.0625rem solid #B3D78D;
+  }
+  
+  /*6EME HEXAGONE*/
+  .hexagone_2bas {
+    width: 4.25rem;
+    height: 2.5rem;
+    background-color: #fff;
+    position: absolute;
+    right: 5%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hexagone_2bas:before,
+  .hexagone_2bas:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+  }
+  
+  .hexagone_2bas:before {
+    transform: rotate(60deg);
+  }
+  
+  .hexagone_2bas:after {
+    transform: rotate(-60deg);
+  }
+  
+  .hexagone_2bas,
+  .hexagone_2bas:before,
+  .hexagone_2bas:after {
+    background: transparent;
+    /*border:0.0625rem solid #fff;
+        background: rgba(48,141,255,0.5); */
+    border-left: 0.0625rem solid #B3D78D;
+    border-right: 0.0625rem solid #B3D78D;
+  }
+  
+  /*6EME HEXAGONE*/
+  .hexagone_3bas {
+    width: 4.25rem;
+    height: 2.5rem;
+    background-color: #fff;
+    position: absolute;
+    right: 9%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hexagone_3bas:before,
+  .hexagone_3bas:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+  }
+  
+  .hexagone_3bas:before {
+    transform: rotate(60deg);
+  }
+  
+  .hexagone_3bas:after {
+    transform: rotate(-60deg);
+  }
+  
+  .hexagone_3bas,
+  .hexagone_3bas:before,
+  .hexagone_3bas:after {
+    background: transparent;
+    /*border:0.0625rem solid #fff;
+        background: rgba(48,141,255,0.5); */
+    border-left: 0.0625rem solid #B3D78D;
+    border-right: 0.0625rem solid #B3D78D;
+  }
+  
+  /*--Logo--*/
+  .monlogo {
+    width: 100%;
+    position: relative;
+  }
+  
+  .logo {
+    width: 25%;
+  }
+  
+  
+  /*--Menu entier--*/
+  .mon_menu {
+    display: flex;
+    justify-content: space-around;
+    /* margin-left: 5%;
+      margin-right: 5%; */
+  }
+  
+  /*--Sous-menu---*/
+  .sous-menu {
+    z-index: 3;
+    position: absolute;
+    float: left;
+  }
+  
+  /*--Liens--*/
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3125rem;
+    margin-left: 4%;
+    white-space: nowrap;
+  }
+  
+  /*--Je m'informe--Découvrir les acteurs--Je m'engage--*/
+  button {
+    background-color: #555c8f7c;
+    border: 0.0625rem solid transparent;
+    width: 31.25rem;
+    height: 2.5rem;
+    color: white;
+    font-size: 110%;
+    /* position: relative; */
+    /* margin-left: 8%;
+     margin-top: 10%; */
+    font-family: "robotob";
+    letter-spacing: 0.3125rem;
+  }
+  
+  /*--Bordure click none--*/
+  button:focus {
+    outline: 0;
+    border: none;
+  }
+  
+  /*--Sous-parties--*/
+  ul {
+    margin: 0;
+  }
+  
+  ul li {
+    width: 28.75rem;
+    height: 2.5rem;
+    position: relative;
+    list-style: none;
+    color: white;
+    font-family: "robotoi";
+  }
+  
+  /*--Sous-parties je m'engage--*/
+  #list {
+    background-color: #47316F;
+  }
+  
+  /*--Sous-parties je m'informe--*/
+  #list3 {
+    background-color: #1E72B9;
+  }
+  
+  /*--Je m'informe--*/
+  #btn {
+    background-color: #47316F;
+  }
+  
+  /*--Je m'engage--*/
+  #btn3 {
+    background-color: #1E72B9;
+  }
+  
+  /*--Fin Header--*/
+
+  /*--MAIN--*/
+main {
+    background-color: white;
+    margin-top: 0;
+    margin: 0;
+  }
+  
+  main h1 {
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: 1em;
+    font-family: "engine";
+    padding: 1.25rem;
+    font-weight: 20;
+    color: #1E72B9;
+  }
+  
+  /*--PARTENAIRES--*/
+  .hexa {
+    width: 100%;
+    height: 800px;
+  }
+  
+  .hexa1 {
+    background-image: url(../datas/care.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+    width: 10.25rem;
+    height: 6rem;
+    position: absolute;
+    left: 40%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hexa1:before,
+  .hexa1:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  
+  .hexa1:before {
+  
+    transform: rotate(60deg);
+  }
+  
+  .hexa1:after {
+    transform: rotate(-60deg);
+  }
+  
+  .hexa1,
+  .hexa1:before,
+  .hexa1:after {
+    /* background: transparent; */
+    /*border:0.0625rem solid #fff;
+        background: rgba(48,141,255,0.5); */
+    border-left: 0.0625rem solid #B3D78D;
+    border-right: 0.0625rem solid #B3D78D;
+  }
+  
+  /*FIN PARTENAIRE 1*/
+  
+  /*--PARTENAIRE 2*/
+  .hexa2 {
+    background-image: url(../datas/curie.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+    width: 10.25rem;
+    height: 6rem;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hexa2:before,
+  .hexa2:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  
+  .hexa2:before {
+    transform: rotate(60deg);
+  }
+  
+  .hexa2:after {
+    transform: rotate(-60deg);
+  }
+  
+  .hexa2,
+  .hexa2:before,
+  .hexa2:after {
+  
+    /*border:0.0625rem solid #fff;
+        background: rgba(48,141,255,0.5); */
+    border-left: 0.0625rem solid #B3D78D;
+    border-right: 0.0625rem solid #B3D78D;
+  }
+  
+  /*--FIN PARTENAIRE 2*/
+  
+  /*--PARTENAIRE 3--*/
+  .hexa3 {
+    background-image: url(../datas/cardio.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+    width: 10.25rem;
+    height: 6rem;
+    position: absolute;
+    left: 60%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hexa3:before,
+  .hexa3:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  
+  .hexa3:before {
+    transform: rotate(60deg);
+  }
+  
+  .hexa3:after {
+    transform: rotate(-60deg);
+  }
+  
+  .hexa3,
+  .hexa3:before,
+  .hexa3:after {
+    /*border:0.0625rem solid #fff;
+        background: rgba(48,141,255,0.5); */
+    border-left: 0.0625rem solid #B3D78D;
+    border-right: 0.0625rem solid #B3D78D;
+  }
+  
+  /*--FIN PARTENAIRE 3 --*/
+  
+  /*--PARTENAIRE 4--*/
+  .hexa4 {
+    background-image: url(../datas/aides.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+    width: 10.25rem;
+    height: 6rem;
+    position: absolute;
+    left: 45%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hexa4:before,
+  .hexa4:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  
+  .hexa4:before {
+    transform: rotate(60deg);
+  }
+  
+  .hexa4:after {
+    transform: rotate(-60deg);
+  }
+  
+  .hexa4,
+  .hexa4:before,
+  .hexa4:after {
+    /*border:0.0625rem solid #fff;
+      background: rgba(48,141,255,0.5); */
+    border-left: 0.0625rem solid #B3D78D;
+    border-right: 0.0625rem solid #B3D78D;
+  }
+  
+  /*--FIN PARTENAIRE 4 --*/
+  
+  /*--PARTENAIRE 5--*/
+  .hexa5 {
+    background-image: url(../datas/mdm.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+    width: 10.25rem;
+    height: 6rem;
+    position: absolute;
+    left: 55%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hexa5:before,
+  .hexa5:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  
+  .hexa5:before {
+    transform: rotate(60deg);
+  }
+  
+  .hexa5:after {
+    transform: rotate(-60deg);
+  }
+  
+  .hexa5,
+  .hexa5:before,
+  .hexa5:after {
+    /*border:0.0625rem solid #fff;
+        background: rgba(48,141,255,0.5); */
+    border-left: 0.0625rem solid #B3D78D;
+    border-right: 0.0625rem solid #B3D78D;
+  }
+  
+  /*--FIN PARTENAIRE 5 --*/
+  
+  /*--FIN PARTENAIRES--*/
+  
+  /*DECOUVRIR LES ACTEURS*/ 
+  .hexa {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 17.5rem;
+    margin-right: 17.5rem;
+  
+  }
+  
+  .hexa h3 {
+    top: 17%;
+    font-size: 1.75rem;
+  }
+  
+  .blanc {
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+ 
+  /*SANTÉ*/
+  .hexagon1 {
+    position: relative;
+    background-image: url(/datas/soin_-_1.svg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    width: 18.75rem;
+    height: 10.8256rem;
+    background-color: #EFCBB5;
+    margin: 5.4125rem 0;
+    margin-Bottom: 3.75rem;
+  }
+  
+  .hexagon1:before,
+  .hexagon1:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 9.375rem solid transparent;
+    border-right: 9.375rem solid transparent;
+  }
+  
+  .hexagon1:before {
+    bottom: 100%;
+    border-bottom: 5.4125rem solid #EFCBB5;
+  }
+  
+  .hexagon1:after {
+    top: 100%;
+    width: 0;
+    border-top: 5.4125rem solid #EFCBB5;
+  }
+  
+  /*FIN SANTÉ*/
+  
+  /*SOCIAL*/
+  .hexagon2 {
+    position: relative;
+    background-image: url(/datas/humain.svg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    width: 18.75rem;
+    height: 10.8256rem;
+    background-color: #1E72B9;
+    margin: 5.4125rem 0;
+    margin-Bottom: 3.75rem;
+  }
+  
+  .hexagon2:before,
+  .hexagon2:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 9.375rem solid transparent;
+    border-right: 9.375rem solid transparent;
+  }
+  
+  .hexagon2:before {
+    bottom: 100%;
+    border-bottom: 5.4125rem solid #1E72B9;
+  }
+  
+  .hexagon2:after {
+    top: 100%;
+    width: 0;
+    border-top: 5.4125rem solid #1E72B9;
+  }
+  
+  /*FIN SOCIAL*/
+  
+  /*ENVIRONNEMENT*/
+  .hexagon3 {
+    position: relative;
+    background-image: url(/datas/environnement2.svg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    width: 18.75rem;
+    height: 10.8256rem;
+    background-color: #B3D78D;
+    margin: 5.4125rem 0;
+    margin-Bottom: 3.75rem;
+  }
+  
+  .hexagon3:before,
+  .hexagon3:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 9.375rem solid transparent;
+    border-right: 9.375rem solid transparent;
+  }
+  
+  .hexagon3:before {
+    bottom: 100%;
+    border-bottom: 5.4125rem solid #B3D78D;
+  }
+  
+  .hexagon3:after {
+    top: 100%;
+    width: 0;
+    border-top: 5.4125rem solid #B3D78D;
+  }
+  
+  /*FIN ENVIRONNEMENT*/
+  
+  h3 {
+    color: #2C3164;
+    text-align: center;
+    font-family: "engine";
+    font-size: 3.125rem;
+    letter-spacing: 0.25rem;
+    position: relative;
+    top: -35%;
+  }
+  
+  /*FIN DECOUVRIR LES ACTEURS*/
+  
+  /*ALVÉOLES DÉCOUVRIR LES ACTEURS */
+  /*PREMIERE ALVEOLE*/
+  .alveole1 {
+    width: 4.25rem;
+    height: 2.5rem;
+    background-color: #fff;
+    position: absolute;
+    left: 2%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .alveole1:before,
+  .alveole1:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+  }
+  
+  .alveole1:before {
+    transform: rotate(60deg);
+  }
+  
+  .alveole1:after {
+    transform: rotate(-60deg);
+  }
+  
+  .alveole1,
+  .alveole1:before,
+  .alveole1:after {
+    background: transparent;
+    border-left: 0.0625rem solid #B3D78D;
+    border-right: 0.0625rem solid #B3D78D;
+  }
+  
+  /*FIN PREMIERE ALVEOLE*/
+  
+  /*DEUXIEME ALVEOLE*/
+  .alveole2 {
+    width: 4.25rem;
+    height: 2.5rem;
+    background-color: #fff;
+    position: absolute;
+    left: 4.2%;
+    margin-top: 3.3%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .alveole2:before,
+  .alveole2:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+  }
+  
+  .alveole2:before {
+    transform: rotate(60deg);
+  }
+  
+  .alveole2:after {
+    transform: rotate(-60deg);
+  }
+  
+  .alveole2,
+  .alveole2:before,
+  .alveole2:after {
+    background: transparent;
+    border-left: 0.0625rem solid #B3D78D;
+    border-right: 0.0625rem solid #B3D78D;
+  }
+  
+  /*FIN DEUXIEME ALVEOLE*/
+  
+  /*TROISIEME ALVEOLE*/
+  .alveole3 {
+    width: 4.25rem;
+    height: 2.5rem;
+    background-color: #fff;
+    position: absolute;
+    left: 2%;
+    margin-top: 8%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .alveole3:before,
+  .alveole3:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+  }
+  
+  .alveole3:before {
+    transform: rotate(60deg);
+  }
+  
+  .alveole3:after {
+    transform: rotate(-60deg);
+  }
+  
+  .alveole3,
+  .alveole3:before,
+  .alveole3:after {
+    background: transparent;
+    border-left: 0.0625rem solid #B3D78D;
+    border-right: 0.0625rem solid #B3D78D;
+  }
+  
+  /*FIN TROISIEME ALVEOLE*/
+  
+  /*QUATRIEME ALVEOLE*/
+  .alveole4 {
+    width: 4.25rem;
+    height: 2.5rem;
+    background-color: #fff;
+    position: absolute;
+    margin-top: 11.5%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .alveole4:before,
+  .alveole4:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+  }
+  
+  .alveole4:before {
+    transform: rotate(60deg);
+  }
+  
+  .alveole4:after {
+    transform: rotate(-60deg);
+  }
+  
+  .alveole4,
+  .alveole4:before,
+  .alveole4:after {
+    background: transparent;
+    border-left: 0.0625rem solid #B3D78D;
+    border-right: 0.0625rem solid #B3D78D;
+  }
+  
+  /*FIN QUATRIEME ALVEOLE*/
+  
+  /*CINQUIEME ALVEOLE*/
+  .alveole5 {
+    width: 4.25rem;
+    height: 2.5rem;
+    background-color: #fff;
+    position: absolute;
+    margin-top: 11.5%;
+    margin-left: 4%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .alveole5:before,
+  .alveole5:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+  }
+  
+  .alveole5:before {
+    transform: rotate(60deg);
+  }
+  
+  .alveole5:after {
+    transform: rotate(-60deg);
+  }
+  
+  .alveole5,
+  .alveole5:before,
+  .alveole5:after {
+    background: transparent;
+    border-left: 0.0625rem solid #B3D78D;
+    border-right: 0.0625rem solid #B3D78D;
+  }
+  
+  /*FIN CINQUIEME ALVEOLE*/
+  
+  /*SIXIEME ALVEOLE*/
+  .alveole6 {
+    width: 4.25rem;
+    height: 2.5rem;
+    background-color: #fff;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 2%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .alveole6:before,
+  .alveole6:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+  }
+  
+  .alveole6:before {
+    transform: rotate(60deg);
+  }
+  
+  .alveole6:after {
+    transform: rotate(-60deg);
+  }
+  
+  .alveole6,
+  .alveole6:before,
+  .alveole6:after {
+    background: transparent;
+    border-left: 0.0625rem solid #B3D78D;
+    border-right: 0.0625rem solid #B3D78D;
+  }
+  
+  /*FIN SIXIEME ALVEOLE*/
+  /*SEPTIEME ALVEOLE*/
+  .alveole7 {
+    width: 4.25rem;
+    height: 2.5rem;
+    background-color: #fff;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 6%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .alveole7:before,
+  .alveole7:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+  }
+  
+  .alveole7:before {
+    transform: rotate(60deg);
+  }
+  
+  .alveole7:after {
+    transform: rotate(-60deg);
+  }
+  
+  .alveole7,
+  .alveole7:before,
+  .alveole7:after {
+    background: transparent;
+    border-left: 0.0625rem solid #B3D78D;
+    border-right: 0.0625rem solid #B3D78D;
+  }
+  
+  /*FIN SEPTIEME ALVEOLE*/
+  
+  /*HUITIEME ALVEOLE*/
+  .alveole8 {
+    width: 4.25rem;
+    height: 2.5rem;
+    background-color: white;
+    position: absolute;
+    margin-top: 18.5%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .alveole8:before,
+  .alveole8:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  
+  .alveole8:before {
+    transform: rotate(60deg);
+  }
+  
+  .alveole8:after {
+    transform: rotate(-60deg);
+  }
+  
+  .alveole8,
+  .alveole8:before,
+  .alveole8:after {
+    background: transparent;
+    border-left: 0.0625rem solid #B3D78D;
+    border-right: 0.0625rem solid #B3D78D;
+  }
+  
+  /*HUITIEME ALVEOLE*/
+  /*--FIN MAIN--*/
+
+  /* CSS DU FOOTER */
+footer {
+    position: absolute;
+    right: 0px;
+    height: 400px;
+    left: 0px;
+    background: #2C3164;
+  }
+  
+  .logo-footer {
+    position: absolute;
+    width: 449px;
+    height: 219px;
+    left: 52px;
+    top: 56px;
+    background-image: url(./Capture\ d’écran\ de\ 2020-11-30\ 15-20-59.png);
+  }
+  
+  .services {
+    position: absolute;
+    width: 500px;
+    height: 175px;
+    left: 40%;
+    top: 78px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    color: #FFFFFF;
+  }
+  
+  .faceb {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 86%;
+    top: 50%;
+    background-color: #2C3164;
+    border-radius: 50%;
+  }
+  
+  .linkedin {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 91%;
+    top: 50%;
+    background-color: #2C3164;
+    border-radius: 50%;
+  }
+  
+  .copyright {
+    position: absolute;
+    width: 100%;
+    height: 29px;
+    left: 0px;
+    bottom: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 29px;
+    background-color: white;
+    color: #2C3164;
+    text-align: center;
+  }
+  
+  
+  .abo-newsletter input {
+    position: absolute;
+    left: 43%;
+    bottom: 22%;
+    border-radius: 10%;
+  }
+  
+  #abonnement {
+    position: absolute;
+    left: 53%;
+    bottom: 22%;
+    border-radius: 10%;
+  }
+  
+  .abo-newsletter button {
+    position: absolute;
+    width: 6%;
+    height: 5%;
+    font-size: 10px;
+  }
