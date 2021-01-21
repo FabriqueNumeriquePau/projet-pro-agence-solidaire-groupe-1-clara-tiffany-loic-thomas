@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Homepage</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="duo">
+                <div class="hexagone"></div>
+                <a href="#">
+                    <div class="hexagone2"><img src="./datas/user.png" alt=""></div>
+                </a>
+                <div class="hexagone3"></div>
+                <div class="hexagone4"></div>
+
+            </div>
+            
+            <div class="hexagone_1bas"></div>
+            <div class="hexagone_2bas"></div>
+            <div class="hexagone_3bas"></div>
+
+        </div>
+
+        <div clas="monlogo"> <img class="logo" src="./datas/logo.png" alt="logo"></div>
+        <div class="mon_menu">
+            <div>
+                <button id="btn">JE M'INFORME</button>
+                <ul id="list" class="sous-menu">
+                    <li><a href="#">A la une</a></li>
+                    <li><a href="#">Les plus consultés</a></li>
+                    <li><a href="#">Par thématiques (solidarité, environnement...)</a></li>
+                </ul>
+            </div>
+           
+            <div>
+                <button id="btn2">DÉCOUVRIR LES ACTEURS</button>
+            </div>
+            <div>
+                    <button id="btn3">JE M'ENGAGE</button>
+                    <ul id="list3" class="sous-menu">
+                        <li><a href="#">Bénévolement</a></li>
+                        <li><a href="#">Don financier</a></li>
+                        <li><a href="#">Don matériel</a></li>
+                    </ul>
+            </div>
+        </div>
+        
+       
+    </header>
+
+
+        <h1 class="titre">FAIRE UN DON</h1>
+
+        <div class="choix">
+        <h3 class="titre1">Je choisis ma campagne</h3>
+        </div>
+        
+    <div class="annuaire">
+        <ul class="alphabet"> 
+            <li><a href="">A-B-C</a></li>
+            <li><a href="">D-E-F</a></li>
+            <li><a href="">G-H-I</a></li>
+            <li><a href="">J-K-L</a></li>
+            <li><a href="">M-N-O</a></li>
+            <li><a href="">P-Q-R</a></li>
+            <li><a href="">S-T-U</a></li>
+            <li><a href="">V-W-X</a></li>
+            <li><a href="">Y-Z-0-9</a></li>
+        </ul>
+        <div class="reponse"></div>
+    </div>    
+   
+    <div class="choix">
+        <h3 class="titre1">Don financier</h3>
+    </div>
+
+  
+    <div class="montant">
+        <div class="mensueloccaz">
+        <button type="button">
+            Don mensuel
+        </button>
+        <button type="button">
+            Don occasionnel
+        </button>
+        </div>
+        <div class="choixmontant">
+        <button type="button">
+            5€
+        </button>
+        <button type="button">
+            10€
+        </button>
+        <button type="button">
+            20€
+        </button>
+        <button type="button">
+            50€
+        </button>  
+        </div>
+        <div class="libremontant">
+        <p class="ml">Montant libre</p> 
+        <button type="button">
+            --,-- €
+        </button>
+        </div>
+        <div class="finaliser">
+            <button type="button">
+                Finaliser
+            </button>
+        </div>                     
+    </div>
+    
+     
+    <div class="choix">
+        <h3 class="titre1">Don matériel</h3>
+    </div>
+
+    <div class="matos">
+        <form action="">
+            <select name="typedon" id="typed">
+                <option value="">Choisissez un type de don</option>
+                <option value="vetement">Vêtements</option>
+                <option value="meuble">Meubles</option>
+                <option value="hygiene">Produits d'hygiène</option>
+                <option value="electro">Eléctroménager</option>
+                <option value="autre">Autres</option>
+            </select>
+        </form>
+        
+        <form action="">
+            <select name="location" id="departement">
+                <option value="">Où ?</option>
+                <option value="1">Ain</option>
+                <option value="2">Aisne</option>
+                <option value="3">Allier</option>
+                <option value="4">Alpes Hte Provence</option>
+                <option value="5">Hautes-Alpes</option>
+                <option value="6">Alpes-Maritimes</option>
+                <option value="7">Ardèche</option>
+                <option value="8">Ardennes</option>
+                <option value="9">Ariège</option>
+                <option value="10">Aube</option>
+                <option value="11">Aude</option>
+                <option value="12">Aveyron</option>
+                <option value="13">Bouches du Rhône</option>
+                <option value="14">Calvados</option>
+                <option value="15">Cantal</option>
+                <option value="16">Charente</option>
+                <option value="17">Charente-Maritime</option>
+                <option value="18">Cher</option>
+                <option value="19">Corrèze</option>
+                <option value="2A">Corse du Sud</option>
+                <option value="2B">Haute Corse</option>
+                <option value="21">Côte-d'Or</option>
+                <option value="22">Côtes-d'Armor</option>
+                <option value="23">Creuse</option>
+                <option value="24">Dordogne</option>
+                <option value="25">Doubs</option>
+                <option value="26">Drôme</option>
+                <option value="27">Eure</option>
+                <option value="28">Eure-et-Loir</option>
+                <option value="29">Finistère</option>
+                <option value="30">Gard</option>
+                <option value="31">Haute-Garonne</option>
+                <option value="32">Gers</option>
+                <option value="33">Gironde</option>
+                <option value="34">Hérault</option>
+                <option value="35">Ille-et-Vilaine</option>
+                <option value="36">Indre</option>
+                <option value="37">Indre-et-Loire</option>
+                <option value="38">Isère</option>
+                <option value="39">Jura</option>
+                <option value="40">Landes</option>
+                <option value="41">Loir-et-Cher</option>
+                <option value="42">Loire</option>
+                <option value="43">Haute-Loire</option>
+                <option value="44">Loire-Atlantique</option>
+                <option value="45">Loiret</option>
+                <option value="46">Lot</option>
+                <option value="47">Lot-et-Garonne</option>
+                <option value="48">Lozère</option>
+                <option value="49">Maine-et-Loire</option>
+                <option value="50">Manche</option>
+                <option value="51">Marne</option>
+                <option value="52">Haute-Marne</option>
+                <option value="53">Mayenne</option>
+                <option value="54">Meurthe-et-Moselle</option>
+                <option value="55">Meuse</option>
+                <option value="56">Morbihan</option>
+                <option value="57">Moselle</option>
+                <option value="58">Nièvre</option>
+                <option value="59">Nord</option>
+                <option value="60">Oise</option>
+                <option value="61">Orne</option>
+                <option value="62">Pas-de-Calais</option>
+                <option value="63">Puy-de-Dôme</option>
+                <option value="64">Pyrénées-Atlantiques</option>
+                <option value="65">Hautes-Pyrénées</option>
+                <option value="66">Pyrénées-Orientales</option>
+                <option value="67">Bas-Rhin</option>
+                <option value="68">Haut-Rhin</option>
+                <option value="69">Rhône</option>
+                <option value="70">Haute-Saône</option>
+                <option value="71">Saône-et-Loire</option>
+                <option value="72">Sarthe</option>
+                <option value="73">Savoie</option>
+                <option value="74">Haute-Savoie</option>
+                <option value="75">Paris</option>
+                <option value="76">Seine-Maritime</option>
+                <option value="77">Seine-et-Marne</option>
+                <option value="78">Yvelines</option>
+                <option value="79">Deux-Sèvres</option>
+                <option value="80">Somme</option>
+                <option value="81">Tarn</option>
+                <option value="82">Tarn-et-Garonne</option>
+                <option value="83">Var</option>
+                <option value="84">Vaucluse</option>
+                <option value="85">Vendée</option>
+                <option value="86">Vienne</option>
+                <option value="87">Haute-Vienne</option>
+                <option value="88">Vosges</option>
+                <option value="89">Yonne</option>
+                <option value="90">Territoire de Belfort</option>
+                <option value="91">Essonne</option>
+                <option value="92">Hauts-de-Seine</option>
+                <option value="93">Seine-St-Denis</option>
+                <option value="94">Val-de-Marne</option>
+                <option value="95">Val-d'Oise</option>
+            </select>
+        </form>
+
+        <div class="validmatos">
+        <button type="button">
+                Valider
+        </button>
+        </div>
+    </div>
+
+ <!--    
+   <footer>
+
+        <div class="logo-footer"><img src="./datas/logo.png" alt=""></div>
+
+        <div class="services">
+            <ul class="liste-service">
+                <li><a href="#">> Recruteur de donateurs</a></li>
+                <li><a href="#">> Nous rejoindre</a></li>
+                <li><a href="#">> Mentions légales</a></li>
+                <li><a href="#">> Contact</a></li>
+                <li><a href="#">> Newsletter</a></li>
+            </ul>
+        </div>
+
+        <div class="faceb">
+            <a href=""><img src="./datas/lgfb.png" alt="Facebook" width="70px" height="70px"></a>
+        </div>
+        <div class="linkedin">
+            <a href=""><img src="./datas/lglkin.png" alt="Linkedin" width="70px" height="70px"></a>
+        </div>
+
+        <div class="abo-newsletter">
+            <form action="">
+                <input type="text" placeholder="Adresse mail" name="mail" />
+                <button id="abonnement" type="submit">S'abonner</button>
+            </form>
+        </div>
+
+        <div class="copyright">
+            L'AGENCE SOLIDAIRE © 2020
+        </div>
+
+    </footer>
+-->
+    <script src="./script.js"></script>
+</body>
+
+</html>
