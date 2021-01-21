@@ -1,0 +1,230 @@
+/* CSS COMMUN  */
+/*--Font--*/
+@font-face {
+    font-family: "robotob";
+    src: url("../datas/font/Roboto-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: "robotoi";
+    src: url("../datas/font/Roboto-Italic.ttf");
+  }
+  
+  @font-face {
+    font-family: "robotot";
+    src: url("../datas/font/Roboto-Thin.ttf");
+  }
+  
+  @font-face {
+    font-family: "engine";
+    src: url("../datas/font/Engine-Regular.otf");
+  }
+  
+  @font-face {
+    font-family: "enginei";
+    src: url("../datas/font/Engine-Italic.otf");
+}
+
+body {
+    margin: 0;
+    padding:0;
+}
+
+/*--BOUTON CLOSE--*/
+.close {
+  position: absolute;
+  left: 62%;
+  top: 12%;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: black;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+/*--FIN BOUTON CLOSE--*/
+
+
+/*ALVEOLE USER*/
+.alveole1 {
+  width: 12.26rem;
+  height: 7.1rem;
+  background-color: #1E72B9;
+  position: absolute;
+  left: 50%;
+  margin-top: 15%;
+  transform: translate(-50%, -50%);
+}
+
+.alveole1 img{
+    width: 45%;
+    height: 70%;
+    position: absolute;
+    margin-left: 27%;
+    margin-top: 5%;
+    z-index: 1;
+    
+}
+
+.alveole1:before,
+.alveole1:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #1E72B9;
+  position: absolute;
+}
+
+.alveole1:before {
+  transform: rotate(60deg);
+}
+
+.alveole1:after {
+  transform: rotate(-60deg);
+}
+
+/*FIN ALVEOLE USER*/
+
+/*--LOGIN--*/
+.login {
+    width: 15%;
+    height: 100px;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 23%;
+}
+
+h1 { 
+    font-family: "robotob";
+    text-align: center;
+}
+
+.login input{
+    width: 80%;
+    height: 30px;
+    margin-left: 15%;
+    margin-top: 3%;
+    border-radius: 50px;
+    background-color: #87cbec;
+}
+
+/*FIN LOGIN*/
+
+/*--PASSWORD--*/
+.password {
+    width: 15%;
+    height: 100px;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 30%;
+}
+
+h1 { 
+    font-family: "robotob";
+    text-align: center;
+}
+
+.password input{
+    width: 80%;
+    height: 30px;
+    margin-left: 15%;
+    margin-top: 3%;
+    border-radius: 50px;
+    background-color: #87cbec;
+}
+/*--FIN PASSWORD--*/
+
+/*--SOUVENIR--*/
+.souvenir {
+    width:15%;
+    height: 60px;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 37%;
+}
+
+.souvenir p {
+  font-size: 130%;
+  position: relative;
+  margin-left: 27%;
+  margin-top: 1%;
+  font-family: "robotot";
+}
+
+.souvenir input{
+    width: 20%;
+    height: 20px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 5%;
+}
+/*--FIN PASSWORD--*/
+
+
+/*--BOUTONS--*/
+.boutons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+}
+/*--CONNECTE--*/
+.connect {
+  width: 15%;
+  height: 100px;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 23%;
+}
+
+
+.connect button{
+  width: 100%;
+  height: 30px;
+  margin-left: -35%;
+  margin-top: 120%;
+  border-radius: 50px;
+  background-color: #1E72B9;
+  font-size: 100%;
+  color: white;
+}
+
+/*FIN CONNECTE*/
+
+/*--COMPTE--*/
+.compte {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: -110.7%;
+}
+
+
+.compte button{
+  width: 100%;
+  height: 30px;
+  margin-left:10%;
+  margin-top: 100%;
+  border-radius: 50px;
+  background-color: #1E72B9;
+  font-size: 100%;
+  color: white;
+}
+
+/*FIN COMPTE*/
