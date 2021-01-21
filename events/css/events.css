@@ -1,0 +1,1327 @@
+/* CSS COMMUN  */
+/*--Font--*/
+@font-face {
+  font-family: "robotob";
+  src: url("../datas/font/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: "robotoi";
+  src: url("../datas/font/Roboto-Italic.ttf");
+}
+
+@font-face {
+  font-family: "robotot";
+  src: url("../datas/font/Roboto-Thin.ttf");
+}
+
+@font-face {
+  font-family: "engine";
+  src: url("../datas/font/Engine-Regular.otf");
+}
+
+@font-face {
+  font-family: "enginei";
+  src: url("../datas/font/Engine-Italic.otf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2C3164;
+}
+
+/* CSS DU HEADER */
+/*TOUS LES HEXA*/
+.container {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 6%;
+}
+
+
+/*PREMIER HEXAGONE*/
+.hexagone {
+  width: 4.25rem;
+  height: 2.5rem;
+  background-color: #fff;
+  position: absolute;
+  right: -1%;
+  top: -20%;
+  transform: translate(-50%, -50%);
+}
+
+.hexagone:before,
+.hexagone:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+}
+
+.hexagone:before {
+  transform: rotate(60deg);
+}
+
+.hexagone:after {
+  transform: rotate(-60deg);
+}
+
+.hexagone,
+.hexagone:before,
+.hexagone:after {
+  background: transparent;
+  /*border:0.0625rem solid #fff;
+    background: rgba(48,141,255,0.5); */
+  border-left: 0.0625rem solid #B3D78D;
+  border-right: 0.0625rem solid #B3D78D;
+}
+
+/*FIN PREMIER HEXAGONE*/
+
+/*DEUXIEME HEXAGONE*/
+.hexagone2 {
+  width: 4.25rem;
+  height: 2.5rem;
+  position: absolute;
+  right: 3%;
+  top: -20%;
+  transform: translate(-50%, -50%);
+}
+
+.hexagone2 img {
+  width: 3.5rem;
+  height: 3.5rem;
+  position: absolute;
+  margin-left: 48%;
+  margin-top: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.hexagone2:before,
+.hexagone2:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.hexagone2:before {
+  transform: rotate(60deg);
+}
+
+.hexagone2:after {
+  transform: rotate(-60deg);
+}
+
+.hexagone2,
+.hexagone2:before,
+.hexagone2:after {
+  border-left: 0.0625rem solid #B3D78D;
+  border-right: 0.0625rem solid #B3D78D;
+}
+
+/*TROISIEME HEXAGONE*/
+.hexagone3 {
+  width: 4.25rem;
+  height: 2.5rem;
+  position: absolute;
+  right: 7%;
+  top: -20%;
+  transform: translate(-50%, -50%);
+}
+
+.hexagone3:before,
+.hexagone3:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.hexagone3:before {
+  transform: rotate(60deg);
+}
+
+.hexagone3:after {
+  transform: rotate(-60deg);
+}
+
+.hexagone3,
+.hexagone3:before,
+.hexagone3:after {
+  border-left: 0.0625rem solid #B3D78D;
+  border-right: 0.0625rem solid #B3D78D;
+}
+
+/*FIN TROISIEME HEXAGONE*/
+
+/*QUATRIEME HEXAGONE*/
+.hexagone4 {
+  width: 4.25rem;
+  height: 2.5rem;
+  position: absolute;
+  right: 11%;
+  top: -20%;
+  transform: translate(-50%, -50%);
+}
+
+.hexagone4:before,
+.hexagone4:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  position: absolute;
+}
+
+.hexagone4:before {
+  transform: rotate(60deg);
+}
+
+.hexagone4:after {
+  transform: rotate(-60deg);
+}
+
+.hexagone4,
+.hexagone4:before,
+.hexagone4:after {
+  border-left: 0.0625rem solid #B3D78D;
+  border-right: 0.0625rem solid #B3D78D;
+}
+
+
+/* HEXAGONE BAS*/
+/*5EME HEXAGONE*/
+.hexagone_1bas {
+  width: 4.25rem;
+  height: 2.5rem;
+  background-color: #fff;
+  position: absolute;
+  right: 1%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.hexagone_1bas:before,
+.hexagone_1bas:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+}
+
+.hexagone_1bas:before {
+  transform: rotate(60deg);
+}
+
+.hexagone_1bas:after {
+  transform: rotate(-60deg);
+}
+
+.hexagone_1bas,
+.hexagone_1bas:before,
+.hexagone_1bas:after {
+  background: transparent;
+  border-left: 0.0625rem solid #B3D78D;
+  border-right: 0.0625rem solid #B3D78D;
+}
+
+/*6EME HEXAGONE*/
+.hexagone_2bas {
+  width: 4.25rem;
+  height: 2.5rem;
+  background-color: #fff;
+  position: absolute;
+  right: 5%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.hexagone_2bas:before,
+.hexagone_2bas:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+}
+
+.hexagone_2bas:before {
+  transform: rotate(60deg);
+}
+
+.hexagone_2bas:after {
+  transform: rotate(-60deg);
+}
+
+.hexagone_2bas,
+.hexagone_2bas:before,
+.hexagone_2bas:after {
+  background: transparent;
+  border-left: 0.0625rem solid #B3D78D;
+  border-right: 0.0625rem solid #B3D78D;
+}
+
+/*6EME HEXAGONE*/
+.hexagone_3bas {
+  width: 4.25rem;
+  height: 2.5rem;
+  background-color: #fff;
+  position: absolute;
+  right: 9%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.hexagone_3bas:before,
+.hexagone_3bas:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+}
+
+.hexagone_3bas:before {
+  transform: rotate(60deg);
+}
+
+.hexagone_3bas:after {
+  transform: rotate(-60deg);
+}
+
+.hexagone_3bas,
+.hexagone_3bas:before,
+.hexagone_3bas:after {
+  background: transparent;
+  border-left: 0.0625rem solid #B3D78D;
+  border-right: 0.0625rem solid #B3D78D;
+}
+
+/*--Logo--*/
+.monlogo {
+  width: 100%;
+  position: relative;
+}
+
+.logo {
+  width: 25%;
+}
+
+
+/*--Menu entier--*/
+.mon_menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*--Sous-menu---*/
+.sous-menu {
+  z-index: 3;
+  position: absolute;
+  float: left;
+}
+
+/*--Liens--*/
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3125rem;
+  margin-left: 4%;
+  white-space: nowrap;
+}
+
+/*--Je m'informe--Découvrir les acteurs--Je m'engage--*/
+button {
+  background-color: #555c8f7c;
+  border: 0.0625rem solid transparent;
+  width: 31.25rem;
+  height: 2.5rem;
+  color: white;
+  font-size: 110%;
+  font-family: "robotob";
+  letter-spacing: 0.3125rem;
+}
+
+/*--Bordure click none--*/
+button:focus {
+  outline: 0;
+  border: none;
+}
+
+/*--Sous-parties--*/
+ul {
+  margin: 0;
+}
+
+ul li {
+  width: 28.75rem;
+  height: 2.5rem;
+  position: relative;
+  list-style: none;
+  color: white;
+  font-family: "robotoi";
+}
+
+/*--Sous-parties je m'engage--*/
+#list {
+  background-color: #47316F;
+}
+
+/*--Sous-parties je m'informe--*/
+#list3 {
+  background-color: #1E72B9;
+}
+
+/*--Je m'informe--*/
+#btn {
+  background-color: #47316F;
+}
+
+/*--Je m'engage--*/
+#btn3 {
+  background-color: #1E72B9;
+}
+
+/*--Fin Header--*/
+
+
+/*--MAIN--*/
+main {
+  /* position: absolute; */
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+main .title {
+  margin: 0;
+  padding: 3%;
+  font-family: "engine";
+  font-size: 250%;
+  color: #2273B8;
+  white-space: pre-line;
+  text-align: center;
+  letter-spacing: 20px;
+}
+
+/*--RECHERCHE--*/
+.recherche {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*--ADRESSE POSTALE--*/
+#adress {
+  position: absolute;
+  background-color: #81b0d8;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  width: 20%;
+  height: 30px;
+  margin-left: 10%;
+}
+
+#adress:focus {
+  outline: 0;
+  border: none;
+}
+
+#adress::placeholder {
+  font-family: "roboto";
+  font-size: 200%;
+  letter-spacing: 5px;
+  opacity: 0.5;
+  color: white;
+  text-align: center;
+}
+
+.icon1 {
+  margin-left:1%;
+  width: 30px;
+  height: 20px;
+  background-color: red;
+}
+
+/*--PÉRIODE--*/
+#period {
+  position: absolute;
+  background-color:  #81b0d8;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  width: 20%;
+  height: 30px;
+  margin-left: 40%;
+}
+
+#period:focus {
+  outline: 0;
+  border: none;
+}
+
+#period::placeholder {
+  font-family: "roboto";
+  font-size: 200%;
+  letter-spacing: 5px;
+  opacity: 0.5;
+  color: white;
+  text-align: center;
+}
+
+.icon2 {
+  position: absolute;
+  left:41%;
+  width: 30px;
+}
+
+/*--TYPE DE MISSION--*/
+#mission {
+  position: absolute;
+  background-color:  #81b0d8;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  width: 20%;
+  height: 30px;
+  margin-left: 70%;
+}
+
+#mission:focus {
+  outline: 0;
+  border: none;
+}
+
+#mission::placeholder {
+  font-family: "roboto";
+  font-size: 200%;
+  letter-spacing: 5px;
+  opacity: 0.5;
+  color: white;
+  text-align: center;
+}
+
+.icon3 {
+  position: absolute;
+  left:71%;
+  width: 30px;
+}
+
+/*--THÉMATIQUES--*/
+#thematique {
+  position: absolute;
+  background-color:  #81b0d8;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  width: 20%;
+  height: 30px;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+#thematique:focus {
+  outline: 0;
+  border: none;
+}
+
+#thematique::placeholder {
+  font-family: "roboto";
+  font-size: 200%;
+  letter-spacing: 5px;
+  opacity: 0.5;
+  color: white;
+  text-align: center;
+}
+
+.icon4 {
+  position: absolute;
+  left:11%;
+  top: 34%;
+  width: 30px;
+}
+
+/*--KEYWORD--*/
+#keyword {
+  position: absolute;
+  background-color:  #81b0d8;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  width: 20%;
+  height: 30px;
+  margin-left: 40%;
+  margin-top: 5%;
+}
+
+#keyword:focus {
+  outline: 0;
+  border: none;
+}
+
+#keyword::placeholder {
+  font-family: "roboto";
+  font-size: 200%;
+  letter-spacing: 5px;
+  opacity: 0.5;
+  color: white;
+  text-align: center;
+}
+
+.icon5 {
+  position: absolute;
+  left:41%;
+  top: 34%;
+  width: 30px;
+  height: 30px;
+}
+
+/*--BUTTON SEARCH*/
+#btnsearch {
+  position: relative;
+  background-color: #81b0d8;
+  border-radius: 50px;
+  left:70%;
+  margin-top: 5%;
+  width: 50px;
+  height: 35px;
+}
+
+#btnsearch a{
+  cursor: pointer;
+}
+
+#btnsearch img {
+  position: relative;
+  width: 35px;
+  height: 35px;
+}
+
+/*--BUTTON CANCEL*/
+#btncancel {
+  position: relative;
+  background-color: #81b0d8;
+  border-radius: 50px;
+  right: 20%;
+  margin-top: 5%;
+  width: 50px;
+  height: 35px;
+}
+
+#btncancel a{
+  cursor: pointer;
+}
+
+#btncancel img {
+  position: relative;
+  width: 34px;
+  height: 34px;
+}
+
+/*--MAP--*/
+.map { 
+  background-color: white;
+  width: 100%;
+  height: 1500px;
+  margin-top: 5%;
+  padding: 0;
+}
+
+iframe {  
+  width: 100%;
+  height: 550px;
+  border: transparent;
+  /* margin-top: 5%; */
+}
+/*--FIN MAP*/
+
+
+
+
+/*HONEYCOMB*/
+.honey {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  background-color:white;
+  margin-top: -5%;
+}
+
+
+/*PREMIER HONEYCOMB*/
+.honeycomb {
+  width: 4.25rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 2%;
+  margin-top: 3%;
+  transform: translate(-50%, -50%);
+}
+
+.honeycomb:before,
+.honeycomb:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.honeycomb:before {
+  transform: rotate(60deg);
+}
+
+.honeycomb:after {
+  transform: rotate(-60deg);
+}
+
+.honeycomb,
+.honeycomb:before,
+.honeycomb:after {
+  background: transparent;
+  border-left: 0.0625rem solid #B3D78D;
+  border-right: 0.0625rem solid #B3D78D;
+}
+/*FIN PREMIER HONEYCOMB*/
+
+/*DEUXIEME HONEYCOMB*/
+.honeycomb2 {
+  width: 4.25rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 4.2%;
+  margin-top: 6.5%;
+  transform: translate(-50%, -50%);
+}
+
+.honeycomb2:before,
+.honeycomb2:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.honeycomb2:before {
+  transform: rotate(60deg);
+}
+
+.honeycomb2:after {
+  transform: rotate(-60deg);
+}
+
+.honeycomb2,
+.honeycomb2:before,
+.honeycomb2:after {
+  background: transparent;
+  border-left: 0.0625rem solid #B3D78D;
+  border-right: 0.0625rem solid #B3D78D;
+}
+/*FIN DEUXIEME HONEYCOMB*/
+
+
+
+.events {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+  margin-top: 2%;
+  
+}
+
+.events img {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  margin-right: 20px;
+}
+
+
+
+.events1 h3 { 
+  position: relative;
+  color: #1E72B9;
+  text-align: center;
+  margin-top: -40%;
+  font-size: 170%;
+  font-family: "robotob";
+  letter-spacing: 4px;
+}
+
+.events2 h3 { 
+  position: relative;
+  color: #1E72B9;
+  text-align: center;
+  margin-top: -40%;
+  font-size: 170%;
+  font-family: "robotob";
+  letter-spacing: 4px;
+}
+
+
+.events3 h3 { 
+  position: relative;
+  color: #1E72B9;
+  text-align: center;
+  margin-top: -40%;
+  font-size: 170%;
+  font-family: "robotob";
+  letter-spacing: 4px;
+}
+
+.events_bas {
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+  margin-top: 20%;
+  
+}
+
+.events_bas img {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  margin-right: 20px;
+}
+
+
+
+.events4 h3 { 
+  position: relative;
+  color: #1E72B9;
+  text-align: center;
+  margin-top: -40%;
+  font-size: 170%;
+  font-family: "robotob";
+  letter-spacing: 4px;
+}
+
+.events5 h3 { 
+  position: relative;
+  color: #1E72B9;
+  text-align: center;
+  margin-top: -40%;
+  font-size: 170%;
+  font-family: "robotob";
+  letter-spacing: 4px;
+}
+
+
+.events6 h3 { 
+  position: relative;
+  color: #1E72B9;
+  text-align: center;
+  margin-top: -40%;
+  font-size: 170%;
+  font-family: "robotob";
+  letter-spacing: 4px;
+}
+
+.events1 p { 
+  position: absolute;
+  color:#1E72B9;
+  font-family: "robotot";
+  margin-top: 4.5%;
+  white-space: pre-line;
+}
+
+.events2 p { 
+  position: absolute;
+  color:#1E72B9;
+  font-family: "robotot";
+  margin-top: 4.5%;
+  white-space: pre-line;
+}
+
+.events3 p { 
+  position: absolute;
+  color:#1E72B9;
+  font-family: "robotot";
+  margin-top: 4.5%;
+  white-space: pre-line;
+}
+
+.events4 p { 
+  position: absolute;
+  color:#1E72B9;
+  font-family: "robotot";
+  margin-top: 4.5%;
+  white-space: pre-line;
+}
+
+.events5 p { 
+  position: absolute;
+  color:#1E72B9;
+  font-family: "robotot";
+  margin-top: 4.5%;
+  white-space: pre-line;
+}
+
+.events6 p { 
+  position: absolute;
+  color:#1E72B9;
+  font-family: "robotot";
+  margin-top: 4.5%;
+  white-space: pre-line;
+}
+
+/*HONEYCOMB*/
+.honey2 {
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  margin-top: 35%;
+}
+
+
+/*PREMIER HONEYCOMB*/
+ .hon1 {
+  width: 4.25rem;
+  height: 2.5rem;
+  position: absolute;
+  margin-left: 96%;
+  transform: translate(-50%, -50%);
+}
+
+.hon1:before,
+.hon1:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.hon1:before {
+  transform: rotate(60deg);
+}
+
+.hon1:after {
+  transform: rotate(-60deg);
+}
+
+.hon1,
+.hon1:before,
+.hon1:after {
+  background: transparent;
+  border-left: 0.0625rem solid #B3D78D;
+  border-right: 0.0625rem solid #B3D78D;
+} 
+/*FIN PREMIER HONEYCOMB*/
+
+/*DEUXIEME HONEYCOMB*/
+.hon2 {
+  width: 4.25rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 98%;
+  margin-top: 3.5%;
+  transform: translate(-50%, -50%);
+}
+
+.hon2:before,
+.hon2:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.hon2:before {
+  transform: rotate(60deg);
+}
+
+.hon2:after {
+  transform: rotate(-60deg);
+}
+
+.hon2,
+.hon2:before,
+.hon2:after {
+  background: transparent;
+  border-left: 0.0625rem solid #B3D78D;
+  border-right: 0.0625rem solid #B3D78D;
+}  */
+/*FIN DEUXIEME HONEYCOMB*/
+
+
+/*--VOS ACTIONS*/
+.actions {
+  width: 100%;
+  height: 800px;
+}
+
+
+.actions h2 {
+  position: relative;
+  margin-top: 35%;
+  font-family: "engine";
+  font-size: 250%;
+  color: #2273B8;
+  white-space: pre-line;
+  text-align: center;
+  letter-spacing: 20px;
+}
+
+.actions img {
+  width: 50%;
+  height: 350px;
+}
+
+.actions h4 {
+  position: relative;
+  margin-top: -2%;
+  margin-left: 16%;
+  font-family: "robotot";
+  font-size: 120%;
+  color: white;
+}
+
+.actions h5 {
+  position: relative;
+  margin-top: 2%;
+  margin-left: 22%;
+  font-family: "robotot";
+  font-size: 120%;
+  color: white;
+}
+
+.actions p {
+  position: relative;
+  margin-top: 2%;
+  margin-left: 13%;
+  font-family: "robotot";
+  font-size: 120%;
+  color: white;
+  white-space: pre-line;
+}
+
+.actions input {
+  width: 20%;
+  height: 30px;
+  background-color: white;
+  border-radius: 50px;
+  margin-left: 15%;
+  margin-top: 2%;
+  border: 1px solid transparent;
+}
+
+.actions input::placeholder {
+  color: #1E72B9;
+  text-align: center;
+  font-family: "robotob";
+  font-size: 120%;
+}
+
+.actions input:focus {
+  outline: 0;
+}
+
+.citoyen {
+  height: 350px;
+  position: relative;
+  float: right;
+  margin-right: 10%;
+  margin-top: -28.5%;
+}
+
+.citoyen img {
+  width: 80%;
+  height: 350px;
+  position: relative;
+}
+
+.citoyen h4 {
+  position: relative;
+  margin-left: 30%;
+  font-family: "robotot";
+  font-size: 120%;
+  color: white;
+}
+
+.citoyen h5 {
+  position: relative;
+  margin-top: 4.7%;
+  margin-left: 36%;
+  font-family: "robotot";
+  font-size: 120%;
+  color: white;
+}
+
+.citoyen p {
+  position: relative;
+  margin-top: 2%;
+  margin-left: 13%;
+  font-family: "robotot";
+  font-size: 120%;
+  color: white;
+  white-space: wrap;
+} 
+
+.citoyen input {
+  position: relative;
+  width: 370px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50px;
+  margin-left: 18%;
+  margin-top: 4%;
+  border: 1px solid transparent;
+}
+
+.citoyen input::placeholder {
+  color: #1E72B9;
+  text-align: center;
+  font-family: "robotob";
+  font-size: 120%;
+}
+
+.citoyen input:focus {
+  outline: 0;
+}
+
+/*--DÉCOUVRIR LES ACTEURS--*/
+
+.titre {
+  background-color: white;
+  font-size: 250%;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1em;
+  font-family: "engine";
+  padding: 1.25rem;
+  color: #1E72B9;
+}
+
+.hexa {
+    padding-top: 3.125rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 17.5rem;
+    margin-right: 17.5rem;
+    background: white;
+}
+  
+.hexa h6 {
+    top: 5%;
+    font-size: 1.75rem;
+  }
+  
+.blanc {
+    background: white;
+    margin-top: -2.3rem;
+    height: 36.25rem;
+  }
+
+/*SANTÉ*/
+.hexagon1 {
+  position: relative;
+  background-image: url(/datas/soin_-_1.svg);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center;
+  width: 18.75rem;
+  height: 10.8256rem;
+  background-color: #EFCBB5;
+  margin: 5.4125rem 0;
+  margin-Bottom: 3.75rem;
+}
+
+.hexagon1:before,
+.hexagon1:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 9.375rem solid transparent;
+  border-right: 9.375rem solid transparent;
+}
+
+.hexagon1:before {
+  bottom: 100%;
+  border-bottom: 5.4125rem solid #EFCBB5;
+}
+
+.hexagon1:after {
+  top: 100%;
+  width: 0;
+  border-top: 5.4125rem solid #EFCBB5;
+}
+
+h6 {
+  color: #2C3164;
+  text-align: center;
+  font-family: "engine";
+  font-size: 3.125rem;
+  letter-spacing: 0.25rem;
+  position: relative;
+  top: -35%;
+}
+/*FIN SANTÉ*/
+
+/*SOCIAL*/
+.hexagon2 {
+  position: relative;
+  background-image: url(/datas/humain.svg);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center;
+  width: 18.75rem;
+  height: 10.8256rem;
+  background-color: #1E72B9;
+  ;
+  margin: 5.4125rem 0;
+  margin-bottom: 3.75rem;
+}
+
+.hexagon2:before,
+.hexagon2:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 9.375rem solid transparent;
+  border-right: 9.375rem solid transparent;
+}
+
+.hexagon2:before {
+  bottom: 100%;
+  border-bottom: 5.4125rem solid #1E72B9;
+}
+
+.hexagon2:after {
+  top: 100%;
+  width: 0;
+  border-top: 5.4125rem solid #1E72B9;
+}
+/*FIN SOCIAL*/
+
+/*ENVIRONNEMENT*/
+.hexagon3 {
+  position: relative;
+  background-image: url(/datas/environnement2.svg);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center;
+  width: 18.75rem;
+  height: 10.8256rem;
+  background-color: #B3D78D;
+  margin: 5.4125rem 0;
+  margin-bottom: 3.75rem;
+}
+
+.hexagon3:before,
+.hexagon3:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 9.375rem solid transparent;
+  border-right: 9.375rem solid transparent;
+}
+
+.hexagon3:before {
+  bottom: 100%;
+  border-bottom: 5.4125rem solid #B3D78D;
+}
+
+.hexagon3:after {
+  top: 100%;
+  width: 0;
+  border-top: 5.4125rem solid #B3D78D;
+}
+/*FIN ENVIRONNEMENT*/
+
+/* CSS DU FOOTER */
+footer {
+  position: absolute;
+  right: 0px;
+  height: 400px;
+  left: 0px;
+  margin-top: 175%;
+  background: #2C3164;
+}
+
+.logo-footer {
+  position: absolute;
+  width: 449px;
+  height: 219px;
+  left: 52px;
+  top: 56px;
+  background-image: url(./Capture\ d’écran\ de\ 2020-11-30\ 15-20-59.png);
+}
+
+.services {
+  position: absolute;
+  width: 500px;
+  height: 175px;
+  left: 40%;
+  top: 78px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+.faceb {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 86%;
+  top: 50%;
+  background-color: #2C3164;
+  border-radius: 50%;
+}
+
+.linkedin {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 91%;
+  top: 50%;
+  background-color: #2C3164;
+  border-radius: 50%;
+}
+
+.copyright {
+  position: absolute;
+  width: 100%;
+  height: 29px;
+  left: 0px;
+  bottom: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 29px;
+  background-color: white;
+  color: #2C3164;
+  text-align: center;
+}
+
+
+.abo-newsletter input {
+  position: absolute;
+  left: 43%;
+  bottom: 22%;
+  border-radius: 10%;
+}
+
+#abonnement {
+  position: absolute;
+  left: 53%;
+  bottom: 22%;
+  border-radius: 10%;
+}
+
+.abo-newsletter button {
+  position: absolute;
+  width: 6%;
+  height: 5%;
+  font-size: 10px;
+}
