@@ -717,7 +717,7 @@ main h1 {
 /*SANTÉ*/
 .hexagon1 {
   position: relative;
-  background-image: url(/datas/soin_-_1.svg);
+  background-image: url(../datas/soin_-_1.svg);
   background-repeat: no-repeat;
   background-size: 90%;
   background-position: center;
@@ -753,7 +753,7 @@ main h1 {
 /*SOCIAL*/
 .hexagon2 {
   position: relative;
-  background-image: url(/datas/humain.svg);
+  background-image: url(../datas/humain.svg);
   background-repeat: no-repeat;
   background-size: 90%;
   background-position: center;
@@ -789,7 +789,7 @@ main h1 {
 /*ENVIRONNEMENT*/
 .hexagon3 {
   position: relative;
-  background-image: url(/datas/environnement2.svg);
+  background-image: url(../datas/environnement2.svg);
   background-repeat: no-repeat;
   background-size: 90%;
   background-position: center;

@@ -1134,97 +1134,84 @@ h3 {
 /* CSS LOÏC */
 
 /*--VOS ACTIONS*/
-.actions {
+.vosactions {
+  background-color: #dddff6;
   width: 100%;
-  height: 800px;
 }
 
 
-.actions h2 {
-  position: relative;
+.actions {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding: 5%;
+
+}
+
+.actions svg {
+  width: 30%;
+  height: 140px;
+}
+
+.actions h4 {
+  font-family: "robotot";
+  font-size: 120%;
+  color: #2C3164;
+}
+
+.actions h5 {
+  font-family: "robotot";
+  font-size: 120%;
+  color: #2C3164;
+}
+
+.actions p {
+  font-family: "robotot";
+  font-size: 120%;
+  color: black;
+  white-space: pre-line;
+}
+
+.actions input {
+  margin-top: 4%;
+  width: auto;
+  height: 30px;
+  background-color: white;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  color: #2C3164;
+  text-align: center;
+  font-family: "robotob";
+  font-size: 100%;
+  cursor: pointer;
+}
+
+
+.actions input:focus {
+  outline: 0;
+}
+
+
+.tout {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+
+.title {
+  margin: 0;
+  padding: 3%;
   font-family: "engine";
   font-size: 250%;
   color: #2273B8;
   white-space: pre-line;
   text-align: center;
   letter-spacing: 20px;
+  background-color: white;
 }
 
-.actions img {
-  width: 50%;
-  height: 350px;
-}
-
-.actions h4 {
-  position: relative;
-  margin-top: -2%;
-  margin-left: 16%;
-  font-family: "robotot";
-  font-size: 120%;
-  color: white;
-}
-
-.actions h5 {
-  position: relative;
-  margin-top: 2%;
-  margin-left: 22%;
-  font-family: "robotot";
-  font-size: 120%;
-  color: white;
-}
-
-.actions p {
-  position: relative;
-  margin-top: 2%;
-  margin-left: 13%;
-  font-family: "robotot";
-  font-size: 120%;
-  color: white;
-  white-space: pre-line;
-}
-
-
-.citoyen {
-  height: 350px;
-  position: relative;
-  float: right;
-  margin-right: 10%;
-  margin-top: -29.5%;
-}
-
-.citoyen img {
-  width: 100%;
-  height: 350px;
-  position: relative;
-}
-
-.citoyen h4 {
-  position: relative;
-  margin-top: -2%;
-  margin-left: 40%;
-  font-family: "robotot";
-  font-size: 120%;
-  color: white;
-}
-
-.citoyen h5 {
-  position: relative;
-  margin-top: 2%;
-  margin-left: 46%;
-  font-family: "robotot";
-  font-size: 120%;
-  color: white;
-}
-
-.citoyen p {
-  position: relative;
-  margin-top: 2%;
-  margin-left: 13%;
-  font-family: "robotot";
-  font-size: 120%;
-  color: white;
-  white-space: wrap;
-} 
+/*FIN VOS ACTIONS*/
 
 
 /* CSS DU FOOTER */
