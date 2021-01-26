@@ -1,3 +1,8 @@
+input{
+  border-radius: 50px;
+}
+
+
 .entete{
   margin-top: 20px;
   margin-bottom: 20px;
@@ -6,7 +11,7 @@
   height: 20px;
 }
 
-#chemin{
+#chemin {
   color: #B3D78D;
 }
 
@@ -22,6 +27,7 @@ section{
 
 .grilleespaceperso{
   margin-top: 3rem;
+  margin-bottom: 3rem;
   margin-right: 17.5rem;
   margin-left: 17.5rem;
   display: grid;
@@ -67,25 +73,25 @@ section{
   grid-column: 2 / 4;
   grid-row: 1 / 2;
   overflow: scroll;
+  overflow-x: hidden;
   height: 500px;
 }
 
-/* .titre h1{
-  overflow: none;
-  position: fixed;
-} */
-
+.fixe{
+  position: absolute;
+  width: 46.3%;
+}
 
 #evenementavenir{
   /* width: 70%; */
   grid-column: 2 / 4;
   grid-row: 2 / 3;
   overflow: scroll;
+  overflow-x: hidden;
   height: 500px;
 }
 
 #infoperso{
-  
   background-color: #c4c4c48a;
   /* width: 30%; */
   grid-column: 1;
@@ -93,13 +99,13 @@ section{
 }
 
 #articlesavenir{
-  margin-top: 20px;
+  margin-top: 50px;
   margin-right: 2rem;
   margin-left: 2rem;
 }
 
 #articlesfavoris{
-  margin-top: 20px;
+  margin-top: 50px;
   margin-right: 2rem;
   margin-left: 2rem;
 }
@@ -114,12 +120,13 @@ section{
 }
 
 .textarticlesfav{
-  margin-right: 30%;
   float: right;
+  width: max(45%);
 }
 
 .textarticlesavenir{
-  margin-right: 21rem;
+  margin-top: 5%;
+  margin-right: 20%;
   float: right;
 }
 
@@ -130,7 +137,6 @@ section{
 
 .descriptionarticle{
   background: none;
-  color: white;
   
 }
 

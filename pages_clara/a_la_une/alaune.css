@@ -1,0 +1,248 @@
+/* GRILLE DES ARTICLES */
+
+.grid-container {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  margin-right: 280px;
+  margin-left: 280px;
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "un un deux"
+    "un un trois"
+    "quatre six six"
+    "cinq six six"
+    "sept sept huit"
+    "sept sept neuf";
+  height: 170vh;
+}
+
+/* LES ARTICLES */
+
+.articles {
+  margin-top: 30%;
+}
+
+/* Premier article */
+.grid-container > .article:nth-child(1) {
+  grid-area: un;
+  background-image: url("./datas/Accompagnement-scolaire.jpg");
+  background-size: cover;
+  background-color: blue;
+  margin: 3px;
+}
+
+.grid-container > .article:nth-child(1) > h2 {
+  position: relative;
+  bottom: -30rem;
+}
+
+/* Deuxieme article */
+.grid-container > .article:nth-child(2) {
+  grid-area: deux;
+  background-image: url("./datas/chien-laboratoire-779x470.jpg");
+  background-size: cover;
+  background-color: yellow;
+  margin: 3px;
+}
+
+.grid-container > .article:nth-child(2) > h2 {
+  position: relative;
+  bottom: -12.5rem;
+}
+
+/* Troisième article */
+.grid-container > .article:nth-child(3) {
+  grid-area: trois;
+  background-image: url("./datas/medecins_sans_f.jpg");
+  background-size: cover;
+  background-color: orange;
+  margin: 3px;
+}
+
+.grid-container > .article:nth-child(3) > h2 {
+  position: relative;
+  bottom: -12.5rem;
+}
+
+/* Quatrième article */
+.grid-container > .article:nth-child(4) {
+  grid-area: quatre;
+  background-image: url("./datas/kids-674513_960_720.jpg");
+  background-size: cover;
+  background-color: purple;
+  margin: 3px;
+}
+
+.grid-container > .article:nth-child(4) > h2 {
+  position: relative;
+  bottom: -12.5rem;
+}
+
+/* Cinquième article */
+.grid-container > .article:nth-child(5) {
+  grid-area: cinq;
+  background-image: url("./datas/rodion-kutsaev-18020_602x401.jpg");
+  background-size: cover;
+  background-color: pink;
+  margin: 3px;
+}
+
+.grid-container > .article:nth-child(5) > h2 {
+  position: relative;
+  bottom: -12.5rem;
+}
+
+/* Sixième article */
+.grid-container > .article:nth-child(6) {
+  grid-area: six;
+  background-image: url("./datas/medecins_sans_f.jpg");
+  background-size: cover;
+  background-color: red;
+  margin: 3px;
+}
+
+.grid-container > .article:nth-child(6) > h2 {
+  position: relative;
+  bottom: -30rem;
+}
+
+/* Septième article */
+.grid-container > .article:nth-child(7) {
+  grid-area: sept;
+  background-image: url("./datas/chien-laboratoire-779x470.jpg");
+  background-size: cover;
+  background-color: grey;
+  margin: 3px;
+}
+
+.grid-container > .article:nth-child(7) > h2 {
+  position: relative;
+  bottom: -30rem;
+}
+
+/* Huitième article */
+.grid-container > .article:nth-child(8) {
+  grid-area: huit;
+  background-image: url("./datas/Accompagnement-scolaire.jpg");
+  background-size: cover;
+  background-color: black;
+  margin: 3px;
+}
+
+.grid-container > .article:nth-child(8) > h2 {
+  position: relative;
+  bottom: -12.5rem;
+}
+
+/* Neuvième article */
+.grid-container > .article:nth-child(9) {
+  grid-area: neuf;
+  background-image: url("./datas/photo-aide-et-action.a366b14e2e9f.jpg");
+  background-size: cover;
+  background-color: green;
+  margin: 3px;
+}
+
+.grid-container > .article:nth-child(9) > h2 {
+  position: relative;
+  bottom: -12.5rem;
+}
+
+/* FIN DES ARTICLES */
+
+/* PAR THÉMATIQUES */
+
+section .theme {
+  background-color: #eaeaef;
+  font-size: 2em;
+  color: white;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  width: 100%;
+}
+
+section > .theme > h3 {
+  color: #2c3164;
+  text-align: center;
+}
+
+table {
+  background-color: #eaeaef;
+  display: flex;
+  justify-content: space-around;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 2em;
+  color: white;
+  padding-top: 6.25rem;
+  padding-bottom: 3.125rem;
+  border-collapse: collapse;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.par_thematiques td {
+  color: #81b0d8;
+  font-size: 1.25rem;
+  text-align: center;
+  vertical-align: center;
+}
+
+.theme input {
+  background-color: #81b0d8;
+  border-radius: 0.625rem;
+  /* right: 20%;
+    margin-top: 5%;*/
+  height: 2.1875rem;
+  color: white;
+  font-size: 0.9375rem;
+  border-style: none;
+}
+
+.buttontype {
+  width: 12.5rem;
+  margin: 5%;
+}
+
+.buttontheme {
+  width: 12.5rem;
+  margin: 5%;
+}
+
+.buttondate {
+  width: 12.5rem;
+  margin: 5%;
+}
+
+.buttonvalide {
+  width: 9.375rem;
+  background-color: #81b0d8;
+  border-radius: 0.625rem;
+  height: 2.1875rem;
+  color: white;
+  margin-top: 30%;
+  margin-left: 300%;
+  font-weight: bold;
+}
+
+/* LES PLUS CONSULTÉS */
+
+#plusconsultes {
+  margin: 8%;
+}
+
+.grid-container2 {
+  margin-right: 280px;
+  margin-left: 280px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 3fr;
+  grid-template-areas:
+    "one nb1 two"
+    "three nb2 four"
+    "five nb3 sixx"
+    "seven nb4 eight";
+  height: 10vh;
+}
+

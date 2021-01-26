@@ -421,172 +421,6 @@ ul li {
     color: #1E72B9;
 }
 
-.grid-container {
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
-    margin-right: 280px;
-    margin-left: 280px;
-    display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-      "un un deux"
-      "un un trois"
-      "quatre six six"
-      "cinq six six"
-      "sept sept huit"
-      "sept sept neuf";
-      height: 170vh;
-    }
-
-    .articles{
-      margin-top: 30%;
-    }
-  .articles {
-    margin-top: 30%;
-  }
-
-
-  .premierarticle{
-      grid-area: un;
-      background-image: url("../datas/animal-1869442_960_720.jpg");
-      background-size: cover;
-      background-color: blue;
-      margin: 0.1875rem;
-  }
-  .premierarticle {
-    grid-area: un;
-    background-image: url("./datas/Accompagnement-scolaire.jpg");
-    background-size: cover;
-    background-color: blue;
-    margin: 3px;
-  }
-
-  .premierarticle h2{
-   position: relative;
-   bottom: -30rem;
-  }
-
-  .deuxiemearticle{
-      grid-area: deux;
-      background-image: url("./datas/chien-laboratoire-779x470.jpg");
-      background-size: cover;
-      background-color: yellow;
-      margin: 0.1875rem;
-  }
-
-  .deuxiemearticle h2{
-    position: relative;
-    bottom: -12.5rem;
-   }
-
-  .deuxiemearticle {
-    grid-area: deux;
-    background-image: url("./datas/energy-2181904_960_720.jpg");
-    background-size: cover;
-    background-color: yellow;
-    margin: ;
-  }
-  .troisiemearticle{
-      grid-area: trois;
-      background-image: url("./datas/medecins_sans_f.jpg");
-      background-size: cover;
-      background-color: orange;
-      margin: 0.1875rem;
-  }
-
-  .troisiemearticle h2{
-    position: relative;
-    bottom: -12.5rem;
-   }
-
-
-  .quatriemearticle{
-      grid-area: quatre;
-      background-image: url("./datas/kids-674513_960_720.jpg");
-      background-size: cover;
-      background-color: purple;
-      margin: 0.1875rem;
-  }
-
-  .quatriemearticle h2{
-    position: relative;
-    bottom: -12.5rem;
-   }
-
-  .cinquiemearticle{
-      grid-area: cinq;
-      background-image: url("./datas/rodion-kutsaev-18020_602x401.jpg");
-      background-size: cover;
-      background-color: pink;
-      margin: 0.1875rem;
-  }
-  .cinquiemearticle h2{
-    position: relative;
-    bottom: -12.5rem;
-   }
-
-  .sixiemearticle{
-      grid-area: six;
-      background-image: url("./datas/medecins_sans_f.jpg");
-      background-size: cover;
-      background-color: red;
-      margin: 0.1875rem;
-  }
-
-  .sixiemearticle h2{
-    position: relative;
-    bottom: -30rem;
-   }
-
-  .septiemearticle{
-      grid-area: sept;
-      background-image: url("./datas/chien-laboratoire-779x470.jpg");
-      background-size: cover;
-      background-color: grey;
-      margin: 0.1875rem;
-  }
-  .septiemearticle h2{
-    position: relative;
-    bottom: -30rem;
-   }
-
-  .huitiemearticle{
-      grid-area: huit;
-      background-image: url("./datas/Accompagnement-scolaire.jpg");
-      background-size: cover;
-      background-color: black;
-      margin: 0.1875rem;
-  }
-
-  .huitiemearticle h2{
-    position: relative;
-    bottom: -12.5rem;
-   }
-
-  .neuviemearticle{
-      grid-area: neuf;
-      background-image: url("./datas/photo-aide-et-action.a366b14e2e9f.jpg");
-      background-size: cover;
-      background-color: green;
-      margin: 0.1875rem;
-  }
-  .neuviemearticle h2{
-    position: relative;
-    bottom: -12.5rem;
-   }
-
-  .titre{
-      background-color: white;
-      font-size: 2em;
-      text-align: center;
-      letter-spacing: 1em;
-      font-family: "engine";
-      padding: 1.25rem;
-      font-weight: 20;
-      color: #1E72B9;
-  }
-
   h2{
       bottom: 10%;
       background-color:rgba(255, 255, 255, 0.678);
@@ -613,99 +447,9 @@ ul li {
 
     }
 
-    .theme{
-      background-color: #EAEAEF;
-      font-size: 2em;
-      color: white;
-      padding-top: 3.125rem;
-      padding-bottom: 3.125rem;
-      width: 100%;
-  }
-
-  .theme h3{
-    color: #2C3164;
-    text-align: center;
-  }
-
-    .par_thematiques{
-        background-color: #EAEAEF;
-        display: flex;
-        justify-content: space-around;
-        margin-right: auto;
-        margin-left: auto;
-        font-size: 2em;
-        color: white;
-        padding-top: 6.25rem;
-        padding-bottom: 3.125rem;
-    }
-
     .titre{
       margin: 0;
     }
-
-    .par_thematiques td{
-      color: #81b0d8;
-      font-size: 1.25rem;
-      text-align: center;
-      vertical-align: center;
-      
-    }
-
-    table{
-      border-collapse: collapse;
-      width: 100%;
-      overflow-x:auto;
-    }
-
-    .theme input{
-      background-color: #81b0d8;
-      border-radius: 0.625rem;
-      /* right: 20%;
-      margin-top: 5%;*/
-      height: 2.1875rem;
-      color: white;
-      font-size: 0.9375rem;
-      border-style: none;
-    }
-
-    .buttontype{
-      width: 12.5rem;
-      margin: 5%;
-    }
-
-    .buttontheme{
-      width: 12.5rem;
-      margin: 5%;
-    }
-
-    .buttondate{
-      width: 12.5rem;
-      margin: 5%;
-    }
-
-    .buttonvalide{
-      width: 9.375rem;
-      background-color: #81b0d8;
-      border-radius: 0.625rem;
-      height: 2.1875rem;
-      color: white;
-      margin-top: 30%;
-      margin-left: 300%;
-      font-weight: bold;
-    }
-
-    .grid-container2 {
-        margin-right: 280px;
-        margin-left: 280px;
-        display: grid;
-        grid-template-columns: 2fr 1fr 3fr;
-        grid-template-areas:
-          "one nb1 two"
-          "three nb2 four"
-          "five nb3 sixx"
-          "seven nb4 eight";
-        height: 10vh;
-        }
 
   #img1{
     grid-area: one;
@@ -715,6 +459,7 @@ ul li {
     background-repeat: no-repeat;
     margin: 3%;
   }
+  
   #img2{
     grid-area: three;
     width: 70%;
@@ -796,9 +541,7 @@ ul li {
     width: 15%;
   }
 
-  #plusconsultes{
-    margin: 8%;
-  }
+
 
   /* #plusconsultes hr{
     position: relative;
