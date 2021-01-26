@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Homepage</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="duo">
+                <div class="hexagone"></div>
+                <a href="#">
+                    <div class="hexagone2"><img src="./datas/user.png" alt=""></div>
+                </a>
+                <div class="hexagone3"></div>
+                <div class="hexagone4"></div>
+
+            </div>
+            
+            <div class="hexagone_1bas"></div>
+            <div class="hexagone_2bas"></div>
+            <div class="hexagone_3bas"></div>
+
+        </div>
+
+        <div clas="monlogo"> <img class="logo" src="./datas/logo.png" alt="logo"></div>
+        <div class="mon_menu">
+            <div>
+                <button id="btn">JE M'INFORME</button>
+                <ul id="list" class="sous-menu">
+                    <li><a href="#">A la une</a></li>
+                    <li><a href="#">Les plus consultés</a></li>
+                    <li><a href="#">Par thématiques (solidarité, environnement...)</a></li>
+                </ul>
+            </div>
+           
+            <div>
+                <button id="btn2">DÉCOUVRIR LES ACTEURS</button>
+            </div>
+            <div>
+                    <button id="btn3">JE M'ENGAGE</button>
+                    <ul id="list3" class="sous-menu">
+                        <li><a href="#">Bénévolement</a></li>
+                        <li><a href="#">Don financier</a></li>
+                        <li><a href="#">Don matériel</a></li>
+                    </ul>
+            </div>
+        </div>
+        
+       
+    </header>
+
+
+        <h1 class="titre">FAIRE UN DON</h1>
+
+        <div class="entete">
+            <p class="coord">Mes coordonnées</p>
+            <p class="modepay">Mode de paiement</p>
+        </div>
+
+        <!--<hr>-->
+
+        <div class="formulaire">
+
+        <div class="b1">
+            <div class="civilite">
+                <p class="intitule">Civilité *</p>
+                <input type="checkbox" id="madame" name="madame">
+                <label for="madame">Madame</label>
+                <input type="checkbox" id="monsieur" name="monsieur">
+                <label for="monsieur">Monsieur</label>
+                <br><br>
+                <input type="checkbox" id="autre" name="autre">
+                <label for="autre">Je fais un don au nom d'une organisation ou d'une société</label>
+            </div>
+            <div class="mpaiement">
+                <p class="intitule">Sélectionnez votre carte de paiement</p>
+                <input type="checkbox" id="visa" name="visa">
+                <label for="visa"><img src="./datas/visa.png" alt="" width="35px" height="35px"></label>
+                <input type="checkbox" id="master" name="master">
+                <label for="master"><img src="./datas/mastercard.png" alt="" width="50px" height="35px"></label>
+                <input type="checkbox" name="amex" id="amex">
+                <label for="amex"><img src="./datas/amex.png" alt="" width="40px" height="35px"></label>
+            </div>
+        </div>
+
+        <div class="b2">
+            <div class="nom">
+                <p class="intitule">Nom *</p>
+                <input type="text" id="nom" name="nom">
+            </div>
+            <div class="numerocarte">
+                <p class="intitule">Numéro de carte</p>
+                <input type="text" id="numero" name="numero">
+            </div>
+        </div>
+
+        <div class="b3">
+            <div class="prenom">
+                <p class="intitule">Prénom *</p>
+                <input type="text" id="prenom" name="prenom">
+            </div>
+            <div class="dateexp">
+                <p class="intitule">Date d'expiration</p>
+                <input type="date" name="date" id="date">
+            </div>
+        </div>
+
+        <div class="b4">
+            <div class="adresse">
+                <p class="intitule">Adresse *</p>
+                <input type="text" id="adress" name="adress">
+            </div>
+            <div class="cvv">
+                <p class="intitule">Code de sécurité</p>
+                <input type="text" id="code" name="code">
+            </div>
+        </div>
+
+        <div class="b5">
+            <div class="telephone">
+                <p class="intitule">Téléphone *</p>
+                <input type="text" id="phone" name="phone">
+            </div>
+            <div class="virement">
+                <p class="intitule">Ou par virement bancaire</p>
+            </div>
+        </div>
+
+        <div class="b6">
+            <div class="mail">
+                <p class="intitule">Email</p>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="iban">
+                <p class="intitule">IBAN</p>
+                <input type="text" id="iban" name="iban"> 
+                </br>
+                <p class="intitule">BIC</p>
+                <input type="text" id="bic" name="bic">
+            </div>
+        </div>
+
+        <div class="finaliser">
+            <button type="button">
+                Payer
+            </button>
+        </div>  
+
+        <div>
+            <p class="avertissement">Plate forme de paiement 100% sécurisée</p>
+        </div>
+        <div>
+            <p class="avertissement2">Toutes les informations bancaires pour traiter ce paiement sont totalement sécurisées.<br>Grâce au cryptage SSL de vos données bancaires.</p>
+        </div>
+
+        </div>
+
+     
+   <footer>
+
+        <div class="logo-footer"><img src="./datas/logo.png" alt=""></div>
+
+        <div class="services">
+            <ul class="liste-service">
+                <li><a href="#">> Recruteur de donateurs</a></li>
+                <li><a href="#">> Nous rejoindre</a></li>
+                <li><a href="#">> Mentions légales</a></li>
+                <li><a href="#">> Contact</a></li>
+                <li><a href="#">> Newsletter</a></li>
+            </ul>
+        </div>
+
+        <div class="faceb">
+            <a href=""><img src="./datas/lgfb.png" alt="Facebook" width="70px" height="70px"></a>
+        </div>
+        <div class="linkedin">
+            <a href=""><img src="./datas/lglkin.png" alt="Linkedin" width="70px" height="70px"></a>
+        </div>
+
+        <div class="abo-newsletter">
+            <form action="">
+                <input type="text" placeholder="Adresse mail" name="mail" />
+                <button id="abonnement" type="submit">S'abonner</button>
+            </form>
+        </div>
+
+        <div class="copyright">
+            L'AGENCE SOLIDAIRE © 2020
+        </div>
+
+    </footer>
+
+<script src="./script.js"></script>
+</body>
+
+</html>
