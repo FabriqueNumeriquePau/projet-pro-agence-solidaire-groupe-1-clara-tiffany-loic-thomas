@@ -41,392 +41,9 @@ body {
     background-color: #2C3164;
 }
 
-/* CSS DU HEADER */
-/*TOUS LES HEXA*/
-.container {
-    width: 100%;
-    height: 5rem;
-    display: flex;
-    justify-content: space-around;
-    position: absolute;
-    top: 6%;
-}
-
-
-/*PREMIER HEXAGONE*/
-.hexagone {
-    width: 4.25rem;
-    height: 2.5rem;
-    background-color: #fff;
-    position: absolute;
-    right: -1%;
-    top: -20%;
-    transform: translate(-50%, -50%);
-}
-
-.hexagone:before,
-.hexagone:after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-    position: absolute;
-}
-
-.hexagone:before {
-    transform: rotate(60deg);
-}
-
-.hexagone:after {
-    transform: rotate(-60deg);
-}
-
-.hexagone,
-.hexagone:before,
-.hexagone:after {
-    background: transparent;
-    /*border:0.0625rem solid #fff;
-      background: rgba(48,141,255,0.5); */
-    border-left: 0.0625rem solid #B3D78D;
-    border-right: 0.0625rem solid #B3D78D;
-}
-
-/*FIN PREMIER HEXAGONE*/
-
-/*DEUXIEME HEXAGONE*/
-.hexagone2 {
-    width: 4.25rem;
-    height: 2.5rem;
-    position: absolute;
-    right: 3%;
-    top: -20%;
-    transform: translate(-50%, -50%);
-}
-
-.hexagone2 img {
-    width: 3.5rem;
-    height: 3.5rem;
-    position: absolute;
-    margin-left: 48%;
-    margin-top: 25%;
-    transform: translate(-50%, -50%);
-}
-
-.hexagone2:before,
-.hexagone2:after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-}
-
-.hexagone2:before {
-    transform: rotate(60deg);
-}
-
-.hexagone2:after {
-    transform: rotate(-60deg);
-}
-
-.hexagone2,
-.hexagone2:before,
-.hexagone2:after {
-    /* background: transparent; */
-    /*border:0.0625rem solid #fff;
-      background: rgba(48,141,255,0.5); */
-    border-left: 0.0625rem solid #B3D78D;
-    border-right: 0.0625rem solid #B3D78D;
-}
-
-/*TROISIEME HEXAGONE*/
-.hexagone3 {
-    width: 4.25rem;
-    height: 2.5rem;
-    position: absolute;
-    right: 7%;
-    top: -20%;
-    transform: translate(-50%, -50%);
-}
-
-.hexagone3:before,
-.hexagone3:after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-}
-
-.hexagone3:before {
-    transform: rotate(60deg);
-}
-
-.hexagone3:after {
-    transform: rotate(-60deg);
-}
-
-.hexagone3,
-.hexagone3:before,
-.hexagone3:after {
-    /* background: transparent; */
-    /*border:0.0625rem solid #fff;
-      background: rgba(48,141,255,0.5); */
-    border-left: 0.0625rem solid #B3D78D;
-    border-right: 0.0625rem solid #B3D78D;
-}
-
-/*FIN TROISIEME HEXAGONE*/
-
-/*QUATRIEME HEXAGONE*/
-.hexagone4 {
-    width: 4.25rem;
-    height: 2.5rem;
-    position: absolute;
-    right: 11%;
-    top: -20%;
-    transform: translate(-50%, -50%);
-}
-
-.hexagone4:before,
-.hexagone4:after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    position: absolute;
-}
-
-.hexagone4:before {
-    transform: rotate(60deg);
-}
-
-.hexagone4:after {
-    transform: rotate(-60deg);
-}
-
-.hexagone4,
-.hexagone4:before,
-.hexagone4:after {
-    /* background: transparent; */
-    /*border:0.0625rem solid #fff;
-      background: rgba(48,141,255,0.5); */
-    border-left: 0.0625rem solid #B3D78D;
-    border-right: 0.0625rem solid #B3D78D;
-}
-
-
-/* HEXAGONE BAS*/
-/*5EME HEXAGONE*/
-.hexagone_1bas {
-    width: 4.25rem;
-    height: 2.5rem;
-    background-color: #fff;
-    position: absolute;
-    right: 1%;
-    top: 60%;
-    transform: translate(-50%, -50%);
-}
-
-.hexagone_1bas:before,
-.hexagone_1bas:after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-    position: absolute;
-}
-
-.hexagone_1bas:before {
-    transform: rotate(60deg);
-}
-
-.hexagone_1bas:after {
-    transform: rotate(-60deg);
-}
-
-.hexagone_1bas,
-.hexagone_1bas:before,
-.hexagone_1bas:after {
-    background: transparent;
-    /*border:0.0625rem solid #fff;
-      background: rgba(48,141,255,0.5); */
-    border-left: 0.0625rem solid #B3D78D;
-    border-right: 0.0625rem solid #B3D78D;
-}
-
-/*6EME HEXAGONE*/
-.hexagone_2bas {
-    width: 4.25rem;
-    height: 2.5rem;
-    background-color: #fff;
-    position: absolute;
-    right: 5%;
-    top: 60%;
-    transform: translate(-50%, -50%);
-}
-
-.hexagone_2bas:before,
-.hexagone_2bas:after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-    position: absolute;
-}
-
-.hexagone_2bas:before {
-    transform: rotate(60deg);
-}
-
-.hexagone_2bas:after {
-    transform: rotate(-60deg);
-}
-
-.hexagone_2bas,
-.hexagone_2bas:before,
-.hexagone_2bas:after {
-    background: transparent;
-    /*border:0.0625rem solid #fff;
-      background: rgba(48,141,255,0.5); */
-    border-left: 0.0625rem solid #B3D78D;
-    border-right: 0.0625rem solid #B3D78D;
-}
-
-/*6EME HEXAGONE*/
-.hexagone_3bas {
-    width: 4.25rem;
-    height: 2.5rem;
-    background-color: #fff;
-    position: absolute;
-    right: 9%;
-    top: 60%;
-    transform: translate(-50%, -50%);
-}
-
-.hexagone_3bas:before,
-.hexagone_3bas:after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-    position: absolute;
-}
-
-.hexagone_3bas:before {
-    transform: rotate(60deg);
-}
-
-.hexagone_3bas:after {
-    transform: rotate(-60deg);
-}
-
-.hexagone_3bas,
-.hexagone_3bas:before,
-.hexagone_3bas:after {
-    background: transparent;
-    /*border:0.0625rem solid #fff;
-      background: rgba(48,141,255,0.5); */
-    border-left: 0.0625rem solid #B3D78D;
-    border-right: 0.0625rem solid #B3D78D;
-}
-
-/*--Logo--*/
-.monlogo {
-    width: 100%;
-    position: relative;
-}
-
-.logo {
-    width: 25%;
-}
-
-
-/*--Menu entier--*/
-.mon_menu {
-    display: flex;
-    justify-content: space-around;
-    /* margin-left: 5%;
-    margin-right: 5%; */
-}
-
-/*--Sous-menu---*/
-.sous-menu {
-    z-index: 3;
-    position: absolute;
-    float: left;
-}
-
-/*--Liens--*/
-a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.3125rem;
-    margin-left: 4%;
-    white-space: nowrap;
-}
-
-/*--Je m'informe--Découvrir les acteurs--Je m'engage--*/
-button {
-    background-color: #555c8f7c;
-    border: 0.0625rem solid transparent;
-    width: 31.25rem;
-    height: 2.5rem;
-    color: white;
-    font-size: 110%;
-    /* position: relative; */
-    /* margin-left: 8%;
-   margin-top: 10%; */
-    font-family: "robotob";
-    letter-spacing: 0.3125rem;
-}
-
-/*--Bordure click none--*/
-button:focus {
-    outline: 0;
-    border: none;
-}
-
-/*--Sous-parties--*/
-ul {
-    margin: 0;
-}
-
-ul li {
-    width: 28.75rem;
-    height: 2.5rem;
-    position: relative;
-    list-style: none;
-    color: white;
-    font-family: "robotoi";
-}
-
-/*--Sous-parties je m'engage--*/
-#list {
-    background-color: #47316F;
-}
-
-/*--Sous-parties je m'informe--*/
-#list3 {
-    background-color: #1E72B9;
-}
-
-/*--Je m'informe--*/
-#btn {
-    background-color: #47316F;
-}
-
-/*--Je m'engage--*/
-#btn3 {
-    background-color: #1E72B9;
-}
-
-/*--Fin Header--*/
-
-
-
-
 /*--BOUTON - LOGO - FIL D'ARIANE--*/
 
-/*--BACK--*/
+/*--BACK LOGO--*/
 main {
     padding-top: 5.5%;
     padding-bottom: 5.5%;
@@ -434,8 +51,7 @@ main {
     height: auto;
     background-color: white;
 }
-
-/*--FIN BACK--*/
+/*--FIN BACK LOGO--*/
 
 /*--BOUTON--*/
 input {
@@ -447,7 +63,6 @@ input {
     padding: 0.5%;
     border-radius: 50px;
 }
-
 /*--FIN BOUTON--*/
 
 /*--LOGO--*/
@@ -456,7 +71,6 @@ main img {
     margin-left: 45%;
     margin-top: -10%;
 }
-
 /*--FIN LOGO--*/
 
 /*--FIL D'ARIANE--*/
@@ -464,13 +78,11 @@ nav {
 
     position: relative;
     margin-top: 5%;
-
 }
 
 .breadcrumb ul {
     display: flex;
     justify-content: left;
-
 }
 
 nav ul li a {
@@ -490,7 +102,6 @@ nav ul li a {
 .breadcrumb li:first-child::before {
     content: "";
 }
-
 /*--FIN FIL D'ARIANE--*/
 /*-- FIN BOUTON - LOGO - FIL D'ARIANE--*/
 
@@ -507,7 +118,6 @@ nav ul li a {
 
 .one h1 {
     font-family: "engine";
-    /* position: absolute; */
     font-size: 300%;
     text-align: center;
 }
@@ -528,7 +138,6 @@ nav ul li a {
     text-align: justify;
     position: relative;
 }
-
 /*--FIN QUI SOMMES-NOUS?--*/
 
 /*--QUELS SONT NOS OBJECTIFS?--*/
@@ -555,13 +164,9 @@ nav ul li a {
 .objectifs {
     height: auto;
     font-family: "roboto";
-    margin-left: 20%;
-    margin-right: -10%;
-    text-align: justify;
-    position: relative;
+    text-align: center;
 }
-
-/*--QUELS SONT NOS OBJECTIFS?--*/
+/*--FIN QUELS SONT NOS OBJECTIFS?--*/
 
 /*--UNE APPROCHE GLOBALE--*/
 .three {
@@ -604,9 +209,8 @@ nav ul li a {
     font-family: "roboto";
     margin-left: 55%;
     margin-right: 20%;
-    margin-top: -10.2%;
+    margin-top: -15%;
     text-align: justify;
-    position: relative;
     line-height: 1.5em;
 
 }
@@ -617,13 +221,12 @@ nav ul li a {
 /*-- LIEN + NOS ACTUS --*/
 aside a {
     color: #1E72B9;
-    position: absolute;
     margin-left: 74%;
     margin-top: 3%;
 }
 
 .lien a {
-    text-decoration:underline;
+    text-decoration: underline;
 
 }
 
@@ -636,32 +239,19 @@ aside a {
     padding: 0.5%;
     border-radius: 10px;
 }
-
 /*-- FIN LIEN + NOS ACTUS --*/
-/*-- IMAGE FIN DE PAGE --*/
+
+/*-- IMAGES FIN DE PAGE --*/
 .photos {
     width: 100%;
     height: auto;
-    background-color: red;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 3%;
-    position: relative;
+    margin-left: 2%;
 }
 
- /* .asso {
-    width: 40%;
+.photos img {
+    width: auto;
     height: auto;
     margin-top: 4%;
-    margin-left: 10%;
-} */
-
-.asso1 {
-    width: 40%;
-    height: auto;
-    position: absolute;
-    /* margin-left: 50%;
-    margin-top: -45%; */
-} 
-
-/*-- FIN IMAGE FIN DE PAGE --*/
+    margin-left: 2%;
+}
+/*-- FIN IMAGES FIN DE PAGE --*/
