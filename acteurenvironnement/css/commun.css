@@ -315,28 +315,41 @@ body {
 .sous-menu {
   z-index: 3;
   position: absolute;
-  float: left;
+  width: calc(100% - 40px);
+  padding-top: 1rem;
+}
+
+.mon_menu > div {
+  width: 28%;
+  position: relative;
+}
+
+.mon_menu button {
+  font-size: 1.3rem;
 }
 
 /*--Liens--*/
 a {
   color: white;
   text-decoration: none;
-  font-size: 1.3125rem;
   margin-left: 4%;
   white-space: nowrap;
+}
+
+.sous-menu a {
+  font-size: 1.3rem;
 }
 
 /*--Je m'informe--Découvrir les acteurs--Je m'engage--*/
 button {
   background-color: #555c8f7c;
-  border: 0.0625rem solid transparent;
-  width: 31.25rem;
-  height: 2.5rem;
+  border:none;
+  width: 100%;
   color: white;
   font-size: 110%;
   font-family: "robotob";
   letter-spacing: 0.3125rem;
+  padding: 1rem;
 }
 
 /*--Bordure click none--*/
@@ -351,7 +364,6 @@ ul {
 }
 
 ul li {
-  width: 28.75rem;
   height: 2.5rem;
   position: relative;
   list-style: none;
@@ -410,6 +422,7 @@ ul li {
 }
 
 .blanc {
+  
   background: white;
   margin-top: -1.375rem;
   height: 36.25rem;
@@ -913,4 +926,28 @@ footer {
   width: 6%;
   height: 5%;
   font-size: 10px;
+}
+
+
+/*----RESPONSIVE----*/
+@media screen and (max-width:1400px) {
+  .mon_menu button {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .mon_menu button {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+  }
+  .mon_menu a {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .mon_menu a {
+    font-size: 0.7rem;
+  }
 }
