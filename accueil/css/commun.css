@@ -406,14 +406,22 @@ ul li {
   margin: 0;
 }
 
+.svgg {
+  margin-left: -90%;
+}
 
 .hexa {
-  padding-top: 3.125rem;
+  width: 80%;
+  padding-top: 6.125rem;
   display: flex;
   justify-content: space-between;
-  margin-left: 17.5rem;
-  margin-right: 17.5rem;
   background: white;
+  position: absolute;
+}
+
+.hexa svg{
+ width:100%;
+
 }
 
 .hexa h3 {
@@ -422,119 +430,13 @@ ul li {
 }
 
 .blanc {
-  
+  width: 100%;
   background: white;
-  margin-top: -1.375rem;
-  height: 36.25rem;
 }
 
-/*SANTÉ*/
-.hexagon1 {
-  position: relative;
-  background-image: url(../datas/soin_-_1.svg);
-  background-repeat: no-repeat;
-  background-size: 90%;
-  background-position: center;
-  width: 18.75rem;
-  height: 10.8256rem;
-  background-color: #EFCBB5;
-  margin: 5.4125rem 0;
-  margin-Bottom: 3.75rem;
-}
 
-.hexagon1:before,
-.hexagon1:after {
-  content: "";
-  position: absolute;
-  width: 0;
-  border-left: 9.375rem solid transparent;
-  border-right: 9.375rem solid transparent;
-}
 
-.hexagon1:before {
-  bottom: 100%;
-  border-bottom: 5.4125rem solid #EFCBB5;
-}
 
-.hexagon1:after {
-  top: 100%;
-  width: 0;
-  border-top: 5.4125rem solid #EFCBB5;
-}
-
-/*FIN SANTÉ*/
-
-/*SOCIAL*/
-.hexagon2 {
-  position: relative;
-  background-image: url(../datas/humain.svg);
-  background-repeat: no-repeat;
-  background-size: 90%;
-  background-position: center;
-  width: 18.75rem;
-  height: 10.8256rem;
-  background-color: #1E72B9;
-  margin: 5.4125rem 0;
-  margin-bottom: 3.75rem;
-}
-
-.hexagon2:before,
-.hexagon2:after {
-  content: "";
-  position: absolute;
-  width: 0;
-  border-left: 9.375rem solid transparent;
-  border-right: 9.375rem solid transparent;
-}
-
-.hexagon2:before {
-  bottom: 100%;
-  border-bottom: 5.4125rem solid #1E72B9;
-}
-
-.hexagon2:after {
-  top: 100%;
-  width: 0;
-  border-top: 5.4125rem solid #1E72B9;
-}
-
-/*FIN SOCIAL*/
-
-/*ENVIRONNEMENT*/
-.hexagon3 {
-  position: relative;
-  background-image: url(../datas/environnement2.svg);
-  background-repeat: no-repeat;
-  background-size: 90%;
-  background-position: center;
-  width: 18.75rem;
-  height: 10.8256rem;
-  background-color: #B3D78D;
-  margin: 5.4125rem 0;
-  margin-bottom: 3.75rem;
-}
-
-.hexagon3:before,
-.hexagon3:after {
-  content: "";
-  position: absolute;
-  width: 0;
-  border-left: 9.375rem solid transparent;
-  border-right: 9.375rem solid transparent;
-}
-
-.hexagon3:before {
-  bottom: 100%;
-  border-bottom: 5.4125rem solid #B3D78D;
-}
-
-.hexagon3:after {
-  top: 100%;
-  width: 0;
-  border-top: 5.4125rem solid #B3D78D;
-}
-
-/*FIN ENVIRONNEMENT*/
 h3 {
   color: #2C3164;
   text-align: center;
@@ -545,394 +447,122 @@ h3 {
   top: -35%;
 }
 
-/*ALVÉOLES DÉCOUVRIR LES ACTEURS */
-/*PREMIERE ALVEOLE*/
-.alveole1 {
-  width: 4.25rem;
-  height: 2.5rem;
-  background-color: #fff;
-  position: absolute;
-  left: 2%;
-  transform: translate(-50%, -50%);
+svg {
+  /* margin-left:-15.5%; */
+  z-index: 1;
 }
 
-.alveole1:before,
-.alveole1:after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-  position: absolute;
-}
-
-.alveole1:before {
-  transform: rotate(60deg);
-}
-
-.alveole1:after {
-  transform: rotate(-60deg);
-}
-
-.alveole1,
-.alveole1:before,
-.alveole1:after {
-  background: transparent;
-  border-left: 0.0625rem solid #B3D78D;
-  border-right: 0.0625rem solid #B3D78D;
-}
-/*FIN PREMIERE ALVEOLE*/
-
-/*DEUXIEME ALVEOLE*/
-.alveole2 {
-  width: 4.25rem;
-  height: 2.5rem;
-  background-color: #fff;
-  position: absolute;
-  left: 4.2%;
-  margin-top : 3.3%;
-  transform: translate(-50%, -50%);
-}
-
-.alveole2:before,
-.alveole2:after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-  position: absolute;
-}
-
-.alveole2:before {
-  transform: rotate(60deg);
-}
-
-.alveole2:after {
-  transform: rotate(-60deg);
-}
-
-.alveole2,
-.alveole2:before,
-.alveole2:after {
-  background: transparent;
-  border-left: 0.0625rem solid #B3D78D;
-  border-right: 0.0625rem solid #B3D78D;
-}
-/*FIN DEUXIEME ALVEOLE*/
-
-/*TROISIEME ALVEOLE*/
-.alveole3 {
-  width: 4.25rem;
-  height: 2.5rem;
-  background-color: #fff;
-  position: absolute;
-  left: 2%;
-  margin-top : 8%;
-  transform: translate(-50%, -50%);
-}
-
-.alveole3:before,
-.alveole3:after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-  position: absolute;
-}
-
-.alveole3:before {
-  transform: rotate(60deg);
-}
-
-.alveole3:after {
-  transform: rotate(-60deg);
-}
-
-.alveole3,
-.alveole3:before,
-.alveole3:after {
-  background: transparent;
-  border-left: 0.0625rem solid #B3D78D;
-  border-right: 0.0625rem solid #B3D78D;
-}
-/*FIN TROISIEME ALVEOLE*/
-
-/*QUATRIEME ALVEOLE*/
-.alveole4 {
-  width: 4.25rem;
-  height: 2.5rem;
-  background-color: #fff;
-  position: absolute;
-  margin-top : 11.5%;
-  transform: translate(-50%, -50%);
-}
-
-.alveole4:before,
-.alveole4:after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-  position: absolute;
-}
-
-.alveole4:before {
-  transform: rotate(60deg);
-}
-
-.alveole4:after {
-  transform: rotate(-60deg);
-}
-
-.alveole4,
-.alveole4:before,
-.alveole4:after {
-  background: transparent;
-  border-left: 0.0625rem solid #B3D78D;
-  border-right: 0.0625rem solid #B3D78D;
-}
-/*FIN QUATRIEME ALVEOLE*/
-
-/*CINQUIEME ALVEOLE*/
-.alveole5 {
-  width: 4.25rem;
-  height: 2.5rem;
-  background-color: #fff;
-  position: absolute;
-  margin-top : 11.5%;
-  margin-left: 4%;
-  transform: translate(-50%, -50%);
-}
-
-.alveole5:before,
-.alveole5:after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-  position: absolute;
-}
-
-.alveole5:before {
-  transform: rotate(60deg);
-}
-
-.alveole5:after {
-  transform: rotate(-60deg);
-}
-
-.alveole5,
-.alveole5:before,
-.alveole5:after {
-  background: transparent;
-  border-left: 0.0625rem solid #B3D78D;
-  border-right: 0.0625rem solid #B3D78D;
-}
-/*FIN CINQUIEME ALVEOLE*/
-
-/*SIXIEME ALVEOLE*/
-.alveole6 {
-  width: 4.25rem;
-  height: 2.5rem;
-  background-color: #fff;
-  position: absolute;
-  margin-top : 15%;
-  margin-left: 2%;
-  transform: translate(-50%, -50%);
-}
-
-.alveole6:before,
-.alveole6:after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-  position: absolute;
-}
-
-.alveole6:before {
-  transform: rotate(60deg);
-}
-
-.alveole6:after {
-  transform: rotate(-60deg);
-}
-
-.alveole6,
-.alveole6:before,
-.alveole6:after {
-  background: transparent;
-  border-left: 0.0625rem solid #B3D78D;
-  border-right: 0.0625rem solid #B3D78D;
-}
-
-/*FIN SIXIEME ALVEOLE*/
-/*SEPTIEME ALVEOLE*/
-.alveole7 {
-  width: 4.25rem;
-  height: 2.5rem;
-  background-color: #fff;
-  position: absolute;
-  margin-top : 15%;
-  margin-left: 6%;
-  transform: translate(-50%, -50%);
-}
-
-.alveole7:before,
-.alveole7:after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-  position: absolute;
-}
-
-.alveole7:before {
-  transform: rotate(60deg);
-}
-
-.alveole7:after {
-  transform: rotate(-60deg);
-}
-
-.alveole7,
-.alveole7:before,
-.alveole7:after {
-  background: transparent;
-  border-left: 0.0625rem solid #B3D78D;
-  border-right: 0.0625rem solid #B3D78D;
-}
-/*FIN SEPTIEME ALVEOLE*/
-
-/*HUITIEME ALVEOLE*/
-.alveole8 {
-  width: 4.25rem;
-  height: 2.5rem;
-  background-color: white;
-  position: absolute;
-  margin-top : 18.5%;
-  transform: translate(-50%, -50%);
-}
-
-.alveole8:before,
-.alveole8:after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-}
-
-.alveole8:before {
-  transform: rotate(60deg);
-}
-
-.alveole8:after {
-  transform: rotate(-60deg);
-}
-
-.alveole8,
-.alveole8:before,
-.alveole8:after {
-  background: transparent;
-  border-left: 0.0625rem solid #B3D78D;
-  border-right: 0.0625rem solid #B3D78D;
-}
-/*HUITIEME ALVEOLE*/
 /*FIN DECOUVRIR LES ACTEURS*/
 
-/* CSS DU FOOTER */
-footer {
-  position: absolute;
-  right: 0px;
-  height: 400px;
-  left: 0px;
-  background: #2C3164;
-}
+ /* CSS DU FOOTER  */
 
-.logo-footer {
-  position: absolute;
-  width: 449px;
-  height: 219px;
-  left: 52px;
-  top: 56px;
-  background-image: url(./Capture\ d’écran\ de\ 2020-11-30\ 15-20-59.png);
-}
+  footer {
+    /* position: relative; */
+    /* bottom: 0; */
+    margin: 0;
+    height: 200px;
+    background: #2C3164;
+  }
 
-.services {
-  position: absolute;
-  width: 500px;
-  height: 175px;
-  left: 40%;
-  top: 78px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 30px;
-  color: #FFFFFF;
-}
+  .logo-footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 130px;
+  }
 
-.faceb {
-  position: absolute;
-  width: 70px;
-  height: 70px;
-  left: 86%;
-  top: 50%;
-  background-color: #2C3164;
-  border-radius: 50%;
-}
+  .logo-footer > ul > li{
+    font-size: 20px;
+    margin: -20px;
+    /* height: -30px; */
+  }
 
-.linkedin {
-  position: absolute;
-  width: 70px;
-  height: 70px;
-  left: 91%;
-  top: 50%;
-  background-color: #2C3164;
-  border-radius: 50%;
-}
+  .logo-footer img{
+    margin-top: -20px;
+    width: auto;
+    height:100%;
+    float: left;
+  }
 
-.copyright {
-  position: absolute;
-  width: 100%;
-  height: 29px;
-  left: 0px;
-  bottom: 0px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 25px;
-  line-height: 29px;
-  background-color: white;
-  color: #2C3164;
-  text-align: center;
-}
+  .services {
+    width: 35%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    color: #FFFFFF;
+  }
 
+  .petitslogos{
+    display: flex;
+    justify-content: space-around;
+    min-width: 20%;
+    float: right;
+    margin-top: -60px;
+    margin-right: 5%;
+  }
 
-.abo-newsletter input {
-  position: absolute;
-  left: 43%;
-  bottom: 22%;
-  border-radius: 10%;
-}
+  .copyright {
+    width: 100%;
+    background-color: white;
+  }
 
-#abonnement {
-  position: absolute;
-  left: 53%;
-  bottom: 22%;
-  border-radius: 10%;
-}
+  .copyright p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    /* line-height: 29px; */
+    text-align: center;
+    color: #2C3164;
+  }
 
-.abo-newsletter button {
-  position: absolute;
-  width: 6%;
-  height: 5%;
+  .abo-newsletter{
+    width: 100%;
+  }
+
+  .abo-newsletter form{
+    margin: auto;
+    width: 20%;
+  }
+
+  .abo-newsletter input {
+    width: auto;
+    height: 37px;
+    margin-right: -1%;
+  }
+
+  .abo-newsletter button {
+  background-color: #1e73b973;
+  color: white;
+  width: auto;
   font-size: 10px;
-}
+  }
 
+  #abonnement {
+    /* border-radius: 10%; */
+  }
+
+/* /Fin CSS Footer  */
 
 /*----RESPONSIVE----*/
 @media screen and (max-width:1400px) {
   .mon_menu button {
     font-size: 0.9rem;
+  } 
+  
+  section .blanc {
+    height: 10%;
+  }
+
+  .hexa h3 {
+    font-size: 1.5rem;
+    margin-top : -10%;
+  }
+
+    .hexa svg {
+    width:80%;
   }
 }
 
@@ -944,10 +574,43 @@ footer {
   .mon_menu a {
     font-size: 0.8rem;
   }
+  .hexa h3 {
+    font-size: 1.2rem;
+    margin-top : -10%;
+  }
+  /* .petitslogos{
+    min-width: 15%;
+  } */
+  
 }
 
 @media screen and (max-width:991px) {
   .mon_menu a {
     font-size: 0.7rem;
+  }
+  .mon_menu button {
+    font-size: 0.5rem;
+    letter-spacing: 0px;
+  }
+
+  .hexa h3 {
+    font-size: 1rem;
+    top : -10%;
+  }
+
+  .svgg {
+    display: none;
+  }
+
+  .hexa{
+    padding-top: 0%;
+  }
+  .blanc{
+    height: 50vh;
+  }
+  .petitslogos svg{
+    width: auto;
+    height: 60%;
+
   }
 }

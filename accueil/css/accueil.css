@@ -1,48 +1,67 @@
 /* CSS SECTION */
 /* La vidéo est en couverture */
 
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
 video {
-    object-fit: cover;
-    width: 100%;
+    position: relative;
     height: 60vh;
-    position: absolute;
-    left: 0;
+    width: 100%;
+    object-fit: cover;
+    z-index: 0;
 }
 
 /* La div qui englobe toute la barre de recherche */
 .topnav {
-    position: absolute;
-    width: 40%;
-    height: 2.8125rem;
-    right: 20%;
-    left: 30%;
-    top: 55%;
-    border-radius: 0.75rem;
-    overflow: hidden;
-    background-color: #acbddd3b;
+    /* z-index: 2;
+    position: relative;
+    width: 45%;
+    height: 50px;
+    margin-top: -16%;
+    margin-left: auto;
+    margin-right: auto;*/
     display: flex;
     justify-content: space-between;
+    justify-content: center;
+    z-index: 3;
+    position: absolute;
+    width: calc(90% - 40px);
+    padding-top: 15%;
+
 }
+
+/* .mes_boutins button {
+    margin-top: auto;
+    margin-bottom: auto;
+} */
 
 .mes_boutons {
+    position: relative;
     width: 70%;
-    height: 100%;
     display: flex;
     justify-content: space-around;
-    font-size: 12px;
+    font-size: 0.8rem;
+    border-radius: 0.75rem;
+    background-color: #acbddd3b;
+
 }
 
-.mes_recherches {
+/* .mes_recherches {
     width: 60%;
     height: 100%;
-}
+} */
 
 .search_video {
     display: block;
     position: relative;
+    margin: auto;
     margin-right: 20px;
-    height: 60%;
-    width: 40%;
+    /* margin-top : calc(3% - 20px); */
+    min-width: 0px;
+    height: 25px;
 }
 
 .topnav button {
@@ -51,11 +70,12 @@ video {
 }
 
 .btn_video {
-    width: 15%;
+    width: auto;
     background-color: #1E72B9;
     height: 100%;
     margin-top: auto;
     margin-bottom: auto;
+    letter-spacing: 0.5px;
 }
 
 /* Flèche en bas */
@@ -84,11 +104,12 @@ video {
         "sept sept huit"
         "sept sept neuf";
     height: 170vh;
+    width: 80%;
 }
 
-.articles {
+/* .articles {
     margin-top: 30%;
-}
+} */
 
 
 .premierarticle {
@@ -199,23 +220,38 @@ h2 {
 
 /*--VOS ACTIONS*/
 .vosactions {
+    padding: 10%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
     background-color: #dddff6;
     width: 100%;
 }
 
+.vosactions p{
+    height: 100px;
+}
+
+.vosactions div{
+    text-align: center;
+    width: 50%
+}
 
 .actions {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
     padding: 5%;
-
 }
 
-.actions svg {
-    width: 30%;
-    height: 140px;
+.coeur{
+    height: 142px;
 }
+
+#coeur{
+    height: 130px;
+}
+
 
 .actions h4 {
     font-family: "robotot";
@@ -236,8 +272,9 @@ h2 {
     white-space: pre-line;
 }
 
-.actions input {
-    margin-top: 4%;
+.vosactions input {
+    margin-bottom: 4%;
+    padding-bottom: 5px;
     width: auto;
     height: 30px;
     background-color: white;
@@ -254,13 +291,21 @@ h2 {
 .actions input:focus {
     outline: 0;
 }
+   
+
+table td{
+    width: 36em;
+}
+
+table td p{
+    white-space: pre-line;
+}
 
 
-.tout {
+/* .tout {
     display: flex;
     justify-content: space-around;
-
-}
+} */
 
 
 .title {
@@ -275,20 +320,105 @@ h2 {
     background-color: white;
 }
 
+
+
 /*FIN VOS ACTIONS*/
 
 /*IMAGE BAS DU SITE*/
 .image {
-    width: 80%;
-    height: 31.25rem;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url("../datas/2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-  }
-  
-  .image img {
     width: 100%;
-  }
+    height: 300px;
+    background-image: url("../datas/beach-4984023_960_720.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30%;
+}
+
+.image img {
+    width: 100%;
+}
+
+/*--RESPONSIVE--*/
+@media screen and (max-width:1400px) {
+    .mes_boutons {
+        font-size: 0.7rem;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+    .grid-container {
+        margin-right: 10rem;
+        margin-left: 10rem;
+    }
+
+    .titre {
+        font-size: 160%;
+        letter-spacing: 1rem;
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width:990px) {
+    .mes_boutons {
+        font-size: 0.7rem;
+        white-space: nowrap;
+        min-width: 650px;
+    }
+
+    .search_video {
+        font-size: 0.7rem;
+        white-space: nowrap;
+        min-width: 150px;
+    }
+
+    .grid-container {
+        margin-right: 9rem;
+        margin-left: 9rem;
+    }
+    .actions h4{
+        font-size: 110%;
+      }
+
+    .actions h5{
+        font-size: 110%;
+    }
+
+    .actions p{
+        font-size: 100%;
+    }
+
+    .vosactions svg{
+        width: 25%;
+        height: 110px;
+    }
+
+    .actions input{
+        margin-top: 4%;
+        height: 20px;
+        font-size: 85%;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .grid-container {
+        margin-right: 1rem;
+        margin-left: 1rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "un"
+            "deux"
+            "trois"
+            "quatre"
+            "cinq"
+            "six"
+            "sept"
+            "huit"
+            "neuf";
+        height: 250vh;
+        width: 90%;
+    }
+}
