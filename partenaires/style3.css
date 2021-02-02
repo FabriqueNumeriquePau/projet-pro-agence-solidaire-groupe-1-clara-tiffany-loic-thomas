@@ -413,7 +413,7 @@ ul li {
   
  /*corpus*/
   .corpus{
-    width:1513px;
+    width:1591px;
     height:390px;
     background-color: rgb(137, 137, 137);
     color: #ffffff;
@@ -682,7 +682,7 @@ ul li {
     font-size: 2em;
     text-align: center;
     letter-spacing: 1em;
-    font-family: "engine";
+    font-family: "roboto";
     padding: 1.25rem;
     font-weight: 20;
     color: #1E72B9;
@@ -692,7 +692,7 @@ ul li {
     font-size: 2em;
     text-align: center;
     letter-spacing: 1em;
-    font-family: "engine";
+    font-family: "roboto";
     padding: 1.25rem;
     font-weight: 20;
     color: #1E72B9;
@@ -702,7 +702,7 @@ ul li {
     font-size: 2em;
     text-align: center;
     letter-spacing: 1em;
-    font-family: "engine";
+    font-family: "roboto";
     padding: 1.25rem;
     font-weight: 20;
     color: #1E72B9;
@@ -899,14 +899,7 @@ ul li {
   
   /* CSS LOÏC */
   
-  .titre2 {
-    font-family: "Roboto";
-    src: url(./Roboto-Light.ttf) format('truetype');
-    text-align: center;
-    color: rgb(20, 144, 165);
-    letter-spacing: 1em;
-  }
-  
+ 
   .action {
     position: absolute;
     width: 1440px;
@@ -917,96 +910,98 @@ ul li {
 
 .blanc{
   background-color: #ffffff;
-  width: 1513px;
+  width: 1593px;
   height: 200px;
 }
   
-  
-  /* CSS DU FOOTER */
-  footer {
-    position: absolute;
-    right: 0px;
-    height: 400px;
-    left: 0px;
-    background: #2C3164;
-  }
-  
-  .logo-footer {
-    position: absolute;
-    width: 449px;
-    height: 219px;
-    left: 52px;
-    top: 56px;
-    background-image: url(./Capture\ d’écran\ de\ 2020-11-30\ 15-20-59.png);
-  }
-  
-  .services {
-    position: absolute;
-    width: 500px;
-    height: 175px;
-    left: 40%;
-    top: 78px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 30px;
-    color: #FFFFFF;
-  }
-  
-  .faceb {
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    left: 86%;
-    top: 50%;
-    background-color: #2C3164;
-    border-radius: 50%;
-  }
-  
-  .linkedin {
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    left: 91%;
-    top: 50%;
-    background-color: #2C3164;
-    border-radius: 50%;
-  }
-  
-  .copyright {
-    position: absolute;
-    width: 100%;
-    height: 29px;
-    left: 0px;
-    bottom: 0px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 25px;
-    line-height: 29px;
-    background-color: white;
-    color: #2C3164;
-    text-align: center;
-  }
-  
-  
-  .abo-newsletter input {
-    position: absolute;
-    left: 43%;
-    bottom: 22%;
-    border-radius: 10%;
-  }
-  
-  #abonnement {
-    position: absolute;
-    left: 53%;
-    bottom: 22%;
-    border-radius: 10%;
-  }
-  
-  .abo-newsletter button {
-    position: absolute;
-    width: 6%;
-    height: 5%;
-    font-size: 10px;
-  }
+/* CSS DU FOOTER*/
+footer {
+position: relative;
+bottom: 0;
+right: 0px;
+height: 400px;
+left: 0px;
+background: #2C3164;
+}
+
+.logo-footer {
+position: absolute;
+width: 449px;
+height: 219px;
+left: 52px;
+top: 56px;
+background-image: url(./Capture\ d’écran\ de\ 2020-11-30\ 15-20-59.png);
+}
+
+.services {
+position: absolute;
+width: 500px;
+height: 175px;
+left: 40%;
+top: 78px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+color: #FFFFFF;
+}
+
+.faceb {
+position: absolute;
+width: 70px;
+height: 70px;
+left: 86%;
+top: 50%;
+background-color: #2C3164;
+border-radius: 50%;
+}
+
+.linkedin {
+position: absolute;
+width: 70px;
+height: 70px;
+left: 91%;
+top: 50%;
+background-color: #2C3164;
+border-radius: 50%;
+}
+
+.copyright {
+position: absolute;
+width: 100%;
+height: 29px;
+left: 0px;
+bottom: 0px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 29px;
+background-color: white;
+color: #2C3164;
+text-align: center;
+}
+
+
+.abo-newsletter input {
+position: absolute;
+left: 43%;
+bottom: 22%;
+border-radius: 10%;
+}
+
+#abonnement {
+position: absolute;
+left: 53%;
+bottom: 22%;
+border-radius: 10%;
+}
+
+.abo-newsletter button {
+position: absolute;
+width: 6%;
+height: 5%;
+font-size: 10px;
+}
+
+/*Fin CSS Footer */
