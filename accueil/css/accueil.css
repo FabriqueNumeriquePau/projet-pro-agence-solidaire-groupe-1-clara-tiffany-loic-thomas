@@ -1,0 +1,379 @@
+/* CSS SECTION */
+/* La vidéo est en couverture */
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+video {
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+/* La div qui englobe toute la barre de recherche */
+.topnav {
+    /* z-index: 2;
+    position: relative;
+    width: 45%;
+    height: 50px;
+    margin-top: -16%;
+    margin-left: auto;
+    margin-right: auto;*/
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    z-index: 3;
+    position: absolute;
+    width: calc(90% - 40px);
+    padding-top: 15%;
+
+}
+
+/* .mes_boutins button {
+    margin-top: auto;
+    margin-bottom: auto;
+} */
+
+.mes_boutons {
+    position: relative;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.8rem;
+    border-radius: 0.75rem;
+    background-color: #acbddd3b;
+
+}
+
+/* .mes_recherches {
+    width: 60%;
+    height: 100%;
+} */
+
+.search_video {
+    display: block;
+    position: relative;
+    margin: auto;
+    margin-right: 20px;
+    /* margin-top : calc(3% - 20px); */
+    min-width: 0px;
+    height: 25px;
+}
+
+.topnav button {
+    width: 40%;
+    margin-right: 10%;
+}
+
+.btn_video {
+    width: auto;
+    background-color: #1E72B9;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    letter-spacing: 0.5px;
+}
+
+/* Flèche en bas */
+.arrow button i {
+    position: absolute;
+    top: 70%;
+    right: 50%;
+    left: 50%;
+    color: rgba(255, 239, 239, 0.37);
+    font-size: 3em;
+}
+
+/* CSS ARTICLES */
+
+.grid-container {
+    margin-right: 17.5rem;
+    margin-left: 17.5rem;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "un un deux"
+        "un un trois"
+        "quatre six six"
+        "cinq six six"
+        "sept sept huit"
+        "sept sept neuf";
+    height: 170vh;
+    width: 80%;
+}
+
+/* .articles {
+    margin-top: 30%;
+} */
+
+
+.premierarticle {
+    grid-area: un;
+    background-image: url("../datas/animal-1869442_960_720.jpg");
+    background-size: cover;
+    background-color: blue;
+    margin: 0.1875rem;
+}
+
+.deuxiemearticle {
+    grid-area: deux;
+    background-image: url("../datas/beach-4984023_960_720.jpg");
+    background-size: cover;
+    background-color: yellow;
+    margin: 0.1875rem;
+}
+
+.troisiemearticle {
+    grid-area: trois;
+    background-image: url("../datas/husky-3380548_960_720.jpg");
+    background-size: cover;
+    background-color: orange;
+    margin: 0.1875rem;
+}
+
+.quatriemearticle {
+    grid-area: quatre;
+    background-image: url("../datas/seven-lakes-3796471_960_720.jpg");
+    background-size: cover;
+    background-color: purple;
+    margin: 0.1875rem;
+}
+
+.cinquiemearticle {
+    grid-area: cinq;
+    background-image: url("../datas/trabzon-819335_960_720.jpg");
+    background-size: cover;
+    background-color: pink;
+    margin: 0.1875rem;
+}
+
+.sixiemearticle {
+    grid-area: six;
+    background-image: url("../datas/trees-5691803_960_720.jpg");
+    background-size: cover;
+    background-color: red;
+    margin: 0.1875rem;
+}
+
+.septiemearticle {
+    grid-area: sept;
+    background-image: url("../datas/trabzon-819335_960_720.jpg");
+    background-size: cover;
+    background-color: grey;
+    margin: 0.1875rem;
+}
+
+.huitiemearticle {
+    grid-area: huit;
+    background-image: url("../datas/beach-4984023_960_720.jpg");
+    background-size: cover;
+    background-color: black;
+    margin: 0.1875rem;
+}
+
+.neuviemearticle {
+    grid-area: neuf;
+    background-image: url("../datas/friends-1149841_960_720.jpg");
+    background-size: cover;
+    background-color: green;
+    margin: 0.1875rem;
+}
+
+.titre {
+    background-color: white;
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 1em;
+    font-family: "engine";
+    padding: 1.25rem;
+    font-weight: 20;
+    color: #1E72B9;
+}
+
+h2 {
+    position: relative;
+    float: bottom left;
+    background-color: rgba(231, 228, 228, 0.733);
+    color: #1E72B9;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 20;
+    padding: 0.3125rem;
+    margin: 1.25rem;
+}
+
+.un {
+    font-family: "Roboto";
+    src: url(./Roboto-Light.ttf) format('truetype');
+    text-align: center;
+    color: rgb(10, 10, 191);
+    letter-spacing: 1em;
+
+}
+
+/* CSS LOÏC */
+
+/*--VOS ACTIONS*/
+.vosactions {
+    background-color: #dddff6;
+    width: 100%;
+}
+
+
+.actions {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding: 5%;
+
+}
+
+.actions svg {
+    width: 30%;
+    height: 140px;
+}
+
+.actions h4 {
+    font-family: "robotot";
+    font-size: 120%;
+    color: #2C3164;
+}
+
+.actions h5 {
+    font-family: "robotot";
+    font-size: 120%;
+    color: #2C3164;
+}
+
+.actions p {
+    font-family: "robotot";
+    font-size: 120%;
+    color: black;
+    white-space: pre-line;
+}
+
+.actions input {
+    margin-top: 4%;
+    width: auto;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    color: #2C3164;
+    text-align: center;
+    font-family: "robotob";
+    font-size: 100%;
+    cursor: pointer;
+}
+
+
+.actions input:focus {
+    outline: 0;
+}
+
+
+.tout {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.title {
+    margin: 0;
+    padding: 3%;
+    font-family: "engine";
+    font-size: 250%;
+    color: #2273B8;
+    white-space: pre-line;
+    text-align: center;
+    letter-spacing: 20px;
+    background-color: white;
+}
+
+/*FIN VOS ACTIONS*/
+
+/*IMAGE BAS DU SITE*/
+.image {
+    width: 80%;
+    height: 31.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../datas/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.image img {
+    width: 100%;
+}
+
+/*--RESPONSIVE--*/
+@media screen and (max-width:1400px) {
+    .mes_boutons {
+        font-size: 0.7rem;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+    .grid-container {
+        margin-right: 10rem;
+        margin-left: 10rem;
+    }
+
+    .titre {
+        font-size: 160%;
+        letter-spacing: 1rem;
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width:990px) {
+    .mes_boutons {
+        font-size: 0.7rem;
+        white-space: nowrap;
+        min-width: 650px;
+    }
+
+    .search_video {
+        font-size: 0.7rem;
+        white-space: nowrap;
+        min-width: 150px;
+    }
+
+    .grid-container {
+        margin-right: 9rem;
+        margin-left: 9rem;
+    }
+
+
+}
+
+@media screen and (max-width: 767px) {
+    .grid-container {
+        margin-right: 1rem;
+        margin-left: 1rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "un"
+            "deux"
+            "trois"
+            "quatre"
+            "cinq"
+            "six"
+            "sept"
+            "huit"
+            "neuf";
+        height: 250vh;
+        width: 90%;
+    }
+}
