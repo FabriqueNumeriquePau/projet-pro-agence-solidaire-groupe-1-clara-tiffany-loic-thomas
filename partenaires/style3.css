@@ -37,7 +37,6 @@
   top: 6%;
 }
 
-
 /*PREMIER HEXAGONE*/
 .hexagone {
   width: 4.25rem;
@@ -46,7 +45,7 @@
   position: absolute;
   right: -1%;
   top: -20%;
-  transform: translate(-50%, -50%);
+  transform: translate(-38%, -50%);
 }
 
 .hexagone:before,
@@ -78,6 +77,8 @@
 
 /*FIN PREMIER HEXAGONE*/
 
+/*FIN PREMIER HEXAGONE*/
+
 /*DEUXIEME HEXAGONE*/
 .hexagone2 {
   width: 4.25rem;
@@ -98,7 +99,7 @@
   position: absolute;
   margin-left: 48%;
   margin-top: 25%;
-  transform: translate(-50%, -50%);
+  transform: translate(-58%, -50%);
 }
 
 .hexagone2:before,
@@ -134,7 +135,7 @@
   position: absolute;
   right: 7%;
   top: -20%;
-  transform: translate(-50%, -50%);
+  transform: translate(-63%, -50%);
 }
 
 .hexagone3:before,
@@ -172,7 +173,7 @@
   position: absolute;
   right: 11%;
   top: -20%;
-  transform: translate(-50%, -50%);
+  transform: translate(-75%, -50%);
 }
 
 .hexagone4:before,
@@ -212,7 +213,7 @@
   position: absolute;
   right: 1%;
   top: 60%;
-  transform: translate(-50%, -50%);
+  transform: translate(-43%, -49.5%);
 }
 
 .hexagone_1bas:before,
@@ -250,7 +251,7 @@
   position: absolute;
   right: 5%;
   top: 60%;
-  transform: translate(-50%, -50%);
+  transform: translate(-56%, -50%);
 }
 
 .hexagone_2bas:before,
@@ -288,7 +289,7 @@
   position: absolute;
   right: 9%;
   top: 60%;
-  transform: translate(-50%, -50%);
+  transform: translate(-70%, -50%);
 }
 
 .hexagone_3bas:before,
@@ -765,7 +766,7 @@ ul li {
   /*SANTÉ*/
   .hexagon1 {
     position: relative;
-    background-image: url(/datas/soin_-_1.svg);
+    background-image: url(soin\ -\ 1.svg);
     background-repeat: no-repeat;
     background-size: 90%;
     background-position: center;
@@ -800,7 +801,7 @@ ul li {
   /*SOCIAL*/
   .hexagon2 {
     position: relative;
-    background-image: url(/datas/humain.svg);
+    background-image: url(humain.svg);
     background-repeat: no-repeat;
     background-size: 90%;
     background-position: center;
@@ -810,6 +811,7 @@ ul li {
     ;
     margin: 5.4125rem 0;
     margin-bottom: 3.75rem;
+    margin-left: 20px;
   }
   
   .hexagon2:before,
@@ -836,7 +838,7 @@ ul li {
   /*ENVIRONNEMENT*/
   .hexagon3 {
     position: relative;
-    background-image: url(/datas/environnement2.svg);
+    background-image: url(environnement.svg);
     background-repeat: no-repeat;
     background-size: 90%;
     background-position: center;
@@ -897,9 +899,6 @@ ul li {
     width: 100%;
   }
   
-  /* CSS LOÏC */
-  
- 
   .action {
     position: absolute;
     width: 1440px;
